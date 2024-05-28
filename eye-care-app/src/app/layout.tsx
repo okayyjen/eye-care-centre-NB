@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {Providers} from "./providers";
-import ResponsiveAppBar from "./components/ResponsiveAppBar";
+import AppBar from "./components/AppBar";
 import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body className={inter.className}>
         <Providers>
-          <ResponsiveAppBar />
+          <AppBar />
           <main>{children}</main>
           <Footer />
         </Providers>
