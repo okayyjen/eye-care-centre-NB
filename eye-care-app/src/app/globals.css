@@ -49,8 +49,14 @@ body {
   width: 100%;
 }
 
-.wave{
-  margin:-10px;
+#curve{
+  width: 100%;
+  height:100px;
+  padding:50px;
+  /*border-radius:100px 100px 0px 0px ;*/
+  border-top-left-radius: 1500px 50px; /* Adjust values for curvature */
+  border-top-right-radius: 1500px 50px; /* Adjust values for curvature */
+  background: #8695c0;
 }
 
 .main-footer {
