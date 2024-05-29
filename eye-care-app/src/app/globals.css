@@ -32,3 +32,82 @@ body {
     text-wrap: balance;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8695c0;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  
+}
+#footer-content{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.wave{
+  margin:-10px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0;
+}
+
+.logo-contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.contact-location {
+  color: white;
+  text-align: center;
+}
+
+.appbar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  text-align: left;
+}
+
+.appbar-content a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.appbar-content a[href="#"] {
+  text-decoration: none;
+}
+
+.image-container {
+  height: 10%;
+  width: 10%;
+}
+
+.wrapper p {
+  text-align: left;
+}
+
+.wrapper h2 {
+  text-align: left;
+}
+
+

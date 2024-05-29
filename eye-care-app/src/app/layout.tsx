@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import {Providers} from "./providers";
+import { Providers } from "./providers";
 import AppBar from "./components/AppBar";
 import Footer from "./components/Footer";
 
@@ -24,7 +24,12 @@ export default function RootLayout({
         <Providers>
           <AppBar />
           <main>{children}</main>
-          <Footer />
+          <div id="footer-content">
+            <svg className="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path fill="#8695c0" fillOpacity="1" d="M0,128L60,112C120,96,240,64,360,58.7C480,53,600,75,720,101.3C840,128,960,160,1080,154.7C1200,149,1320,107,1380,85.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            </svg>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>
