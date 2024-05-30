@@ -116,4 +116,38 @@ body {
   text-align: left;
 }
 
+#contact-title{
+  font-weight:bold;
+}
+
+.contact-info div {
+  margin-bottom: 10px;
+  text-align: left; 
+}
+.footer-info-wrapper{
+  display: flex;
+  align-items: center;
+  
+}
+
+#phone-number, #email, #address{
+  
+  margin: 0px 0px 0px 10px;
+}
+
+/*384C84*/
+.image-container{
+  background-color: #384C84;
+  border-radius: 50px;
+  
+}
+
+#location-image, #phone-image{
+  padding: 7px;
+}
+
+#contact-title{
+  font-size: 20px;
+  margin-bottom:5px;
+}
 
