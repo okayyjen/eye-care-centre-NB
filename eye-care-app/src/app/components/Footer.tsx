@@ -10,11 +10,11 @@ const Footer = () => {
             <div className="contact-info">
               <div className='footer-info-wrapper'>
                 <div className="image-container">
-                <Image id="phone-image"
-                  src={require("../images/phone.png")}
-                  alt="logo"
-                  layout="responsive"
-                />
+                  <Image id="phone-image"
+                    src={require("../images/phone.png")}
+                    alt="logo"
+                    layout="responsive"
+                  />
                 </div>
                 <div>
                   <div id="phone-number">(506) 830-1773</div> 
@@ -38,6 +38,7 @@ const Footer = () => {
         </div>
         <div className="wrapper">
           <div className="appbar-content">
+            <h2 id="title">Quick Links</h2>
             <a href="#">SERVICES</a>
             <a href="#">OUR TEAM</a>
             <a href="#">RESOURCES</a>

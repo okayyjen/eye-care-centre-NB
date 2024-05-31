@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.slick-slider{
+  @apply bg-white shadow-sm;
+}
+
 /*@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -47,15 +51,23 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 0;
+}
+
+#reviews-wrapper{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index:1;
+  margin-bottom:250px;
 }
 
 #curve{
   width: 100%;
   height:100px;
   padding:50px;
-  /*border-radius:100px 100px 0px 0px ;*/
-  border-top-left-radius: 1500px 50px; /* Adjust values for curvature */
-  border-top-right-radius: 1500px 50px; /* Adjust values for curvature */
+  border-top-left-radius: 1500px 50px;
+  border-top-right-radius: 1500px 50px;
   background: #8695c0;
 }
 
@@ -116,8 +128,12 @@ body {
   text-align: left;
 }
 
-#contact-title{
+#contact-title, #title{
   font-weight:bold;
+  color: white;
+  font-size: 20px;
+  margin-bottom:5px;
+  
 }
 
 .contact-info div {
@@ -130,7 +146,7 @@ body {
   
 }
 
-#phone-number, #email, #address{
+#phone-number, #email{
   
   margin: 0px 0px 0px 10px;
 }
@@ -141,13 +157,77 @@ body {
   border-radius: 50px;
   
 }
+.star-image-container{
+  display: flex;
+  width:auto;
+}
+
+.star-image{
+  padding-right:5px;
+}
+
+#rating-container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:10%;
+}
 
 #location-image, #phone-image{
   padding: 7px;
 }
 
-#contact-title{
-  font-size: 20px;
-  margin-bottom:5px;
+#address{
+  margin: 0px 0px 10px 10px;
 }
 
+.appbar-content a{
+  margin-top:0px;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  z-index: 1; 
+  position: relative;
+}
+/*
+#review-box-wrapper{
+  width: 35%;
+  height: 500px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+  outline: 0.05px solid rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+*/
+#review-box{
+  margin:50px 80px 50px 80px;
+}
+
+#review-textbox{
+  font-size: 18px;
+}
+
+#testimonials-container{
+  border-radius: 50px; 
+  box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+  outline: 0.05px solid rgb(235, 235, 235);
+  max-width: 800px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+#testimonial-text{
+  text-align: center; 
+  font-size: 1.5rem; 
+  padding-top: 2rem;
+  padding-bottom:.25rem;
+}
