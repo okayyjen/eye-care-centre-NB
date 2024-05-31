@@ -33,9 +33,7 @@ export default function RootLayout({
             <Reviews/>
           </div>
           <div id="footer-content">
-              <svg className="curved-top-svg" viewBox="0 0 300 20" preserveAspectRatio="none">
-                <path d="M-50,50 A200,50 0 0,1 350,50 L300,50 L0,50 Z" fill="#8695c0"></path>
-              </svg>
+
               <Footer />
           </div>
         </Providers>
