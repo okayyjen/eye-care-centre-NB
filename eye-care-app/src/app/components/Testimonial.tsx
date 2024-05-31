@@ -14,16 +14,16 @@ type Props={};
 
 export default function Testimonial({}: Props){
     const sliderRef = useRef<any>();
-  /**
-   * Settings Related to the React Slick
-   */
+
   const settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    speed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 1000
   };
     return <div className="">
                 <section id="testimonials-container">
