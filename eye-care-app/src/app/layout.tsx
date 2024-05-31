@@ -2,6 +2,8 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./footer.css";
+import "./reviews.css";
 import { Providers } from "./providers";
 import AppBar from "./components/AppBar";
 import Footer from "./components/Footer";
