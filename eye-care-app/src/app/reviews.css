@@ -1,9 +1,9 @@
 #reviews-wrapper{
-  position: fixed;
+  
   bottom: 0;
   width: 100%;
-  z-index:1;
-  margin-bottom:250px;
+  
+  
 }
   
 
@@ -16,16 +16,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-  
 }
   
 .reviews{
   display: flex;
   justify-content: center;
-  z-index: 1; 
-  position: relative;
+  
 }
   
 #review-box{
@@ -48,6 +44,7 @@
 }
   
 #testimonial-text{
+  background-color: white;
   text-align: center; 
   font-size: 1.5rem; 
   padding-top: 2rem;
