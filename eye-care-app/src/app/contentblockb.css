@@ -1,0 +1,42 @@
+
+.content-block-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+
+    padding: 20px; 
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 300px; 
+    
+    color:white;
+}
+
+.eye-icon{
+    
+    max-width: 50px;
+    padding: 20px 0px 35px 0px;
+}
+
+.block-title{
+    padding-bottom: 20px;
+}
+
+.stat-text {
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+    padding:20px;
+}
+
+#blue-1{background-color: #384C84;}
+#blue-2{background-color: #516293;}
+#blue-3{background-color: #7684AA;}
+#blue-4{background-color: #B7C0D8;}

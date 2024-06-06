@@ -6,12 +6,14 @@ import "./footer.css";
 import "./reviews.css";
 import "./imageblock.css"
 import "./contentblocka.css"
+import "./contentblockb.css"
 import { Providers } from "./providers";
 import AppBar from "./components/AppBar";
 import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
 import ImageBlock from "./components/ImageBlock";
 import ContentBlockA from "./components/contentBlockA";
+import ContentBlockB from "./components/ContentBlockB";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,6 +39,10 @@ export default function RootLayout({
             {/*TODO FIX THESE ID NAMES */}
             <div id="content-2">
               <ContentBlockA/>
+            </div>
+
+            <div id="content-3">
+              <ContentBlockB/>
             </div>
 
             <div id="content-1">
