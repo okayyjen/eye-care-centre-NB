@@ -1,0 +1,29 @@
+#doctors-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the doctor cards */
+    gap: 90px; /* Adjust the gap between cards as needed */
+}
+
+.content-block-c {
+    padding: 70px;
+    text-align: center;
+}
+
+.doctor-card {
+    max-width: 350px; /* Reduce the max-width to bring cards closer */
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center; /* Center the text inside each card */
+}
+
+.doctor-image {
+    width: 50px;
+    height: auto;
+}
+
+#doctors-block h1{
+    padding-top: 10px;
+    color: #384C84;
+    font-weight: bold;
+}
