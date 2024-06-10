@@ -5,8 +5,8 @@ import Reviews from "./components/Reviews";
 import ImageBlock from "./components/ImageBlock";
 import ContentBlockA from "./components/ContentBlockA";
 import ContentBlockB from "./components/ContentBlockB";
-import ContentBlockC from "./components/ContentBlockD";
-import ContentBlockD from "./components/ContentBlockC";
+import ContentBlockC from "./components/ContentBlockC";
+import ContentBlockD from "./components/ContentBlockD";
 import ImageCarousel from "./components/ImageCarousel";
 
 export default function Home() {
