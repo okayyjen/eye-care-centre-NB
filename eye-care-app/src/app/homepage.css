@@ -5,23 +5,21 @@
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
+    position: relative; 
 }
 
-#image-carousel {
-    padding: 10px;
-}
 
-.imageContainer {
+.image-container {
     position: relative;
     width: 100%;
 }
 
-.imageContainer img {
+.image-container img {
     width: 100%;
     height: auto;
 }
 
-.textOverlay {
+.text-overlay {
     font-size: 50px;
     position: absolute;
     top: 0;
@@ -38,29 +36,32 @@
     box-sizing: border-box;
 }
 
-.textOverlay h3 {
+.text-overlay h3 {
     width: 300px;
     font-weight: bolder;
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 0px 50px;
 }
 
 #button-container {
-    display: flex;
-    justify-content: space-between; 
+    position: absolute;
+    top: 50%;
+    left: 0;
     width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    z-index: 10; 
 }
 
-.carousel-button-prev, .carousel-button-next{
+.carousel-button-prev, .carousel-button-next {
     background-color: #384C84 ;
     padding:10px;
     border-radius: 8px;
+    margin:10px 10px 10px 10px;
 }
 
 .arrow-icon{
     color:white;
 }
-
 
 
 

@@ -27,22 +27,24 @@ const ImageCarousel = () => {
 
     return (
         <div className="image-carousel-container">
-            <Slider {...settings} ref={sliderRef}>
-                {images.map((image, index) => (
-                    <div key={index} className="imageContainer">
-                        <Image
-                            src={image.default.src}
-                            alt={`Slide ${index + 1}`}
-                            layout="responsive"
-                            width={500}
-                            height={500}
-                        />
-                        <div className="textOverlay">
-                            <h3>Lorem Ipsum & Dolor Sit Amet</h3>
+            <div id="image-carousel">
+                <Slider {...settings} ref={sliderRef}>
+                    {images.map((image, index) => (
+                        <div key={index} className="image-container">
+                            <Image
+                                src={image.default.src}
+                                alt={`Slide ${index + 1}`}
+                                layout="responsive"
+                                width={500}
+                                height={500}
+                            />
+                            <div className="text-overlay">
+                                <h3>Lorem Ipsum & Dolor Sit Amet</h3>
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </Slider>
+                    ))}
+                </Slider>
+            </div>
             <div id="button-container">
                 <button className="carousel-button-prev" onClick={() => sliderRef.current.slickPrev()}>
                     <MdOutlineArrowBackIos className="arrow-icon"/>
@@ -51,7 +53,6 @@ const ImageCarousel = () => {
                     <MdOutlineArrowForwardIos className="arrow-icon"/>
                 </button>
             </div>
-            
         </div>
     );
 };
