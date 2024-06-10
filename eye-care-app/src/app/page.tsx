@@ -1,6 +1,5 @@
 import "./homepage.css"
 
-import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
 import ImageBlock from "./components/ImageBlock";
 import ContentBlockA from "./components/ContentBlockA";
@@ -30,10 +29,6 @@ export default function Home() {
             <div id="reviews-wrapper">
               <Reviews/>
             </div>
-
-            <div id="footer-content">
-                <Footer/>
-            </div>  
 
           </div>
   );
