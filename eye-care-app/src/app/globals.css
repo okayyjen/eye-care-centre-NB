@@ -155,6 +155,7 @@ body {
 .image-container {
   height: 10%;
   width: 10%;
+  position: relative;
 }
 
 .wrapper p {

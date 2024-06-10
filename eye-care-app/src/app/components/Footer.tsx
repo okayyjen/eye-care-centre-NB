@@ -9,7 +9,7 @@ const Footer = () => {
             <h2 id="contact-title">Contact Us</h2>
             <div className="contact-info">
               <div className='footer-info-wrapper'>
-                <div className="image-container">
+                <div className="image-container" style={{width: '10%', height: '10%', position: 'relative'}}>
                   <Image id="phone-image"
                     src={require("../images/phone.png")}
                     alt="logo"
