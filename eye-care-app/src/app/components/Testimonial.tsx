@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef } from "react";
-import CenterAligner from "./CenterAligner";
 import { testimonials } from "../data/testimonials";
 import Image from 'next/image'
 
@@ -21,7 +20,7 @@ export default function Testimonial({}: Props){
     speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 5000
   };

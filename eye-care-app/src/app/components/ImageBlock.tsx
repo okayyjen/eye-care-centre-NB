@@ -14,7 +14,7 @@ const ImageBlock = () => {
                     />
 
                     <div className="image-block-textbox">
-                    <h2>Mauris consequat semper</h2>
+                        <h2>Mauris consequat semper</h2>
                         <h1 className="block-title">SIT DOLOR</h1>
                         <section className="separator" >______</section>
                         <p>Nullam aliquet placerat urna et dignissim. Sed ultrices, turpis vitae viverra mollis, mi risus tempus lorem, in dapibus justo nulla non turpis. Maecenas pulvinar rhoncus mi eu aliquam. Praesent in auctor lacus. Etiam id pellentesque lacus, sed fringilla massa. Morbi turpis dolor, luctus eu odio ut, volutpat blandit urna. Nam eleifend, ipsum non finibus semper, nunc magna pharetra mi, eu dignissim dui enim in metus. Quisque ipsum nunc, finibus at nulla a, consectetur aliquam mi.</p>

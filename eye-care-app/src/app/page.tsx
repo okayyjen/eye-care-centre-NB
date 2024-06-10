@@ -1,5 +1,40 @@
+import "./homepage.css"
+
+import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
+import ImageBlock from "./components/ImageBlock";
+import ContentBlockA from "./components/ContentBlockA";
+import ContentBlockB from "./components/ContentBlockB";
+import ContentBlockC from "./components/ContentBlockD";
+import ContentBlockD from "./components/ContentBlockC";
+import ImageCarousel from "./components/ImageCarousel";
+
 export default function Home() {
   return (
-    <h2>Home Page</h2>
+    <div id="home-page">
+
+            <div id="image-carousel">
+              <ImageCarousel/>
+            </div>
+
+            <ContentBlockA/>
+
+            <ContentBlockB/>
+
+            <ContentBlockC/>
+
+            <ImageBlock/>
+
+            <ContentBlockD/>
+
+            <div id="reviews-wrapper">
+              <Reviews/>
+            </div>
+
+            <div id="footer-content">
+                <Footer/>
+            </div>  
+
+          </div>
   );
 }

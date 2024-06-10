@@ -20,7 +20,6 @@ const Footer = () => {
                   <div id="phone-number">(506) 830-1773</div> 
                   <div id = "email"><a href="mailto:example@example.com">example@example.com</a></div>
                 </div>
-
               </div>
               <div className='footer-info-wrapper'>
                 <div className="image-container" style={{width: '10%', height: '10%', position: 'relative'}}>

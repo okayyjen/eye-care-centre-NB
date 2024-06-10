@@ -3,33 +3,68 @@ import Image from 'next/image'
 
 const ContentBlockC = () => {
     return (
-        <div className="content-block-c">
-            <h2 className="block-title">A NETWORK OF EXPERIENCED DOCTORS</h2>
-            <h1>OUR DOCTORS</h1>
-            <div id="doctors-block">
-                <div className="doctor-card">
-                    <Image className="doctor-image"
-                        src={require("../images/doctor.png")}
+        <div className = "content-block-c">
+
+            <div id="c-row-1">
+
+                <div className="card-c">
+                    <Image className="block-c-image"
+                        src={require("../images/visible_blue.png")}
                         alt="logo"
                         layout="responsive"
                     />
-                    <h1 className="block-title">Dr. Smith</h1>
-                    <p>Lorem ipsum door sit amet & Nunc tempus fringilla</p>
+                    <div className="block-c-text">
+                        <h1 className="block-c-title">SIT DOLOR</h1>
+                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
+                    </div>
+                    
                 </div>
 
-                <div className="doctor-card">
-                    <Image className="doctor-image"
-                        src={require("../images/doctor.png")}
+                <div className="card-c">
+                    <Image className="block-c-image"
+                        src={require("../images/visible_blue.png")}
                         alt="logo"
                         layout="responsive"
                     />
-                    <h1 className="block-title">Dr. Smith</h1>
-                    <p>Lorem ipsum door sit amet & Nunc tempus fringilla</p>
+                    <div className="block-c-text">
+                        <h1 className="block-c-title">SIT DOLOR</h1>
+                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+            
+            <div id="c-row-2">
+
+                <div className="card-c">
+                    <Image className="block-c-image"
+                        src={require("../images/visible_blue.png")}
+                        alt="logo"
+                        layout="responsive"
+                    />
+                    <div className="block-c-text">
+                        <h1 className="block-c-title">SIT DOLOR</h1>
+                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
+                    </div>
+                    
+                </div>
+
+                <div className="card-c">
+                    <Image className="block-c-image"
+                        src={require("../images/visible_blue.png")}
+                        alt="logo"
+                        layout="responsive"
+                    />
+                    <div className="block-c-text">
+                        <h1 className="block-c-title">SIT DOLOR</h1>
+                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
+                    </div>
+                    
                 </div>
 
             </div>
-            <button className="button-style-2">MEET OUR TEAM</button>
-
 
         </div>
     );
