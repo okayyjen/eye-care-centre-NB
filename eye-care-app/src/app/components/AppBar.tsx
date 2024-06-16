@@ -36,7 +36,7 @@ const AppBar = () => {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="/contact-page">
               CONTACT US
             </Link>
           </NavbarItem>

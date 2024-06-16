@@ -340,11 +340,6 @@
     color: white;
 }
 
-.separator {
-    user-select: none;
-    margin: 30px 0;
-}
-
 #row-2 section, #row-2 h2, #row-2 h1, #row-2 p {
     color: black;
 }
