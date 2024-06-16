@@ -26,9 +26,6 @@ export default function Home() {
 
             <ContentBlockD/>
 
-            <div id="reviews-wrapper">
-              <Reviews/>
-            </div>
 
           </div>
   );

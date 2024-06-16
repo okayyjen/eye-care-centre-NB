@@ -5,6 +5,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import Footer from "./components/Footer";
 import AppBar from "./components/AppBar";
+import Reviews from "./components/Reviews";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,9 +25,14 @@ export default function RootLayout({
         <Providers>
           <AppBar />
           <main>{children}</main>
+
+          <div id="reviews-wrapper">
+              <Reviews/>
+          </div> 
           <div id="footer-content">
                 <Footer/>
-          </div>  
+          </div>
+
         </Providers>
       </body>
     </html>
