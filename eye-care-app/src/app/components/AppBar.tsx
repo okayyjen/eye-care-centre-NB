@@ -31,7 +31,7 @@ const AppBar = () => {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="https://docs.google.com/forms/d/1xmOjGQ0xS00IakELbnH_XoFC0ts8dtSP8cmR7x6CWOg/edit?pli=1">
               FEEDBACK
             </Link>
           </NavbarItem>
