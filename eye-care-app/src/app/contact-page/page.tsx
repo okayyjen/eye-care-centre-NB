@@ -11,7 +11,7 @@ export default function ContactPage(){
                         <section className="separator" >______</section>
                         
                             <div className="container">
-                                <h1>NB Eye Care Centre</h1>
+                                <h1><strong>NB Eye Care Centre</strong></h1>
 
                                 <div className="contact-info">
                                     <p>5085 Principale-Est Ave</p>
@@ -20,14 +20,36 @@ export default function ContactPage(){
                                 </div>
 
                                 <div className="hours">
-                                    <p><strong>Monday:</strong> 8 am – 5 pm</p>
-                                    <p><strong>Tuesday:</strong> 8 am – 5pm</p>
-                                    <p><strong>Wednesday:</strong> 8 am – 5 pm</p>
-                                    <p><strong>Thursday:</strong> 8 am – 5 pm</p>
-                                    <p><strong>Friday:</strong> 8 am – 5 pm</p>
-                                    <p><strong>Saturday:</strong> 8 am – 5 pm</p>
-                                    <p><strong>Sunday:</strong> 8 am – 5 pm</p>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Monday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Tuesday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Wednesday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Thursday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Friday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Saturday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
+                                    <div className="hours-row">
+                                        <span className="day"><strong>Sunday:</strong></span>
+                                        <span className="time">8 am – 5 pm</span>
+                                    </div>
                                 </div>
+
                                 <div className="email">
                                     <div><a href="mailto:example@example.com">example@example.com</a></div>
                                 </div>

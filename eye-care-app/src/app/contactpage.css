@@ -1,6 +1,7 @@
 #contact-page-card{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #contact-info{
@@ -19,4 +20,32 @@
 
 .contact-info, .hours p, .email, .contact-info p, .container h1 {
     margin-bottom:10px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+.day {
+    flex: 1;
+    text-align: left;
+    
+}
+
+.time {
+    flex: 1;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    #map {
+        height:432px;
+    }
 }
