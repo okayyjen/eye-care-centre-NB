@@ -5,12 +5,11 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255; 
+  --background-start-rgb: 248, 248, 248;
+  --background-end-rgb: 248, 248, 248;
 }
 
-
-.slick-slider{
+.slick-slider {
   @apply bg-white shadow-sm;
 }
 
