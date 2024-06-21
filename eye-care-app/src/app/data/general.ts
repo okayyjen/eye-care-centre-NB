@@ -103,8 +103,6 @@ export const DoctorCardsData: DoctorCardData[] = [
 
 ];
 
-
-
 export interface ImageRowData {
   id: string;
   title: string;
