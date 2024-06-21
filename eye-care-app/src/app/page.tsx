@@ -1,12 +1,12 @@
 import "./homepage.css"
 
-import Reviews from "./components/Reviews";
 import ImageBlock from "./components/ImageBlock";
-import ContentBlockA from "./components/ContentBlockA";
-import ContentBlockB from "./components/ContentBlockB";
 import ContentBlockC from "./components/ContentBlockC";
 import ContentBlockD from "./components/ContentBlockD";
 import ImageCarousel from "./components/ImageCarousel";
+import Card from "./components/Card";
+import StatCard from "./components/StatCard";
+import { contentBlockAData, statCardsData } from "./data/general";
 
 export default function Home() {
   return (
@@ -16,16 +16,27 @@ export default function Home() {
               <ImageCarousel/>
             </div>
 
-            <ContentBlockA/>
+            <div className="content-block-a">
+              {contentBlockAData.map((card, index) => (
+                <Card key={index} title={card.title} text={card.text} link={card.link} />
+              ))}
+            </div>
 
-            <ContentBlockB/>
+            <div className="content-block-b">
+              {statCardsData.map((card, index) => (
+                <StatCard 
+                key={index} 
+                text={card.text} 
+                id={card.id}
+                />
+              ))}
+            </div>
 
             <ContentBlockC/>
 
             <ImageBlock/>
 
             <ContentBlockD/>
-
 
           </div>
   );

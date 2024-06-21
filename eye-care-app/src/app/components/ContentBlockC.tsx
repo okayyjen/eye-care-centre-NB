@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
+import InfoCard from './InfoCard';
+import { InfoCardsData, InfoCardsData2 } from '../data/general';
 
 const ContentBlockC = () => {
     return (
@@ -7,62 +9,17 @@ const ContentBlockC = () => {
 
             <div id="c-row-1">
 
-                <div className="card-c">
-                    <Image className="block-c-image"
-                        src={require("../images/visible_blue.png")}
-                        alt="logo"
-                        layout="responsive"
-                    />
-                    <div className="block-c-text">
-                        <h1 className="block-c-title">SIT DOLOR</h1>
-                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
-                    </div>
-                    
-                </div>
-
-                <div className="card-c">
-                    <Image className="block-c-image"
-                        src={require("../images/visible_blue.png")}
-                        alt="logo"
-                        layout="responsive"
-                    />
-                    <div className="block-c-text">
-                        <h1 className="block-c-title">SIT DOLOR</h1>
-                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
-                    </div>
-                    
-                </div>
-
+                {InfoCardsData.map((card, index) => (
+                    <InfoCard key={index} title={card.title} text={card.text} />
+                ))}
 
             </div>
             
             <div id="c-row-2">
 
-                <div className="card-c">
-                    <Image className="block-c-image"
-                        src={require("../images/visible_blue.png")}
-                        alt="logo"
-                        layout="responsive"
-                    />
-                    <div className="block-c-text">
-                        <h1 className="block-c-title">SIT DOLOR</h1>
-                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
-                    </div>
-                    
-                </div>
-
-                <div className="card-c">
-                    <Image className="block-c-image"
-                        src={require("../images/visible_blue.png")}
-                        alt="logo"
-                        layout="responsive"
-                    />
-                    <div className="block-c-text">
-                        <h1 className="block-c-title">SIT DOLOR</h1>
-                        <p>Nunc tempus fringilla turpis porttitor scelerisque. Vestibulum feugiat vulputate orci, in imperdiet turpis. Pellentesque consectetur nibh vitae eros efficitur eleifend.</p>
-                    </div>
-                    
-                </div>
+                {InfoCardsData.map((card, index) => (
+                    <InfoCard key={index} title={card.title} text={card.text} />
+                ))}
 
             </div>
 
