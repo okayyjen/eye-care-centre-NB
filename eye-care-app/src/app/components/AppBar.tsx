@@ -1,51 +1,70 @@
 "use client"
 import React from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Input, NavbarMenu, NavbarMenuItem, Link, Button, Dropdown, DropdownTrigger, DropdownItem, DropdownMenu } from "@nextui-org/react";
-import { SearchIcon, ChevronDown } from "./Icons";
-import { AcmeLogo } from "./AcmeLogo";
+import { 
+  Button, 
+  Dropdown, 
+  DropdownTrigger, 
+  DropdownItem, 
+  DropdownMenu,
+  Link, 
+  Navbar, 
+  NavbarBrand, 
+  NavbarContent, 
+  NavbarItem, 
+  NavbarMenuToggle,
+  NavbarMenu, 
+  NavbarMenuItem } from "@nextui-org/react";
+import { ChevronDown } from "./Icons";
+import "../globals.css";
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const menuItems = [
-    "Services",
-    "About Us",
-    "Our Team",
-    "Resources",
-    "Feedback",
-    "Contact Us",
-  ];
+  const [servicesMenuOpen, setServicesMenuOpen] = React.useState(true);
+  const toggleServicesMenu = () => {
+    setServicesMenuOpen(!servicesMenuOpen);
+  };
 
   const icons = {
     chevron: <ChevronDown fill="currentColor" size={16} />
   };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="xl">
-      <NavbarContent>
+    <Navbar 
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen} 
+      maxWidth="xl"
+      height="90px"
+    >
+      <NavbarContent className="md:hidden">
         <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
-        />
-        <NavbarBrand>
-          <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
-        </NavbarBrand>
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-6" justify="center">
+      <NavbarContent className="md:hidden pr-3" justify="end">
+        <NavbarBrand className="justify-end">
+          <Link color="foreground" href="/">
+            <p className="font-bold text-inherit">LOGO</p>
+          </Link>
+        </NavbarBrand>
+      </NavbarContent>
+      
+      <NavbarContent className="hidden md:flex gap-6" justify="end">
+        <NavbarBrand>
+          <Link color="foreground" href="/">
+            <p className="font-bold text-inherit">LOGO</p>
+          </Link>
+        </NavbarBrand>
         <Dropdown>
           <NavbarItem>
             <DropdownTrigger>
                 <Button
                   disableRipple
-                  className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                  className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base font-medium text-foreground"
                   endContent={icons.chevron}
                   radius="sm"
                   variant="light"
                 >
-                  <Link color="foreground" href="#">
-                    SERVICES
-                  </Link>
+                  SERVICES
                 </Button>
             </DropdownTrigger>
           </NavbarItem>
@@ -68,7 +87,7 @@ const AppBar = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/our-team">
             OUR TEAM
           </Link>
         </NavbarItem>
@@ -89,36 +108,102 @@ const AppBar = () => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent as="div" className="items-center" justify="end">
-          <Input
-            classNames={{
-              base: "max-w-full sm:max-w-[10rem] h-10",
-              mainWrapper: "h-full",
-              input: "text-small",
-              inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
-            }}
-            placeholder="Type to search..."
-            size="sm"
-            startContent={<SearchIcon size={18} />}
-            type="search"
-          />
-      </NavbarContent>
-
       <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={
-                "foreground"
-              }
-              className="w-full"
-              href="#"
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="#"
+            size="lg"
+            onClick={toggleServicesMenu}
+          >
+            Services <span className="icon-wrapper">{icons.chevron}</span>
+          </Link>
+          {servicesMenuOpen && (
+            <div className="submenu">
+              <NavbarMenuItem className="submenu-item">
+                <Link
+                  color="foreground"
+                  className="w-full"
+                  href="#"
+                  size="lg"
+                >
+                  Service 1
+                </Link>
+              </NavbarMenuItem>
+              <NavbarMenuItem className="submenu-item">
+                <Link
+                  color="foreground"
+                  className="w-full"
+                  href="#"
+                  size="lg"
+                >
+                  Service 2
+                </Link>
+              </NavbarMenuItem>
+              <NavbarMenuItem className="submenu-item">
+                <Link
+                  color="foreground"
+                  className="w-full"
+                  href="#"
+                  size="lg"
+                >
+                  Service 3
+                </Link>
+              </NavbarMenuItem>
+            </div>
+          )}
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="#"
+            size="lg"
+          >
+            About us
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="/our-team"
+            size="lg"
+          >
+            Our Team
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="#"
+            size="lg"
+          >
+            Resources
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="#"
+            size="lg"
+          >
+            Feedback
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="#"
+            size="lg"
+          >
+            Contact Us
+          </Link>
+        </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );
