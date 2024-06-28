@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, text, link }) => {
   return (
-    <div className="card">
+    <div className="card-a">
       <Image 
         className="eye-icon"
         src={require("../images/visible.png")}
