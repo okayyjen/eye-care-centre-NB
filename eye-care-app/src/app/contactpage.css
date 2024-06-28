@@ -1,0 +1,58 @@
+#contact-page-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:50px;
+}
+
+#contact-info{
+    width: 600px;
+    height:auto;
+    background-color: white;
+    padding:20px;
+}
+
+.contact-page-card{
+    padding:10px 10px 10px 10px;
+}
+
+.contact-page-title{
+    font-size:25px;
+}
+
+.separator {
+    user-select: none;
+    margin: -5px 0px 10px 0px;
+}
+
+.contact-info, .hours p, .email, .contact-info p, .container h1 {
+    margin-bottom:10px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+.day {
+    flex: 1;
+    text-align: left;
+    
+}
+
+.time {
+    flex: 1;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    #map {
+        height:432px;
+    }
+}

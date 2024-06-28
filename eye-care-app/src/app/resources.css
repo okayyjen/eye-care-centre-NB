@@ -1,0 +1,25 @@
+.resource-page-wrapper {
+    display: flex;
+    justify-content: center;  
+    width: 100%;   
+    background-color: white;         
+    padding-bottom:40px;  
+    
+}
+
+.resource-container {
+    width: 100%;              
+    max-width: 1200px;        
+    text-align: left;         
+    padding-top:20px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+#resource-title, h2{
+    font-weight:bold;
+    font-size: 18px;
+}
+
