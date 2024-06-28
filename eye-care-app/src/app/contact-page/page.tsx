@@ -10,7 +10,7 @@ export default function ContactPage(){
                         <h2 className="contact-page-title">Contact Us</h2>
                         <section className="separator" >______</section>
                         
-                            <div className="container">
+                            <div className="contact-container">
                                 <h1><strong>NB Eye Care Centre</strong></h1>
 
                                 <div className="contact-info">

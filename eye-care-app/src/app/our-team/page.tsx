@@ -54,10 +54,12 @@ export default function TeamPage() {
                     {list.map((doctor, index) => (
                         <div className="card" key={index} style={{ maxWidth: '300px', margin: '1em' }}>
                             <img src={doctor.img} alt={doctor.name} style={{ width: '100%' }} />
-                            <div className="card-content">
-                                <h4><b>{doctor.name}</b></h4>
-                                <p>{doctor.description}</p>
-                            </div>
+                            <a href="doctor-page-a">
+                                <div className="card-content">
+                                    <h4><b>{doctor.name}</b></h4>
+                                    <p>{doctor.description}</p>
+                                </div>
+                            </a>
                         </div>
                     ))}
                 </div>

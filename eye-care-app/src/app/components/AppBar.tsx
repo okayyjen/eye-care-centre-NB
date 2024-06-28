@@ -82,7 +82,7 @@ const AppBar = () => {
         </Dropdown>
         
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/about-us">
             ABOUT US
           </Link>
         </NavbarItem>
@@ -92,17 +92,17 @@ const AppBar = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/resources">
             RESOURCES
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="https://docs.google.com/forms/d/e/1FAIpQLSeBWaPsAgZs1XI2B6-vzRdqnrMYbRnp39zbmRFWxXL-MzsISw/viewform?usp=sf_link">
             FEEDBACK
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/contact-page">
             CONTACT US
           </Link>
         </NavbarItem>
@@ -158,7 +158,7 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="#"
+            href="/about-us"
             size="lg"
           >
             About us
@@ -178,7 +178,7 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="#"
+            href="/resources"
             size="lg"
           >
             Resources
@@ -188,7 +188,7 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="#"
+            href="https://forms.gle/YNPChVSxmcjv5GPv7"
             size="lg"
           >
             Feedback
@@ -198,7 +198,7 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="#"
+            href="/contact-page"
             size="lg"
           >
             Contact Us
