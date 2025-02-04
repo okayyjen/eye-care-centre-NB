@@ -1,15 +1,11 @@
 import "../homepage.css"
-import "../aboutuspage.css"
-
-import Image from "next/image"
 import ImageRow from "../components/ImageRow";
 import { ImageRowsData, ImageRowsData2 } from '../data/general';
 
-
 export default function AboutUsPage(){
     return(
-        <div id="aboutus-block-container">
-            <div id = "row-2">
+        <div className = "flex flex-col items-center">
+            <div>
                 {ImageRowsData2.map((row, index) => (
                     <ImageRow
                     key={index}
@@ -20,7 +16,7 @@ export default function AboutUsPage(){
                     />
                 ))}
             </div>
-            <div id = "row-1">
+            <div>
                 {ImageRowsData.map((row, index) => (
                     <ImageRow
                     key={index}
@@ -31,7 +27,7 @@ export default function AboutUsPage(){
                     />
                 ))}
             </div>
-            <div id = "row-2">
+            <div>
                 {ImageRowsData2.map((row, index) => (
                     <ImageRow
                     key={index}
