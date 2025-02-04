@@ -14,7 +14,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ name, text }) => {
             alt="logo"
             layout="responsive"
         />
-        <h1 className="block-title">{name}</h1>
+        <h1 className="pb-5 text-xl">{name}</h1>
         <p>{text}</p>
     </div>
   );

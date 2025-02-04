@@ -21,7 +21,7 @@ const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
     
             <div className="image-block-textbox">
                 <h2>{title}</h2>
-                <h1 className="block-title">{main_title}</h1>
+                <h1 className="pb-5 text-xl">{main_title}</h1>
                 <section className="separator" >______</section>
                 <p>{text}</p>
                 <button className="button-style-1">LOREM IPSUM</button>
@@ -34,7 +34,7 @@ const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
         <div id = "row-2">
             <div className="image-block-textbox">
                 <h2>{title}</h2>
-                <h1 className="block-title">{main_title}</h1>
+                <h1 className="pb-5 text-xl">{main_title}</h1>
                 <section className="separator" id="separator-style-2" >______</section>
                 <p>{text}</p>
                 <button className="button-style-2">LOREM IPSUM</button>

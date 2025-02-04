@@ -16,7 +16,7 @@ export default function Home() {
               <ImageCarousel/>
             </div>
 
-            <div className="content-block-a">
+            <div className="flex justify-center items-center flex-wrap gap-5 p-5 pt-5">
               {contentBlockAData.map((card, index) => (
                 <Card key={index} title={card.title} text={card.text} link={card.link} />
               ))}
