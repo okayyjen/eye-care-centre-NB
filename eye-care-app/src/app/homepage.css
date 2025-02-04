@@ -1,81 +1,4 @@
-/*IMAGE CAROUSEL*/
-
-.image-carousel-container {
-    padding: 0;
-    max-width: 1200px;
-    height: auto;
-    margin: 0 auto;
-    position: relative; 
-}
-
-
-.image-container {
-    position: relative;
-    width: 100%;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-}
-
-.text-overlay {
-    font-size: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.text-overlay h3 {
-    width: 300px;
-    font-weight: bolder;
-    padding: 20px 0px 0px 50px;
-}
-
-#button-container {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10; 
-}
-
-.carousel-button-prev, .carousel-button-next {
-    background-color: #384C84 ;
-    padding:10px;
-    border-radius: 8px;
-    margin:10px 10px 10px 10px;
-}
-
-.arrow-icon{
-    color:white;
-}
-
-
-
-
-
-
 /*CONTENT BLOCK A*/
-
-
-
-
-
-
-
 
 .content-block-a {
     display: flex;
@@ -112,17 +35,7 @@
 }
 
 
-
-
-
-
-
 /*CONTENT BLOCK B*/
-
-
-
-
-
 
 .content-block-b {
     display: flex;
