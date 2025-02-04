@@ -54,6 +54,13 @@ const AppBar = () => {
             <p className="font-bold text-inherit">LOGO</p>
           </Link>
         </NavbarBrand>
+
+        <NavbarItem>
+          <Link color="foreground" href="/">
+            HOME
+          </Link>
+        </NavbarItem>
+
         <Dropdown>
           <NavbarItem>
             <DropdownTrigger>
@@ -108,7 +115,7 @@ const AppBar = () => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu>
+      <NavbarMenu className="navbar-menu">
         <NavbarMenuItem>
           <Link
             color="foreground"
@@ -202,6 +209,16 @@ const AppBar = () => {
             size="lg"
           >
             Contact Us
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link
+            color="foreground"
+            className="w-full"
+            href="/"
+            size="lg"
+          >
+            Home
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
