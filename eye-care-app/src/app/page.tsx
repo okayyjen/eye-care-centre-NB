@@ -22,12 +22,12 @@ export default function Home() {
               ))}
             </div>
 
-            <div className="content-block-b">
+            <div className="flex justify-center items-center flex-wrap p-5">
               {statCardsData.map((card, index) => (
                 <StatCard 
                 key={index} 
                 text={card.text} 
-                id={card.id}
+                className={card.className}
                 />
               ))}
             </div>

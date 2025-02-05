@@ -29,27 +29,26 @@ export interface CardData {
 
 export interface StatCardData {
   text: string;
-  id: string;
+  className: string;
 }
 
 export const statCardsData: StatCardData[] = [
   {
     text: 'Nunc tempus fringilla turpis porttitor scelerisque.',
-    id: 'blue-1'
+    className: 'bg-[#384C84]'
   },
   {
     text: 'Nunc tempus fringilla turpis porttitor scelerisque.',
-    id: 'blue-2'
+    className: 'bg-[#516293]'
   },
   {
     text: 'Nunc tempus fringilla turpis porttitor scelerisque.',
-    id: 'blue-3'
+    className: 'bg-[#7684AA]'
   },
   {
     text: 'Nunc tempus fringilla turpis porttitor scelerisque.',
-    id: 'blue-4'
+    className: 'bg-[#B7C0D8]'
   }
-
 ];
 
 export interface InfoCardData {

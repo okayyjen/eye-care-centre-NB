@@ -6,9 +6,9 @@ import { ImageRowsData, ImageRowsData2 } from '../data/general';
 const ImageBlock = () => {
     return (
         <div id="image-block-container">
-            <div id="row-container">
+            <div className = "flex items-center justify-center flex-col">
 
-                <div id = "row-1">
+                <div className = "flex w-[1200px] items-stretch justify-center" id = "row-1">
                     
                     {ImageRowsData.map((row, index) => (
                         <ImageRow
@@ -21,7 +21,7 @@ const ImageBlock = () => {
                     ))}
                 </div>
 
-                <div id = "row-2">
+                <div className = "flex w-[1200px] items-stretch justify-center bg-white">
                     {ImageRowsData2.map((row, index) => (
                         <ImageRow
                         key={index}

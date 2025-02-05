@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ title, text, link }) => {
       <h1 className="pb-5 text-xl">{title}</h1>
       <p className="text-center">{text}</p>
       <a href={link}>
-        <button className="button-style-1">LOREM IPSUM</button>
+        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">LOREM IPSUM</button>
       </a>
     </div>
   );

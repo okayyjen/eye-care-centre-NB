@@ -16,7 +16,7 @@ export default function ContactPage(){
 
                 <div  className="doctor-container">
                     <div className="doctor-image-container">
-                        <Image className="doctor-image"
+                        <Image className="w-[50px] h-auto"
                             src={require("../images/doctor.png")}
                             alt="logo"
                             layout="responsive"

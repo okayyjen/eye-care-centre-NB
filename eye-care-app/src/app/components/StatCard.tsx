@@ -2,14 +2,14 @@ import React from 'react';
 
 interface StatCardProps {
   text: string;
-  id: string; 
+  className: string; 
 }
 
-const StatCard: React.FC<StatCardProps> = ({ text, id }) => {
+const StatCard: React.FC<StatCardProps> = ({ text, className }) => {
   return (
-    <div className="stat-card" id={id}>
+    <div className={`flex flex-col items-center justify-center p-5 w-[300px] text-white ${className}`}>
         
-        <p className="stat-text">{text}</p>
+        <p className="font-bold text-[20px] text-center p-5">{text}</p>
 
     </div>
   );
