@@ -44,19 +44,19 @@ export default function TeamPage() {
         <div>
             <div className='div-with-bg'>
                 <div>
-                    <h1 className='team-heading'>Meet our Team</h1>
-                    <h2 className='team-subheading'>Ipsum dolor sit amet</h2>
+                    <h1 className="text-5xl text-center font-bold text-[#fffcfcef] pt-4">Meet our Team</h1>
+                    <h2 className="text-center text-[#fffcfcef] pt-2">Ipsum dolor sit amet</h2>
                 </div>
             </div>
-        
-            <div style={{ backgroundColor: '#F2F2F2', display: 'flex', justifyContent: 'center' }}>
-                <div className="container">
+
+            <div className="flex justify-center">
+                <div className="m-[2em] w-[60%] flex flex-wrap gap-x-[3em] gap-y-[1em] justify-items-center items-center justify-center">
                     {list.map((doctor, index) => (
-                        <div className="card" key={index} style={{ maxWidth: '300px', margin: '1em' }}>
-                            <img src={doctor.img} alt={doctor.name} style={{ width: '100%' }} />
+                        <div key={index} className="w-[20em] bg-white shadow-md hover:shadow-lg transition-shadow rounded-md overflow-hidden max-w-[300px] m-4">
+                            <img src={doctor.img} alt={doctor.name} className="w-full rounded-md" />
                             <a href="doctor-page-a">
-                                <div className="card-content">
-                                    <h4><b>{doctor.name}</b></h4>
+                                <div className="p-4">
+                                    <h4 className="font-bold">{doctor.name}</h4>
                                     <p>{doctor.description}</p>
                                 </div>
                             </a>

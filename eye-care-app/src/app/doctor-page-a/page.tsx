@@ -1,7 +1,7 @@
 import "../doctorpage.css"
 import Image from 'next/image'
 
-export default function ContactPage(){
+export default function DoctorPage(){
     return(
         <div className="doctor-page-wrapper">
             <div className="doctor-page-container">

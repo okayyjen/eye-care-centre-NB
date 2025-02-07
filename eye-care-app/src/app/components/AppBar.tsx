@@ -115,7 +115,7 @@ const AppBar = () => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu className="navbar-menu">
+      <NavbarMenu>
         <NavbarMenuItem>
           <Link
             color="foreground"
@@ -124,11 +124,11 @@ const AppBar = () => {
             size="lg"
             onClick={toggleServicesMenu}
           >
-            Services <span className="icon-wrapper">{icons.chevron}</span>
+            Services <span className="ml-[8px]">{icons.chevron}</span>
           </Link>
           {servicesMenuOpen && (
-            <div className="submenu">
-              <NavbarMenuItem className="submenu-item">
+            <div className="pl-[1.5em]">
+              <NavbarMenuItem className="p-[5px]">
                 <Link
                   color="foreground"
                   className="w-full"
@@ -138,7 +138,7 @@ const AppBar = () => {
                   Service 1
                 </Link>
               </NavbarMenuItem>
-              <NavbarMenuItem className="submenu-item">
+              <NavbarMenuItem className="p-[5px]">
                 <Link
                   color="foreground"
                   className="w-full"
@@ -148,7 +148,7 @@ const AppBar = () => {
                   Service 2
                 </Link>
               </NavbarMenuItem>
-              <NavbarMenuItem className="submenu-item">
+              <NavbarMenuItem className="p-[5px]">
                 <Link
                   color="foreground"
                   className="w-full"

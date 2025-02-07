@@ -4,10 +4,10 @@ import Testimonial from './Testimonial';
 const Reviews = () => {
 
     return (
-        <div className = "reviews">
+        <div className="flex justify-center">
 
             <div id="review-box-wrapper">
-                <div id="review-box">
+                <div className="my-[50px] mx-[80px]">
                     
                     <Testimonial/>
                     
