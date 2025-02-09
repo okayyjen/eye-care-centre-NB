@@ -50,7 +50,7 @@ export default function TeamPage() {
             </div>
 
             <div className="flex justify-center">
-                <div className="m-[2em] w-[60%] flex flex-wrap gap-x-[3em] gap-y-[1em] justify-items-center items-center justify-center">
+                <div className="m-[2em] w-[70%] flex flex-wrap gap-x-[3em] gap-y-[1em] justify-items-center items-center justify-center">
                     {list.map((doctor, index) => (
                         <div key={index} className="w-[20em] bg-white shadow-md hover:shadow-lg transition-shadow rounded-md overflow-hidden max-w-[300px] m-4">
                             <img src={doctor.img} alt={doctor.name} className="w-full rounded-md" />
