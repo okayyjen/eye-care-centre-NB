@@ -16,18 +16,18 @@ export default function Home() {
               <ImageCarousel/>
             </div>
 
-            <div className="content-block-a">
+            <div className="flex justify-center items-center flex-wrap gap-5 p-5 pt-5">
               {contentBlockAData.map((card, index) => (
                 <Card key={index} title={card.title} text={card.text} link={card.link} />
               ))}
             </div>
 
-            <div className="content-block-b">
+            <div className="flex justify-center items-center flex-wrap p-5">
               {statCardsData.map((card, index) => (
                 <StatCard 
                 key={index} 
                 text={card.text} 
-                id={card.id}
+                className={card.className}
                 />
               ))}
             </div>

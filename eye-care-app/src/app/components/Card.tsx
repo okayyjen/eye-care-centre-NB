@@ -9,17 +9,17 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, text, link }) => {
   return (
-    <div className="card-a">
+    <div className="flex flex-col items-center justify-center p-5 w-[285px] bg-[#384C84] text-white">
       <Image 
-        className="eye-icon"
+        className="max-w-[50px] py-5 pt-5 pb-[35px]"
         src={require("../images/visible.png")}
         alt="logo"
         layout="responsive"
       />
-      <h1 className="block-title">{title}</h1>
-      <p>{text}</p>
+      <h1 className="pb-5 text-xl">{title}</h1>
+      <p className="text-center">{text}</p>
       <a href={link}>
-        <button className="button-style-1">LOREM IPSUM</button>
+        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">LOREM IPSUM</button>
       </a>
     </div>
   );
