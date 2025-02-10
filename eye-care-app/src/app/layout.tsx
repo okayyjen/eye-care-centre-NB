@@ -26,10 +26,10 @@ export default function RootLayout({
           <AppBar />
           <main>{children}</main>
 
-          <div id="reviews-wrapper">
+          <div id="reviews-wrapper" className="bottom-0 w-full">
               <Reviews/>
           </div> 
-          <div id="footer-content">
+          <div className="bottom-0 w-full">
                 <Footer/>
           </div>
 

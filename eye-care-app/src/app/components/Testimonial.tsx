@@ -25,8 +25,8 @@ export default function Testimonial({}: Props){
     autoplaySpeed: 5000
   };
     return <div className="">
-                <section id="testimonials-container">
-                    <h1 id="testimonial-text">
+                <section className="rounded-[50px] shadow-[8px_16px_16px_hsl(0deg_0%_0%_/_0.25)] outline outline-[0.05px] outline-[#EBEBEB] max-w-[900px] mx-auto relative overflow-hidden">
+                    <h1 className="bg-white text-center text-[1.5rem] pt-[2rem]">
                         Testimonials
                     </h1>
                     
@@ -36,9 +36,9 @@ export default function Testimonial({}: Props){
                                 <div key={index}>
 
                                     <section className="bg-white px-10 pt-6 pb-8 sm:px-20 sm:pt-8 sm:pb-12 flex flex-col items-center rounded-xl overflow-hidden">
-                                        <div id="rating-container">
+                                        <div className="flex justify-center items-center">
                                             <div className="star-image-container">
-                                                <Image className="star-image"
+                                                <Image className="mt-[-10px] min-w-[150px]"
                                                     src={require("../images/rating.png")}
                                                     alt="star"
                                                     layout="responsive"
