@@ -8,7 +8,7 @@ const ImageBlock = () => {
         <div id="image-block-container">
             <div className = "flex items-center justify-center flex-col">
 
-                <div className = "flex w-[1200px] items-stretch justify-center" id = "row-1">
+                <div className = "flex items-stretch justify-center" id = "row-1">
                     
                     {ImageRowsData.map((row, index) => (
                         <ImageRow
@@ -21,7 +21,7 @@ const ImageBlock = () => {
                     ))}
                 </div>
 
-                <div className = "flex w-[1200px] items-stretch justify-center bg-white">
+                <div className = "flex items-stretch justify-center bg-white">
                     {ImageRowsData2.map((row, index) => (
                         <ImageRow
                         key={index}

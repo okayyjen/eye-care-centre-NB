@@ -11,7 +11,7 @@ interface ImageRowProps {
 const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
   if(id == "row-1"){
     return (
-        <div className = "flex w-[1200px] items-stretch justify-center">
+        <div className = "flex max-w-[1200px] items-stretch justify-center">
             
             <Image className="max-w-[600px] block max-[1260px]:hidden"
             src={require("../images/activity_1.png")}
@@ -19,7 +19,7 @@ const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
             layout="responsive"
             />
     
-            <div className="bg-[#8695C0] flex flex-col justify-center text-white w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px]">
+            <div className="bg-[#8695C0] flex flex-col justify-center text-white w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
                 <h2>{title}</h2>
                 <h1 className="pb-5 text-xl">{main_title}</h1>
                 <section className="separator" >______</section>
@@ -31,8 +31,8 @@ const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
   }else{
 
     return (
-        <div className = "flex w-[1200px] items-stretch justify-center">
-            <div className = "bg-white flex flex-col justify-center w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px]">
+        <div className = "flex max-w-[1200px] items-stretch justify-center">
+            <div className = "bg-white flex flex-col justify-center w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
                 <h2>{title}</h2>
                 <h1 className="pb-5 text-xl">{main_title}</h1>
                 <section className="select-none my-[30px]" id="separator-style-2" >______</section>
