@@ -25,7 +25,7 @@ export default function Testimonial({}: Props){
     autoplaySpeed: 5000
   };
     return <div className="">
-                <section className="rounded-[50px] shadow-[8px_16px_16px_hsl(0deg_0%_0%_/_0.25)] outline outline-[0.05px] outline-[#EBEBEB] max-w-[900px] mx-auto relative overflow-hidden">
+                <section className="max-w-[900px] mx-auto relative overflow-hidden">
                     <h1 className="bg-white text-center text-[1.5rem] pt-[2rem]">
                         Testimonials
                     </h1>
