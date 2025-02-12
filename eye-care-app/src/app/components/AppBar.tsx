@@ -15,11 +15,12 @@ import {
   NavbarMenu, 
   NavbarMenuItem } from "@nextui-org/react";
 import { ChevronDown } from "./Icons";
+import { usePathname } from "next/navigation";
 import "../globals.css";
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [servicesMenuOpen, setServicesMenuOpen] = React.useState(true);
+  const [servicesMenuOpen, setServicesMenuOpen] = React.useState(false);
   const toggleServicesMenu = () => {
     setServicesMenuOpen(!servicesMenuOpen);
   };
@@ -27,6 +28,12 @@ const AppBar = () => {
   const icons = {
     chevron: <ChevronDown fill="currentColor" size={16} />
   };
+
+  const pathname = usePathname();
+
+  React.useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]);
 
   return (
     <Navbar 
