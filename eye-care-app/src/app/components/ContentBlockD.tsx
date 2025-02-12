@@ -1,6 +1,7 @@
 import React from 'react';
 import DoctorCard from './DoctorCard';
 import { DoctorCardsData } from '../data/general';
+import Link from 'next/link';
 
 const ContentBlockD = () => {
     return (
@@ -14,9 +15,9 @@ const ContentBlockD = () => {
                 ))}
 
             </div>
-            <button className="mt-10 border-3 border-none w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">MEET OUR TEAM</button>
-
-
+            <Link color="foreground" href="/our-team">
+                <button className="mt-10 border-3 border-none w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">MEET OUR TEAM</button>
+            </Link>
         </div>
     );
 };

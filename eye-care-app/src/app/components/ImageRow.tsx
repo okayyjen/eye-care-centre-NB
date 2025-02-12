@@ -1,14 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ImageRowProps {
   id: string;
   title: string;
   main_title: string;
   text: string;
+  link: string;
+  button_title: string;
 }
 
-const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
+const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text, link, button_title }) => {
   if(id == "row-1"){
     return (
         <div className = "flex max-w-[1200px] items-stretch justify-center">
@@ -23,8 +26,12 @@ const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
                 <h2>{title}</h2>
                 <h1 className="pb-5 text-xl">{main_title}</h1>
                 <section className="separator" >______</section>
-                <p>{text}</p>
-                <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">LOREM IPSUM</button>
+                <p className="whitespace-pre-line">{text}</p>
+                <Link href={link}>
+                  <button className="w-full mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">
+                      {button_title}
+                  </button>
+              </Link>
             </div>
         </div>
     );
@@ -36,8 +43,14 @@ const ImageRow: React.FC<ImageRowProps> = ({ id, title, main_title, text }) => {
                 <h2>{title}</h2>
                 <h1 className="pb-5 text-xl">{main_title}</h1>
                 <section className="select-none my-[30px]" id="separator-style-2" >______</section>
-                <p>{text}</p>
-                <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">LOREM IPSUM</button>
+                <div className="w-full">
+                  <p className="">{text}</p>
+                </div>
+                
+                <Link href={link}>
+                  <button className="w-full mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">{button_title}</button>
+                </Link>
+                
             </div>
             <Image className="max-w-[600px] block max-[1260px]:hidden" 
                     src={require("../images/activity_2.png")}

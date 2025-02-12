@@ -29,7 +29,7 @@ export default function RootLayout({
           <div id="reviews-wrapper" className="bottom-0 w-full">
               <Reviews/>
           </div> 
-          <div className="bottom-0 w-full">
+          <div className=" w-full">
                 <Footer/>
           </div>
 

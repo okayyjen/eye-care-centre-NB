@@ -109,7 +109,7 @@ const AppBar = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/contact-page">
+          <Link color="foreground" href="/contact-us">
             CONTACT US
           </Link>
         </NavbarItem>
@@ -205,7 +205,7 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="/contact-page"
+            href="/contact-us"
             size="lg"
           >
             Contact Us

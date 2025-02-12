@@ -17,6 +17,8 @@ const ImageBlock = () => {
                         title={row.title}
                         main_title={row.main_title}
                         text={row.text}
+                        link={row.link}
+                        button_title={row.button_title}
                         />
                     ))}
                 </div>
@@ -29,6 +31,8 @@ const ImageBlock = () => {
                         title={row.title}
                         main_title={row.main_title}
                         text={row.text}
+                        link={row.link}
+                        button_title={row.button_title}
                         />
                     ))}
                 </div>
