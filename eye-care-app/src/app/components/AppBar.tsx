@@ -18,11 +18,14 @@ import {
 import { ChevronDown } from "./Icons";
 import { usePathname } from "next/navigation";
 import "../globals.css";
+import Image from "next/image";
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+  const [isAUDropDownOpen, setIsAUDropDownOpen] = React.useState(false);
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = React.useState(false);
+  const [isAUDropMobileDownOpen, setIsAUMobileDropDownOpen] = React.useState(false);
 
   const pathname = usePathname();
 
@@ -39,6 +42,18 @@ const AppBar = () => {
   const handleMouseLeave = () => {
     if (window.innerWidth >= 768) {
       setIsDropdownOpen(false);
+    }
+  };
+
+  const handleMouseEnterAU = () => {
+    if (window.innerWidth >= 768) {
+      setIsAUDropDownOpen(true);
+    }
+  };
+
+  const handleMouseLeaveAU = () => {
+    if (window.innerWidth >= 768) {
+      setIsAUDropDownOpen(false);
     }
   };
 
@@ -61,14 +76,26 @@ const AppBar = () => {
       <NavbarContent className="md:hidden pr-3" justify="end">
         <NavbarBrand className="justify-end">
           <Link color="foreground" href="/">
-            <p className="font-bold text-inherit">LOGO</p>
+          <Image 
+            src="/images/ECC_LOGO.png" 
+            alt="Company Logo" 
+            width={100} 
+            height={25} 
+            className=""
+          />
           </Link>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden md:flex gap-6" justify="end">
         <NavbarBrand>
           <Link color="foreground" href="/">
-            <p className="font-bold text-inherit">LOGO</p>
+          <Image 
+            src="/images/ECC_LOGO.png" 
+            alt="Company Logo" 
+            width={100} 
+            height={25} 
+            className=""
+          />
           </Link>
         </NavbarBrand>
 
@@ -102,11 +129,31 @@ const AppBar = () => {
             <DropdownItem key="amet">Amet</DropdownItem>
           </DropdownMenu>
         </Dropdown>
-        <NavbarItem>
-          <Link color="foreground" href="/about-us">
-            ABOUT US
-          </Link>
-        </NavbarItem>
+        <Dropdown isOpen={isAUDropDownOpen} onOpenChange={setIsAUDropDownOpen}>
+          <NavbarItem onMouseEnter={handleMouseEnterAU} onMouseLeave={handleMouseLeaveAU}>
+            <DropdownTrigger>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base font-medium text-foreground"
+                endContent={icons.chevron}
+                radius="sm"
+                variant="light"
+              >
+                ABOUT US
+              </Button>
+            </DropdownTrigger>
+          </NavbarItem>
+          <DropdownMenu
+            aria-label="About Us Menu"
+            className="w-[200px]"
+            onMouseEnter={handleMouseEnterAU}
+            onMouseLeave={handleMouseLeaveAU}
+          >
+            <DropdownItem key="loremipsum" href="/mission">Mission & Values</DropdownItem>
+            <DropdownItem key="dolor_sit" href="/about-us">Our Clinic</DropdownItem>
+            <DropdownItem key="amet">Amet</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
         <NavbarItem>
           <Link color="foreground" href="/our-team">
             OUR TEAM
@@ -160,13 +207,24 @@ const AppBar = () => {
             </div>
           )}
         </NavbarMenuItem>
-
-
-
         <NavbarMenuItem>
-          <Link color="foreground" className="w-full" href="/about-us">
-            About us
+          <Link
+            as="button"
+            className="w-full text-left text-foreground text-medium py-2 flex justify-between"
+            onClick={() => setIsAUMobileDropDownOpen((prev) => !prev)}
+          >
+            About Us {icons.chevron}
           </Link>
+          {isAUDropMobileDownOpen && (
+            <div className="pl-4 pt-2">
+              <Link color="foreground" className="block py-1 text-medium" href="/mission">
+                Mission & Values
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href="/about-us">
+                Our Clinic
+              </Link>
+            </div>
+          )}
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link color="foreground" className="w-full" href="/our-team">
