@@ -1,33 +1,28 @@
 "use client"
 import React from "react";
-import { 
-  Button, 
-  Dropdown, 
-  DropdownTrigger, 
-  DropdownItem, 
+import {
+  Button,
+  Dropdown,
+  DropdownTrigger,
+  DropdownItem,
   DropdownMenu,
-  Link, 
-  Navbar, 
-  NavbarBrand, 
-  NavbarContent, 
-  NavbarItem, 
+  Link,
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
   NavbarMenuToggle,
-  NavbarMenu, 
-  NavbarMenuItem } from "@nextui-org/react";
+  NavbarMenu,
+  NavbarMenuItem
+} from "@nextui-org/react";
 import { ChevronDown } from "./Icons";
 import { usePathname } from "next/navigation";
 import "../globals.css";
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [servicesMenuOpen, setServicesMenuOpen] = React.useState(false);
-  const toggleServicesMenu = () => {
-    setServicesMenuOpen(!servicesMenuOpen);
-  };
-
-  const icons = {
-    chevron: <ChevronDown fill="currentColor" size={16} />
-  };
+  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+  const [isMobileDropdownOpen, setIsMobileDropdownOpen] = React.useState(false);
 
   const pathname = usePathname();
 
@@ -35,10 +30,26 @@ const AppBar = () => {
     setIsMenuOpen(false);
   }, [pathname]);
 
+  const handleMouseEnter = () => {
+    if (window.innerWidth >= 768) {
+      setIsDropdownOpen(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (window.innerWidth >= 768) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  const icons = {
+    chevron: <ChevronDown fill="currentColor" size={16} />,
+  };
+
   return (
-    <Navbar 
+    <Navbar
       isMenuOpen={isMenuOpen}
-      onMenuOpenChange={setIsMenuOpen} 
+      onMenuOpenChange={setIsMenuOpen}
       maxWidth="xl"
       height="90px"
     >
@@ -54,7 +65,6 @@ const AppBar = () => {
           </Link>
         </NavbarBrand>
       </NavbarContent>
-      
       <NavbarContent className="hidden md:flex gap-6" justify="end">
         <NavbarBrand>
           <Link color="foreground" href="/">
@@ -67,34 +77,31 @@ const AppBar = () => {
             HOME
           </Link>
         </NavbarItem>
-
-        <Dropdown>
-          <NavbarItem>
+        <Dropdown isOpen={isDropdownOpen} onOpenChange={setIsDropdownOpen}>
+          <NavbarItem onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <DropdownTrigger>
-                <Button
-                  disableRipple
-                  className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base font-medium text-foreground"
-                  endContent={icons.chevron}
-                  radius="sm"
-                  variant="light"
-                >
-                  SERVICES
-                </Button>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base font-medium text-foreground"
+                endContent={icons.chevron}
+                radius="sm"
+                variant="light"
+              >
+                SERVICES
+              </Button>
             </DropdownTrigger>
           </NavbarItem>
           <DropdownMenu
-            aria-label="Action Service"
+            aria-label="Services Menu"
             className="w-[200px]"
-            itemClasses={{
-              base: "gap-4",
-            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
           >
             <DropdownItem key="loremipsum">Lorem Ipsum</DropdownItem>
             <DropdownItem key="dolor_sit">Dolor Sit</DropdownItem>
             <DropdownItem key="amet">Amet</DropdownItem>
           </DropdownMenu>
         </Dropdown>
-        
         <NavbarItem>
           <Link color="foreground" href="/about-us">
             ABOUT US
@@ -127,105 +134,58 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="#"
-            size="lg"
-            onClick={toggleServicesMenu}
-          >
-            Services <span className="ml-[8px]">{icons.chevron}</span>
+            href="/">
+            Home
           </Link>
-          {servicesMenuOpen && (
-            <div className="pl-[1.5em]">
-              <NavbarMenuItem className="p-[5px]">
-                <Link
-                  color="foreground"
-                  className="w-full"
-                  href="#"
-                  size="lg"
-                >
-                  Service 1
-                </Link>
-              </NavbarMenuItem>
-              <NavbarMenuItem className="p-[5px]">
-                <Link
-                  color="foreground"
-                  className="w-full"
-                  href="#"
-                  size="lg"
-                >
-                  Service 2
-                </Link>
-              </NavbarMenuItem>
-              <NavbarMenuItem className="p-[5px]">
-                <Link
-                  color="foreground"
-                  className="w-full"
-                  href="#"
-                  size="lg"
-                >
-                  Service 3
-                </Link>
-              </NavbarMenuItem>
-            </div>
-          )}
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link
-            color="foreground"
-            className="w-full"
-            href="/about-us"
-            size="lg"
+            as="button"
+            className="w-full text-left text-foreground text-medium py-2 flex justify-between"
+            onClick={() => setIsMobileDropdownOpen((prev) => !prev)}
           >
+            Services {icons.chevron}
+          </Link>
+          {isMobileDropdownOpen && (
+            <div className="pl-4 pt-2">
+              <Link color="foreground" className="block py-1 text-medium" href="#">
+                Lorem Ipsum
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href="#">
+                Dolor Sit
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href="#">
+                Amet
+              </Link>
+            </div>
+          )}
+        </NavbarMenuItem>
+
+
+
+        <NavbarMenuItem>
+          <Link color="foreground" className="w-full" href="/about-us">
             About us
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link
-            color="foreground"
-            className="w-full"
-            href="/our-team"
-            size="lg"
-          >
+          <Link color="foreground" className="w-full" href="/our-team">
             Our Team
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link
-            color="foreground"
-            className="w-full"
-            href="/resources"
-            size="lg"
-          >
+          <Link color="foreground" className="w-full" href="/resources">
             Resources
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link
-            color="foreground"
-            className="w-full"
-            href="https://forms.gle/YNPChVSxmcjv5GPv7"
-            size="lg"
-          >
+          <Link color="foreground" className="w-full" href="https://forms.gle/YNPChVSxmcjv5GPv7">
             Feedback
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link
-            color="foreground"
-            className="w-full"
-            href="/contact-page"
-            size="lg"
-          >
+          <Link color="foreground" className="w-full" href="/contact-page">
             Contact Us
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link
-            color="foreground"
-            className="w-full"
-            href="/"
-            size="lg"
-          >
-            Home
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
