@@ -2,5 +2,15 @@
     "Home": {
       "bannerTitle": "Welcome!",
       "bannerSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+    },
+    "NavBar": {
+      "home": "HOME",
+      "services": "SERVICES",
+      "aboutus": "ABOUT US",
+      "ourteam": "OUR TEAM",
+      "resources": "RESOURCES",
+      "feedback": "FEEDBACK",
+      "contactus": "CONTACT US"
+
     }
 }

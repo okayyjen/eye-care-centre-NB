@@ -19,6 +19,7 @@ import { ChevronDown } from "./Icons";
 import "../globals.css";
 import { usePathname, useParams } from "next/navigation";
 import LanguageToggle from "./LanguageToggle";
+import { useTranslations } from 'next-intl';
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -27,6 +28,7 @@ const AppBar = () => {
   const params = useParams();
   const pathname = usePathname();
   const currentLocale = params.locale || "en"; 
+  const t = useTranslations('NavBar');
 
   React.useEffect(() => {
     setIsMenuOpen(false);
@@ -106,27 +108,27 @@ const AppBar = () => {
         </Dropdown>
         <NavbarItem>
           <Link color="foreground" href={`/${currentLocale}/about-us`}>
-            ABOUT US
+            {t('aboutus')}
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href={`/${currentLocale}/our-team`}>
-            OUR TEAM
+            {t('ourteam')}
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href={`/${currentLocale}/resources`}>
-            RESOURCES
+            {t('resources')}
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="https://docs.google.com/forms/d/e/1FAIpQLSeBWaPsAgZs1XI2B6-vzRdqnrMYbRnp39zbmRFWxXL-MzsISw/viewform?usp=sf_link">
-            FEEDBACK
+            {t('feedback')}
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href={`/${currentLocale}/contact-page`}>
-            CONTACT US
+            {t('contactus')}
           </Link>
         </NavbarItem>
         <LanguageToggle />
