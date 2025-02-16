@@ -47,5 +47,18 @@
       "friday":"Friday",
       "saturday":"Saturday",
       "sunday":"Sunday"
+    },
+    "GlaucomaManagementService":{
+      "serviceName":"Glaucoma Management",
+      "title1":"MANAGING THE SYMPTOMS AND SIDE EFFECTS OF GLAUCOMA",
+      "text1":"Glaucoma is an eye disease characterized by damage to the optic nerve, which is the nerve that transmits visual information from the eye to the brain. It is usually caused by fluid buildup in the front portion of the eye which creates pressure in the eye and damages the nerve. Glaucoma is the leading cause of blindness for people over the age of 60, and any vision lost to glaucoma cannot be recovered. However, with early diagnosis and intervention, treatment can prevent vision loss and blindness. There are several different kinds of glaucoma and treatment depends on the specific type and severity. The primary goal of treatment is to lower or control the intraocular pressure, or pressure in the eye, which threatens the optic nerve.",
+      "title2":"MEDICATED EYEDROPS",
+      "text2":"One of the first lines of defense against glaucoma is usually the use of medicated eye drops. Eye drops can either reduce the amount of fluid created in the eye or improve the flow of fluid out of the eye. For example, certain medicated eye drops contain prostaglandins — drugs that improve the non-conventional flow of fluids out of the eye, thereby reducing intraocular pressure. Other drugs are alphaadrenergic agonists or beta-blockers, both of which decrease the fluid production in the eye. These eye drops may be prescribed alone or in combination with each other. Like any medication, medicated eye drops are not prescribed to individuals that have certain medical conditions or health concerns. For some individuals, eye drops placed in the eye could be absorbed by the blood vessels in the nasal mucosa and may affect heart rate and breathing. In rare cases, some eye drops can compromise health and exacerbate certain conditions like asthma. For this reason, all candidates are carefully evaluated and their detailed medical history is recorded before the doctor prescribes medicated eye drops.",
+      "title3":"SURGERY CAN MANAGE GLAUCOMA",
+      "text3":"If medicated eye drops fail to adequately treat glaucoma or if they cause undesirable side effects, surgery is another treatment option. Surgery is designed to improve the flow of fluids out of the eye to help lower intraocular pressure. A procedure called laser trabeculoplasty uses a laser to stimulate the eye’s drainage system to work more efficiently. This relieves some of the pressure in the eye. Laser iridotomy is another procedure in which a tiny hole is made through the eye’s iris to improve the flow of the fluid in the eye. Minimally Invasive Glaucoma Surgery (MIGS) is a newer procedure where stents are implanted to help drain fluid from your eye. In a trabeculectomy, a flap is created in the white of the eye (the sclera) and an opening is made in the eye to release built-up fluid. These procedures may be combined with the use of medicated eye drops for the best results.",
+      "buttonTitle1": "LEARN ABOUT GLAUCOMA",
+      "buttonTitle2": "button title",
+      "buttonTitle3": "button title"
+    
     }
 }

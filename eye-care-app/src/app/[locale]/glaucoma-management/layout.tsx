@@ -1,4 +1,4 @@
-export default function ServicePageLayout({
+export default function GlaucomaManagementPageLayout({
     children,
   }: {
     children: React.ReactNode
