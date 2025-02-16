@@ -16,15 +16,19 @@ import {
   NavbarMenuItem
 } from "@nextui-org/react";
 import { ChevronDown } from "./Icons";
-import { usePathname } from "next/navigation";
 import "../globals.css";
+import { usePathname, useParams } from "next/navigation";
+import LanguageToggle from "./LanguageToggle";
+import { useTranslations } from 'next-intl';
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = React.useState(false);
-
+  const params = useParams();
   const pathname = usePathname();
+  const currentLocale = params.locale || "en"; 
+  const t = useTranslations('NavBar');
 
   React.useEffect(() => {
     setIsMenuOpen(false);
@@ -60,20 +64,20 @@ const AppBar = () => {
 
       <NavbarContent className="md:hidden pr-3" justify="end">
         <NavbarBrand className="justify-end">
-          <Link color="foreground" href="/">
+          <Link color="foreground" href={`/${currentLocale}`}>
             <p className="font-bold text-inherit">LOGO</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden md:flex gap-6" justify="end">
         <NavbarBrand>
-          <Link color="foreground" href="/">
+          <Link color="foreground" href={`/${currentLocale}`}>
             <p className="font-bold text-inherit">LOGO</p>
           </Link>
         </NavbarBrand>
 
         <NavbarItem>
-          <Link color="foreground" href="/">
+          <Link color="foreground" href={`/${currentLocale}`}>
             HOME
           </Link>
         </NavbarItem>
@@ -103,30 +107,31 @@ const AppBar = () => {
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>
-          <Link color="foreground" href="/about-us">
-            ABOUT US
+          <Link color="foreground" href={`/${currentLocale}/about-us`}>
+            {t('aboutus')}
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/our-team">
-            OUR TEAM
+          <Link color="foreground" href={`/${currentLocale}/our-team`}>
+            {t('ourteam')}
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/resources">
-            RESOURCES
+          <Link color="foreground" href={`/${currentLocale}/resources`}>
+            {t('resources')}
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="https://docs.google.com/forms/d/e/1FAIpQLSeBWaPsAgZs1XI2B6-vzRdqnrMYbRnp39zbmRFWxXL-MzsISw/viewform?usp=sf_link">
-            FEEDBACK
+            {t('feedback')}
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/contact-page">
-            CONTACT US
+          <Link color="foreground" href={`/${currentLocale}/contact-page`}>
+            {t('contactus')}
           </Link>
         </NavbarItem>
+        <LanguageToggle />
       </NavbarContent>
 
       <NavbarMenu>
@@ -134,7 +139,7 @@ const AppBar = () => {
           <Link
             color="foreground"
             className="w-full"
-            href="/">
+            href={`/${currentLocale}`}>
             Home
           </Link>
         </NavbarMenuItem>
@@ -164,17 +169,17 @@ const AppBar = () => {
 
 
         <NavbarMenuItem>
-          <Link color="foreground" className="w-full" href="/about-us">
+          <Link color="foreground" className="w-full" href={`/${currentLocale}/about-us`}>
             About us
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" className="w-full" href="/our-team">
+          <Link color="foreground" className="w-full" href={`/${currentLocale}/our-team`}>
             Our Team
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" className="w-full" href="/resources">
+          <Link color="foreground" className="w-full" href={`/${currentLocale}/resources`}>
             Resources
           </Link>
         </NavbarMenuItem>
@@ -184,7 +189,7 @@ const AppBar = () => {
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" className="w-full" href="/contact-page">
+          <Link color="foreground" className="w-full" href={`/${currentLocale}/contact-page`}>
             Contact Us
           </Link>
         </NavbarMenuItem>

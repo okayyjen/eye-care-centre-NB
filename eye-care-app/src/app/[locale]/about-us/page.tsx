@@ -1,6 +1,6 @@
-import "../homepage.css"
-import ImageRow from "../components/ImageRow";
-import { ImageRowsData, ImageRowsData2 } from '../data/general';
+import "../../homepage.css";
+import ImageRow from "../../components/ImageRow";
+import { ImageRowsData, ImageRowsData2 } from '../../data/general';
 
 export default function AboutUsPage(){
     return(

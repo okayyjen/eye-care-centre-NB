@@ -1,14 +1,15 @@
-import "./homepage.css"
-
-import ImageBlock from "./components/ImageBlock";
-import ContentBlockC from "./components/ContentBlockC";
-import ContentBlockD from "./components/ContentBlockD";
-import Card from "./components/Card";
-import StatCard from "./components/StatCard";
-import { contentBlockAData, statCardsData } from "./data/general";
+import "../homepage.css";
+import { useTranslations } from 'next-intl';
+import ImageBlock from "../components/ImageBlock";
+import ContentBlockC from "../components/ContentBlockC";
+import ContentBlockD from "../components/ContentBlockD";
+import Card from "../components/Card";
+import StatCard from "../components/StatCard";
+import { contentBlockAData, statCardsData } from "../data/general";
 import Image from "next/image";
 
 export default function Home() {
+  const t = useTranslations('Home');
   return (
     <div id="home-page">
       <div className="relative flex items-end h-[30rem] mb-10 bg-cover bg-[center_20%] bg-no-repeat before:absolute before:inset-0 before:bg-[linear-gradient(to_right,rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url('/images/HP_BANNER.jpg')] before:bg-cover before:bg-[top_20%] before:bg-no-repeat before:z-1">
@@ -20,8 +21,8 @@ export default function Home() {
             height={50} 
             className="mb-4"
           />
-          <h1 className="text-5xl text-[#fffcfcef] mb-4">Lorem Ipsum Dolor Sit Amet</h1>
-          <h2 className="text-[#fffcfcef] text-xl w-1/2 pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</h2>
+          <h1 className="text-5xl text-[#fffcfcef] mb-4">{t('bannerTitle')}</h1>
+          <h2 className="text-[#fffcfcef] text-xl w-1/2 pt-2">{t('bannerSubTitle')}</h2>
         </div>
       </div>
 
