@@ -12,5 +12,30 @@
       "feedback": "FEEDBACK",
       "contactus": "CONTACT US"
 
+    },
+    "AboutUs": {
+      "subTitle1": "About Us",
+      "title1":  "EYE CARE CENTRE NEW BRUNSWICK",
+      "text1":"Our ophthalmologists offer experienced medical treatment for diseases of the eye, and eye care options like:, cataracts, eyelid, or cosmetic surgery for patients across the Maritimes.",
+      "subTitle2":"Let Us Introduce Ourselves",
+      "title2": "GENERAL OPHTHALMOLOGY PRACTICE",
+      "text2": "We are pleased to welcome you to Eye Care Centre NB, our comprehensive ophthalmology practice located in Dieppe, co-founded in 2019 by Dr. Houfar Sekhavat and Dr. Julien Saad. As a state-of-the-art medical centre, we stay current in diagnostic and surgical procedures and continually endeavor to provide our patients with the highest quality of care.",
+      "subTitle3":"Our Extensive Eye Care Services",
+      "title3": "OPHTHALMOLOGY & SURGICAL SERVICES",
+      "text3": "• CATARACT SURGERY • EYELID AND COSMETIC SURGERIES • GLAUCOMA MANAGEMENT • DIABETIC RETINAL EXAMS • DRY EYE • VISUAL PROBLEMS REQUIRING EVALUATION • URGENT EYE CONDITIONS"
+    },
+    "Mission": {
+      "title1": "VISION",
+      "text1": "We are pleased to welcome you to Eye Care Centre NB, our comprehensive ophthalmology practice and surgical facility located Dieppe, co-founded in 2019 by Dr. Houfar Sekhavat and Dr. Julien Saad. As a state-of-the-art medical Centre, we stay current in diagnostic and surgical procedures and continually endeavor to provide our patients with the highest quality of care.",
+      "title2":"MISSION",
+      "text2": "Our mission is to bring the highest quality of ophthalmic care to each and every patient in the Maritimes. We know this can only be done by ensuring each member of our team is committed to providing compassionate, personal care to all patients that trust us with their vision.",
+      "title3":"QUALITY, BEST CARE AND THE BEST OUTCOMES",
+      "text3": "We constantly work to maintain and further develop the highest standard of care available to patients in the Maritimes. Our team of staff and doctors are always looking for ways to improve the services we provide for our patients.",
+      "title4":"PATIENT CENTRICITY",
+      "text4": "We recognize that each patient's needs are unique and do our best to care for those who visit our clinic in a way that reflects that.",
+      "title5":"PROFESSIONALISM AND HIGH ETHICAL STANDARDS",
+      "text5": "We adhere to a high ethical standard and aim to display professionalism in all that we do. We believe in using our actions to show patients and referring partners that they can trust us.",
+      "title6":"TEAMWORK AND PRODUCTIVITY",
+      "text6": "The level of care we provide would not be possible without every member of our team. We are constantly communicating and working with one another to make the patient’s experience as seamless as possible."
     }
 }

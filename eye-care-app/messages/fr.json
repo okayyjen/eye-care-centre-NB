@@ -13,5 +13,30 @@
       "feedback": "COMMENTAIRES",
       "contactus": "CONTACTEZ-NOUS"
 
+    },
+    "AboutUs": {
+      "subTitle1": "À propos de nous",
+      "title1":  "EYE CARE CENTRE NEW BRUNSWICK",
+      "text1":"Nos ophtalmologistes offrent des traitements médicaux expérimentés pour les maladies oculaires et des options de soins oculaires telles que : la cataracte, les paupières ou la chirurgie esthétique pour les patients des Maritimes.",
+      "subTitle2":"Laissez-nous nous présenter",
+      "title2": "PRATIQUE DE L'OPHTALMOLOGIE GÉNÉRALE",
+      "text2": "Nous sommes heureux de vous accueillir au Eye Care Centre NB, notre cabinet d'ophtalmologie complète situé à Dieppe, cofondé en 2019 par le Dr Houfar Sekhavat et le Dr Julien Saad. En tant que centre médical de pointe, nous restons à la pointe des procédures diagnostiques et chirurgicales et nous efforçons continuellement de fournir à nos patients des soins de la plus haute qualité.",
+      "subTitle3":"Nos services complets de soins oculaires",
+      "title3": "OPHTALMOLOGIE ET SERVICES CHIRURGICAUX",
+      "text3": "• CHIRURGIE DE LA CATARACTE • CHIRURGIE DES PAUPIÈRES ET CHIRURGIE COSMÉTIQUE • GESTION DU GLAUCOME • EXAMENS RÉTINIENS DIABÉTIQUES • YEUX SECS • PROBLÈMES VISUELS NÉCESSITANT UNE ÉVALUATION • CONDITIONS OCULAIRES URGENTES"
+    },
+    "Mission": {
+      "title1": "VISION",
+      "text1": "Nous sommes heureux de vous accueillir au Eye Care Centre NB, notre cabinet d'ophtalmologie complet et notre établissement chirurgical situé à Dieppe, cofondé en 2019 par le Dr Houfar Sekhavat et le Dr Julien Saad. En tant que centre médical de pointe, nous restons à la pointe des procédures diagnostiques et chirurgicales et nous efforçons continuellement de fournir à nos patients des soins de la plus haute qualité.",
+      "title2":"MISSION",
+      "text2": "Notre mission est d'offrir des soins ophtalmologiques de la plus haute qualité à chaque patient des Maritimes. Nous savons que cela ne peut être fait qu’en veillant à ce que chaque membre de notre équipe s’engage à fournir des soins personnels et empreints de compassion à tous les patients qui nous font confiance pour leur vision.",
+      "title3":"QUALITÉ, MEILLEURS SOINS ET MEILLEURS RÉSULTATS",
+      "text3": "Nous travaillons constamment à maintenir et à développer davantage la norme de soins la plus élevée offerte aux patients des Maritimes. Notre équipe de personnel et de médecins est  toujours à la recherche de moyens d'améliorer les services que nous fournissons à nos patients.",
+      "title4":"CENTRICITÉ SUR LE PATIENT",
+      "text4": "Nous reconnaissons que les besoins de chaque patient sont uniques et faisons de notre mieux pour prendre soin de ceux qui visitent notre clinique d'une manière qui reflète cela.",
+      "title5":"PROFESSIONNALISME ET NORMES ÉTHIQUES ÉLEVÉES",
+      "text5": "Nous adhérons à des normes éthiques élevées et visons à faire preuve de professionnalisme dans tout ce que nous faisons. Nous croyons qu'il est important d'utiliser nos actions pour montrer aux patients et aux partenaires référents qu'ils peuvent nous faire confiance.",
+      "title6":"TRAVAIL D'ÉQUIPE ET PRODUCTIVITÉ",
+      "text6": "Le niveau de soins que nous fournissons ne serait pas possible sans chaque membre de notre équipe. Nous communiquons et travaillons constamment les uns avec les autres pour rendre l’expérience du patient aussi fluide que possible."
     }
 }
