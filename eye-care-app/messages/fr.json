@@ -38,5 +38,15 @@
       "text5": "Nous adhérons à des normes éthiques élevées et visons à faire preuve de professionnalisme dans tout ce que nous faisons. Nous croyons qu'il est important d'utiliser nos actions pour montrer aux patients et aux partenaires référents qu'ils peuvent nous faire confiance.",
       "title6":"TRAVAIL D'ÉQUIPE ET PRODUCTIVITÉ",
       "text6": "Le niveau de soins que nous fournissons ne serait pas possible sans chaque membre de notre équipe. Nous communiquons et travaillons constamment les uns avec les autres pour rendre l’expérience du patient aussi fluide que possible."
+    },
+    "Contact":{
+      "title": "CONTACTEZ-NOUS",
+      "monday":"Lundi",
+      "tuesday":"Mardi",
+      "wednesday":"Mercredi",
+      "thursday":"Jeudi",
+      "friday":"Vendredi",
+      "saturday":"Samedi",
+      "sunday":"Dimanche"
     }
 }

@@ -37,5 +37,15 @@
       "text5": "We adhere to a high ethical standard and aim to display professionalism in all that we do. We believe in using our actions to show patients and referring partners that they can trust us.",
       "title6":"TEAMWORK AND PRODUCTIVITY",
       "text6": "The level of care we provide would not be possible without every member of our team. We are constantly communicating and working with one another to make the patient’s experience as seamless as possible."
+    },
+    "Contact":{
+      "title": "Contact Us",
+      "monday":"Monday",
+      "tuesday":"Tuesday",
+      "wednesday":"Wednesday",
+      "thursday":"Thursday",
+      "friday":"Friday",
+      "saturday":"Saturday",
+      "sunday":"Sunday"
     }
 }
