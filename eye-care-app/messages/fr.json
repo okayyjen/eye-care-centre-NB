@@ -98,7 +98,7 @@
       "text5d":"Arrêtez de fumer. Le tabagisme peut endommager davantage vos vaisseaux sanguins, y compris ceux de vos yeux. Il est donc très important d’arrêter de fumer.",
       "text5e":"Évitez les rayons nocifs. Protégez-vous des rayons ultraviolets nocifs du soleil en portant des lunettes de soleil. L’exposition à ces rayons peut accélérer la progression de la cataracte."
     },
-    
+
     "LaserTreatmentService":{
       "serviceName":"Traitements au laser",
       "text1":"La trabéculoplastie sélective au laser (SLT) est une procédure au laser qui réduit la pression à l'intérieur de l'oeil. Elle est utilisée pour traiter le glaucome et l'hypertension oculaire.",
@@ -107,5 +107,49 @@
       "text4":"Le laser à l'argon est une procédure qui utilise un faisceau laser pour traiter les affections oculaires. Le faisceau laser est focalisé sur l'arrière de l'oeil pour traiter des affections telles que la rétinopathie diabétique, les déchirures rétiniennes et le glaucome.",
       "text5":"Trois pathologies courantes traitées par le laser Argon sont la rétinopathie diabétique, l'occlusion veineuse rétinienne et les déchirures rétiniennes. La rétine est un tissu délicat qui tapisse l'intérieur de l'oeil et la macula est une petite zone au centre de la rétine.",
       "text6":"Le laser ophtalmique Ellex 2RT est une technologie laser nanoseconde exclusive utilisée pour traiter les premiers stades de la dégénérescence maculaire liée à l'âge (DMLA) en stimulant la réponse de guérison naturelle de l'oeil, visant essentiellement à « rajeunir » la rétine grâce à un processus appelé thérapie de rajeunissement de la rétine (2RT) qui cible des cellules spécifiques de l'épithélium pigmentaire rétinien (RPE) à l'aide d'un profil de faisceau pixellisé unique ; il est conçu pour délivrer une énergie précise sans endommager les tissus environnants."
+    },
+
+    "MacularDegenerationService":{
+      "serviceName": "Dégénérescence maculaire",
+      "title1":"Dégénérescence maculaire ou dégénérescence maculaire liée à l'âge",
+      "text1":"La dégénérescence maculaire, également connue sous le nom de dégénérescence maculaire liée à l'âge, est une affection médicale qui peut entraîner une vision floue ou inexistante au centre du champ visuel. Au début, il n'y a souvent aucun symptôme. Au fil du temps, cependant, certaines personnes connaissent une détérioration progressive de la vision qui peut affecter un ou les deux yeux.",
+      "title2":"Ce que vous devez savoir",
+      "text2":"La dégénérescence maculaire liée à l’âge (DMLA) est une maladie qui affecte la vision centrale d’une personne.",
+      "text2a":"La DMLA peut entraîner une perte grave de la vision centrale, mais les personnes atteintes deviennent rarement aveugles.",
+      "text2b":"Les facteurs de risque de la DMLA comprennent le fait d’avoir 50 ans et plus, de fumer, d’avoir une pression artérielle élevée et de suivre un régime alimentaire riche en graisses saturées.",
+      "text2c":"Bien qu’il n’existe pas de remède contre la DMLA, il existe des options de traitement qui peuvent prévenir ou ralentir la progression de la maladie.",
+      "title3":"Définition de la dégénérescence maculaire liée à l’âge",
+      "text3":"La dégénérescence maculaire liée à l’âge est la cause la plus fréquente de perte sévère de la vue chez les personnes de 50 ans et plus. Seul le centre de la vision est touché par cette maladie. Il est important de comprendre que les personnes deviennent rarement aveugles à cause de cette maladie.",
+      "text3a":"La DMLA affecte la vision centrale et, avec elle, la capacité à voir les détails fins. Dans la DMLA, une partie de la rétine appelée macula est endommagée. Aux stades avancés, les personnes perdent leur capacité à conduire, à voir les visages et à lire les petits caractères. Aux premiers stades, la DMLA peut ne présenter aucun signe ni symptôme, de sorte que les personnes peuvent ne pas soupçonner qu’elles en sont atteintes.",
+      "title4":"Types de dégénérescence maculaire liée à l’âge et causes",
+      "text4":"Les deux principaux types de dégénérescence maculaire liée à l’âge ont des causes différentes :",
+      "text4a":"Sec. Ce type est le plus courant. Environ 80 % des personnes atteintes de DMLA ont la forme sèche. Sa cause exacte est inconnue, bien que l’on pense que des facteurs génétiques et environnementaux jouent un rôle. Cela se produit lorsque les cellules photosensibles de la macula se décomposent lentement, généralement un oeil à la fois. La perte de vision dans cette condition est généralement lente et progressive. On pense que les dommages liés à l'âge d'une membrane de soutien importante sous la rétine contribuent à la dégénérescence maculaire sèche liée à l'âge.",
+      "text4b":"Humide. Bien que ce type soit moins courant, il entraîne généralement une perte de vision plus grave chez les patients que la DMLA sèche. C'est la cause la plus courante de perte de vision grave. La DMLA humide survient lorsque des vaisseaux sanguins anormaux commencent à se développer sous la rétine. Ils laissent échapper du liquide et du sang - d'où le nom de DMLA humide - et peuvent créer une grande tache aveugle au centre du champ visuel.",
+      "title5":"Facteurs de risque de la dégénérescence maculaire liée à l'âge",
+      "text5a":"Plusieurs facteurs de risque peuvent contribuer au développement de la dégénérescence maculaire liée à l'âge, notamment :",
+      "text5b":"Être âgé de 50 ans et plus",
+      "text5c":"Avoir une alimentation riche en graisses saturées",
+      "text5d":"Tabagisme",
+      "text5e":"Hypertension artérielle ou hypertension",
+      "title6":"Symptômes de la dégénérescence maculaire liée à l'âge",
+      "text6":"Voici les symptômes les plus courants de la dégénérescence maculaire liée à l'âge. Cependant, chaque individu peut ressentir les symptômes différemment. Les symptômes peuvent inclure :",
+      "text6a":"Vision floue ou confuse",
+      "text6b":"Difficulté à reconnaître les visages familiers",
+      "text6c":"Les lignes droites semblent ondulées",
+      "text6d":"Une zone sombre et vide ou un angle mort apparaît au centre de la vision",
+      "text6e":"Perte de la vision centrale, qui est nécessaire pour conduire, lire, reconnaître les visages et effectuer des travaux de près",
+      "text6f":"La présence de drusen, qui sont de minuscules dépôts jaunes dans la rétine, est l'un des premiers signes les plus courants de la dégénérescence maculaire liée à l'âge. Cela peut signifier que l'oeil risque de développer une dégénérescence maculaire liée à l'âge plus grave. Ceux-ci seront visibles par votre médecin lors d'un examen de la vue.",
+      "text6g":"Les symptômes de la dégénérescence maculaire liée à l'âge peuvent ressembler à ceux d'autres affections oculaires. Consultez un professionnel de la vue pour obtenir un diagnostic."
+    },
+
+    "CataractService":{
+      "serviceName": "Types de Cataractes",
+      "title1":"Cataracte – Sclérose nucléaire",
+      "text1":"Une cataracte est une déformation de la rétine qui rend l'oeil inaccessible à la lueur. Elle peut être due à des causes telles que des problèmes de vision, des troubles cardiaques, des maladies de la génito-urinaire, des infections, des infections génitales, ou des problèmes de sport. Les cataractes peuvent être sévères, affectant la vision de tous les yeux, ou modérées, affectant uniquement un ou deux yeux. Cette déformation peut être visible par votre médecin ou par des examens d'oeil.",
+      "title2":"Cataracte – Rayons corticaux",
+      "text2":"Une cataracte corticale est caractérisée par des opacités blanches en forme de coin qui commencent sur les bords extérieurs du cristallin et se dirigent vers le centre, ayant l’apparence d’un rayon de roue ou d’un motif en étoile. Ce type de cataracte se produit dans le cortex du cristallin, qui est la partie du cristallin qui entoure le noyau central. Les personnes diabétiques sont les plus susceptibles d’être touchées par ce type de cataracte.",
+      "title3":"Cataracte – Sous-capsulaire postérieure",
+      "text3":"Les cataractes sous-capsulaires postérieures commencent par une petite zone trouble ou opaque à l'arrière ou postérieure du cristallin. Les personnes atteintes de diabète ou celles qui prennent une dose élevée de stéroïdes sont susceptibles de développer une cataracte souscapsulaire postérieure. Une myopie extrême et/ou une rétinite pigmentaire peuvent développer ce type de cataracte. Les cataractes sous-capsulaires peuvent se développer rapidement et les symptômes peuvent devenir perceptibles en quelques mois."
+
     }
 }

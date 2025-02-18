@@ -105,5 +105,47 @@
       "text4":"Argon laser is a procedure that uses a laser beam to treat eye conditions. The laser beam is focused on the back of the eye to treat conditions such as diabetic retinopathy, retinal tears, and glaucoma.",
       "text5":"Three common conditions treated by Argon laser are diabetic retinopathy, retinal vein occlusion and retinal tears. The retina is a delicate tissue lining the inside of the eye and the macula is a small area at the centre of the retina.",
       "text6":"The Ellex 2RT ophthalmic laser is a proprietary nanosecond laser technology used to treat early stages of age-related macular degeneration (AMD) by stimulating the eye's natural healing response, essentially aiming to \"rejuvenate\" the retina through a process called Retinal Rejuvenation Therapy (2RT) which targets specific cells within the retinal pigment epithelium (RPE) using a unique pixelated beam profile; it is designed to deliver precise energy without causing damage to surrounding tissue."
+    },
+    
+    "MacularDegenerationService":{
+      "serviceName": "Macular Degeneration",
+      "title1":"Macular Degeneration or Age Related Macular Degeneration",
+      "text1":"Macular degeneration, also known as age-related macular degeneration, is a medical condition which may result in blurred or no vision in the center of the visual field. Early on there are often no symptoms. Over time, however, some people experience a gradual worsening of vision that may affect one or both eyes.",
+      "title2":"What you need to know",
+      "text2":"Age-related macular degeneration (AMD) is a disease that affects a person’s central vision.",
+      "text2a":"AMD can result in severe loss of central vision, but people rarely go blind from it.",
+      "text2b":"Risk factors for AMD include being 50 and older, smoking, having high blood pressure and eating a diet high in saturated fat.",
+      "text2c":"Although there is no cure for AMD, there are treatment options that may prevent or slow the progression of the disease.",
+      "title3":"Age-Related Macular Degeneration Definition",
+      "text3":"Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.",
+      "text3a":"AMD affects the central vision, and with it, the ability to see fine details. In AMD, a part of the retina called the macula is damaged. In advanced stages, people lose their ability to drive, to see faces, and to read smaller print. In its early stages, AMD may have no signs or symptoms, so people may not suspect they have it.",
+      "title4":"Types of Age-Related Macular Degeneration and Causes",
+      "text4":"The two primary types of age-related macular degeneration have different causes:",
+      "text4a":"Dry. This type is the most common. About 80% of those with AMD have the dry form. Its exact cause is unknown, although both genetic and environmental factors are thought to play a role. This happens as the light-sensitive cells in the macula slowly break down, generally one eye at a time. The loss of vision in this condition is usually slow and gradual. It is believed that the age-related damage of an important support membrane under the retina contributes to dry age-related macular degeneration.",
+      "text4b":"Wet. Though this type is less common, it usually leads to more severe vision loss in patients than dry AMD. It is the most common cause of severe loss of vision. Wet AMD happens when abnormal blood vessels start to grow beneath the retina. They leak fluid and blood — hence the name wet AMD — and can create a large blind spot in the center of the visual field.",
+      "title5":"Risk Factors for Age-Related Macular Degeneration",
+      "text5a":"There are several risk factors that can contribute to developing age-related macular degeneration, including:",
+      "text5b":"Being 50 and older",
+      "text5c":"Eating a diet high in saturated fat",
+      "text5d":"Smoking",
+      "text5e":"High blood pressure or hypertension",
+      "title6":"Age-Related Macular Degeneration Symptoms",
+      "text6":"The following are the most common symptoms of age-related macular degeneration. However, each individual may experience symptoms differently. Symptoms may include:",
+      "text6a":"Blurry or fuzzy vision",
+      "text6b":"Difficulty recognizing familiar faces",
+      "text6c":"Straight lines appear wavy",
+      "text6d":"A dark, empty area or blind spot appears in the center of vision",
+      "text6e":"Loss of central vision, which is necessary for driving, reading, recognizing faces and performing close-up work",
+      "text6f":"The presence of drusen, which are tiny yellow deposits in the retina, is one of the most common early signs of age-related macular degeneration. It may mean the eye is at risk for developing more severe age-related macular degeneration. These will be visible to your doctor during an eye exam.",
+      "text6g":"The symptoms of age-related macular degeneration may look like other eye conditions. Speak with an eye care professional for diagnosis."
+    },
+    "CataractService":{
+      "serviceName": "Different Types of Cataracts",
+      "title1":"Cataract – Nuclear Sclerosis",
+      "text1":"A nuclear sclerotic cataract is when there is a hardening and yellowing in the centre (nucleus) of the natural lens which sits just behind the iris inside of the eye. A nuclear sclerotic cataract progresses slowly and may require many years of gradual development before it begins to affect vision. If left untreated, can cause blindness.",
+      "title2":"Cataract – Cortical Spokes",
+      "text2":"A cortical cataract is characterized by white, wedge-like opacities that start on the outer edges of the lens and work their way to the centre having the appearance of a wheel spoke or star like pattern. This type of cataract occurs in the lens cortex, which is the part of the lens that surrounds the central nucleus. People with diabetes are most likely to be effected by this type of cataract.",
+      "title3":"Cataract – Posterior Subcapsular",
+      "text3":"Posterior subcapsular cataracts begin as a small, cloudy or opaque area on the back, or posterior, of the lens. People with diabetes or those taking a high dosage of steroids are likely to develop a posterior subcapsular cataract. Extreme nearsightedness, and/or retinitis pigmentosa may develop this type of cataract. Subcapsular cataracts can develop rapidly and symptoms can become noticeable within months."
     }
 }
