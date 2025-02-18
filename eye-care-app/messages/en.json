@@ -75,5 +75,35 @@
       "buttonTitle1": "LEARN ABOUT GLAUCOMA",
       "buttonTitle2": "button title",
       "buttonTitle3": "button title"
+    },
+    "DiabetesService": {
+      "serviceName": "Diabetic Retinopathy",
+      "text1": "Diabetic retinopathy is a medical condition in which damage occurs to the retina due to diabetes. It is a leading cause of blindness in developed countries and one of the lead causes of sight loss in the world, even though there are many new therapies and improved treatments for helping people live with diabetes.",
+      "subtitle1":"Diabetes and Your Eyes: What You Need to Know",
+      "title2":"How can diabetes affect your eyes?",
+      "text2": "Diabetes occurs when your body does not properly process food as energy. When you have diabetes, your body either does not respond to or does not produce insulin, which is a hormone that delivers glucose (blood sugar) to the cells in your body. Having too much glucose in the bloodstream, outside the cells where it belongs, can lead to damage of the blood vessels and nerves that run throughout your body, including to the eyes.",
+      "title3":"Diabetic Eye Disease",
+      "text3": "Diabetic eye disease refers to the group of eye conditions that can result from diabetes. These include:",
+      "text3a": "Diabetic retinopathy. The leading cause of blindness in American adults, diabetic retinopathy occurs when changes in the retina’s blood vessels cause either leaking of the vessels or growth of abnormal new blood vessels on the retina’s surface.",
+      "text3b": "Macular edema. The macula — the center of the retina that provides sharp, straight vision — can swell due to leaky blood vessels caused by diabetes. This can result in blurred or distorted vision.",
+      "text3c": "Glaucoma. One form of glaucoma, neovascular glaucoma, is caused by diabetes. High sugar levels can damage the retina’s blood vessels and result in the creation of abnormal new ones. When new blood vessels grow on the eye’s iris (the colored part of the",
+      "text3d":"Cataracts. Cataracts can form earlier and progress faster in people with diabetes due to the increase of sugar in the blood. This creates a cloudy buildup in the eye’s lens, resulting in a cataract.",
+      "title4":"Swelling of the Eye Lens",
+      "text4":"Another potential effect from diabetes is swelling of the eye lens, leading to blurry vision. If your blood sugar levels change quickly from low to normal, the shape of your eye’s lens can be affected and your vision can be blurred. Your vision goes back to normal after your blood sugar stabilizes.",
+      "title5":"Diabetic eye disease prevention",
+      "text5a":"The best way to prevent diabetes-related eye problems is to manage your blood sugar levels, blood pressure and cholesterol levels. Ways you can help prevent eye problems caused by diabetes include:",
+      "text5b":"Control your blood sugar. Your doctor can provide direction on how to keep your blood sugar normal and avoid fluctuations that can lead to diabetic eye diseases. “In addition to getting your eyes checked, it’s also very important to keep the blood sugars under control,” says Cai. “This is not only good for you overall, but also good for your eyes.”",
+      "text5c":"Lower your blood pressure and cholesterol. Get recommendations from your doctor on ways you can combat high blood pressure and cholesterol, because these can worsen diabetic eye disease.",
+      "text5d":"Stop smoking. Smoking can cause further damage to your blood vessels, including the ones in your eyes, so it’s very important to stop smoking.",
+      "text5e":"Avoid harmful rays. Protect yourself from the sun’s harmful ultraviolet rays by wearing sunglasses. Exposure to these rays can speed up the progression of cataracts."
+    },
+    "LaserTreatmentService":{
+      "serviceName":"Laser treatments",
+      "text1":"Selective Laser Trabeculoplasty (SLT) is a laser procedure that reduces pressure inside the eye. It's used to treat glaucoma and ocular hypertension.",
+      "text2":"Laser iridotomy, also known as laser peripheral iridotomy (LPI), is a laser eye surgery that treats and prevents glaucoma. It involves making a small hole in the iris to improve drainage and lower pressure in the eye.",
+      "text3":"A YAG laser capsulotomy is a laser eye surgery that improves vision after cataract surgery. It's also known as a posterior capsulotomy. You might need sometime after cataract surgery. It helps you see clearly if your vision becomes cloudy again.",
+      "text4":"Argon laser is a procedure that uses a laser beam to treat eye conditions. The laser beam is focused on the back of the eye to treat conditions such as diabetic retinopathy, retinal tears, and glaucoma.",
+      "text5":"Three common conditions treated by Argon laser are diabetic retinopathy, retinal vein occlusion and retinal tears. The retina is a delicate tissue lining the inside of the eye and the macula is a small area at the centre of the retina.",
+      "text6":"The Ellex 2RT ophthalmic laser is a proprietary nanosecond laser technology used to treat early stages of age-related macular degeneration (AMD) by stimulating the eye's natural healing response, essentially aiming to \"rejuvenate\" the retina through a process called Retinal Rejuvenation Therapy (2RT) which targets specific cells within the retinal pigment epithelium (RPE) using a unique pixelated beam profile; it is designed to deliver precise energy without causing damage to surrounding tissue."
     }
 }

@@ -76,5 +76,36 @@
       "buttonTitle1": "LEARN ABOUT GLAUCOMA",
       "buttonTitle2": "button title",
       "buttonTitle3": "button title"
+    },
+    "DiabetesService": {
+      "title1": "Rétinopathie diabétique",
+      "text1": "La rétinopathie diabétique est une maladie dans laquelle la rétine est endommagée en raison du diabète. C'est l'une des principales causes de cécité dans les pays développés et l'une des principales causes de perte de la vue dans le monde, même s'il existe de nombreuses nouvelles thérapies et des traitements améliorés pour aider les personnes atteintes de diabète.",
+      "subtitle1":"Le diabète et vos yeux : ce que vous devez savoir",
+      "title2":"Comment le diabète peut-il affecter vos yeux ?",
+      "text2": "Le diabète survient lorsque votre corps ne transforme pas correctement les aliments en énergie. Lorsque vous souffrez de diabète, votre corps ne répond pas à l'insuline ou ne la produit pas, une hormone qui fournit du glucose (sucre sanguin) aux cellules de votre corps. Avoir trop de glucose dans la circulation sanguine, en dehors des cellules auxquelles il appartient, peut endommager les vaisseaux sanguins et les nerfs qui parcourent tout votre corps, y compris les yeux.",
+      "title3":"Maladie oculaire diabétique",
+      "text3": "La maladie oculaire diabétique fait référence au groupe de maladies oculaires qui peuvent résulter du diabète. Celles-ci comprennent :",
+      "text3a": "Rétinopathie diabétique. La rétinopathie diabétique, principale cause de cécité chez les adultes américains, survient lorsque des modifications des vaisseaux sanguins de la rétine provoquent soit une fuite des vaisseaux, soit la croissance de nouveaux vaisseaux sanguins anormaux à la surface de la rétine.",
+      "text3b": "OEdème maculaire. La macula, le centre de la rétine qui permet une vision nette et droite, peut gonfler en raison de vaisseaux sanguins qui fuient à cause du diabète. Cela peut entraîner une vision floue ou déformée.",
+      "text3c": "Glaucome. Une forme de glaucome, le glaucome néovasculaire, est causée par le diabète. Des taux de sucre élevés peuvent endommager les vaisseaux sanguins de la rétine et entraîner la création de nouveaux vaisseaux anormaux. Lorsque de nouveaux vaisseaux sanguins se développent sur l'iris de l'oeil (la partie colorée de l'oeil), cela peut provoquer une augmentation de la pression oculaire et un glaucome.",
+      "text3d":"Cataractes. Les cataractes peuvent se former plus tôt et progresser plus rapidement chez les personnes atteintes de diabète en raison de l'augmentation du sucre dans le sang. Cela crée une accumulation trouble dans le cristallin de l'oeil, entraînant une cataracte.",
+      "title4":"Gonflement du cristallin",
+      "text4":"Le diabète peut également provoquer un gonflement du cristallin, qui peut entraîner une vision floue. Si votre taux de sucre sanguin passe rapidement d’un niveau bas à un niveau normal, la forme du cristallin de votre oeil peut être affectée et votre vision peut être floue. Votre vision redevient normale une fois votre taux de sucre sanguin stabilisé.",
+      "title5":"Prévention des maladies oculaires liées au diabète",
+      "text5a":"La meilleure façon de prévenir les problèmes oculaires liés au diabète est de gérer votre taux de sucre sanguin, votre tension artérielle et votre taux de cholestérol. Voici quelques moyens de prévenir les problèmes oculaires causés par le diabète :",
+      "text5b":"Contrôlez votre taux de sucre sanguin. Votre médecin peut vous indiquer comment maintenir votre taux de sucre sanguin à un niveau normal et éviter les fluctuations qui peuvent entraîner des maladies oculaires liées au diabète. « En plus de faire examiner vos yeux, il est également très important de garder votre taux de sucre sanguin sous contrôle », explique Cai. « Cela est  non seulement bon pour vous en général, mais aussi pour vos yeux. »",
+      "text5c":"Réduisez votre tension artérielle et votre taux de cholestérol. Demandez à votre médecin des recommandations sur les moyens de lutter contre l’hypertension artérielle et le cholestérol, car ces éléments peuvent aggraver les maladies oculaires liées au diabète.",
+      "text5d":"Arrêtez de fumer. Le tabagisme peut endommager davantage vos vaisseaux sanguins, y compris ceux de vos yeux. Il est donc très important d’arrêter de fumer.",
+      "text5e":"Évitez les rayons nocifs. Protégez-vous des rayons ultraviolets nocifs du soleil en portant des lunettes de soleil. L’exposition à ces rayons peut accélérer la progression de la cataracte."
+    },
+    
+    "LaserTreatmentService":{
+      "serviceName":"Traitements au laser",
+      "text1":"La trabéculoplastie sélective au laser (SLT) est une procédure au laser qui réduit la pression à l'intérieur de l'oeil. Elle est utilisée pour traiter le glaucome et l'hypertension oculaire.",
+      "text2":"L'iridotomie au laser, également connue sous le nom d'iridotomie périphérique au laser (LPI), est une chirurgie oculaire au laser qui traite et prévient le glaucome. Elle consiste à faire un petit trou dans l'iris pour améliorer le drainage et réduire la pression dans l'oeil.",
+      "text3":"Une capsulotomie au laser YAG est une chirurgie oculaire au laser qui améliore la vision après une opération de la cataracte. Elle est également connue sous le nom de capsulotomie postérieure. Vous pourriez en avoir besoin quelque temps après une opération de la cataracte. Elle vous aide à voir clairement si votre vision redevient trouble.",
+      "text4":"Le laser à l'argon est une procédure qui utilise un faisceau laser pour traiter les affections oculaires. Le faisceau laser est focalisé sur l'arrière de l'oeil pour traiter des affections telles que la rétinopathie diabétique, les déchirures rétiniennes et le glaucome.",
+      "text5":"Trois pathologies courantes traitées par le laser Argon sont la rétinopathie diabétique, l'occlusion veineuse rétinienne et les déchirures rétiniennes. La rétine est un tissu délicat qui tapisse l'intérieur de l'oeil et la macula est une petite zone au centre de la rétine.",
+      "text6":"Le laser ophtalmique Ellex 2RT est une technologie laser nanoseconde exclusive utilisée pour traiter les premiers stades de la dégénérescence maculaire liée à l'âge (DMLA) en stimulant la réponse de guérison naturelle de l'oeil, visant essentiellement à « rajeunir » la rétine grâce à un processus appelé thérapie de rajeunissement de la rétine (2RT) qui cible des cellules spécifiques de l'épithélium pigmentaire rétinien (RPE) à l'aide d'un profil de faisceau pixellisé unique ; il est conçu pour délivrer une énergie précise sans endommager les tissus environnants."
     }
 }
