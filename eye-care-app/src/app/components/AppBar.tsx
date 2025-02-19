@@ -20,6 +20,7 @@ import "../globals.css";
 import { usePathname, useParams } from "next/navigation";
 import LanguageToggle from "./LanguageToggle";
 import { useTranslations } from 'next-intl';
+import Image from "next/image";
 
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -27,7 +28,7 @@ const AppBar = () => {
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = React.useState(false);
   const params = useParams();
   const pathname = usePathname();
-  const currentLocale = params.locale || "en"; 
+  const currentLocale = params.locale || "en";
   const t = useTranslations('NavBar');
 
   React.useEffect(() => {
@@ -57,22 +58,35 @@ const AppBar = () => {
       maxWidth="xl"
       height="90px"
     >
-      <NavbarContent className="md:hidden">
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+      <NavbarContent className="lg:hidden">
+        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
       </NavbarContent>
 
-      <NavbarContent className="md:hidden pr-3" justify="end">
-        <NavbarBrand className="justify-end">
-          <Link color="foreground" href={`/${currentLocale}`}>
-            <p className="font-bold text-inherit">LOGO</p>
-          </Link>
-        </NavbarBrand>
+      <NavbarContent className="lg:hidden pr-3" justify="end">
+        <div className="flex items-center gap-4">
+          <NavbarBrand>
+            <Link color="foreground" href={`/${currentLocale}`}>
+            <Image
+                        src="/images/ECC_LOGO.png"
+                        alt="Company Logo"
+                        width={150}
+                        height={50}
+                    />
+            </Link>
+          </NavbarBrand>
+          <LanguageToggle />
+        </div>
       </NavbarContent>
-      <NavbarContent className="hidden md:flex gap-6" justify="end">
+      <NavbarContent className="hidden lg:flex gap-6" justify="end">
+
         <NavbarBrand>
           <Link color="foreground" href={`/${currentLocale}`}>
-            <p className="font-bold text-inherit">LOGO</p>
+          <Image
+                        src="/images/ECC_LOGO.png"
+                        alt="Company Logo"
+                        width={150}
+                        height={50}
+                    />
           </Link>
         </NavbarBrand>
 
