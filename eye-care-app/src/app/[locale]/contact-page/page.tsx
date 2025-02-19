@@ -1,9 +1,13 @@
+import { useTranslations } from "next-intl";
+
 export default function ContactPage() {
+    const t = useTranslations("Contact");
+    const days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
     return (
         <div className="flex justify-center mt-[50px]">
             <div className="flex flex-col md:flex-row w-full max-w-[1200px]">
                 <div className="w-full md:w-[600px] bg-white p-5 flex-1 h-auto md:h-full">
-                    <h2 className="text-[25px]">Contact Us</h2>
+                    <h2 className="text-[25px]">{t("title")}</h2>
                     <section className="select-none my-[-5px] mt-[-5px] mb-[10px]">______</section>
 
                     <div className="mb-[10px]">
@@ -15,9 +19,9 @@ export default function ContactPage() {
                             <p className="mb-[10px]">Tel: (506) 830-1773</p>
                         </div>
                         <div className="flex flex-col mb-[10px]">
-                            {["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map(day => (
+                            {days.map(day => (
                                 <div key={day} className="flex justify-between py-[2px]">
-                                    <span className="flex-1 text-left"><strong>{day}:</strong></span>
+                                    <span className="flex-1 text-left"><strong>{t(day)}:</strong></span>
                                     <span className="flex-1 text-left">8 am – 5 pm</span>
                                 </div>
                             ))}
