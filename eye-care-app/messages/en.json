@@ -8,6 +8,7 @@
       "services": "SERVICES",
       "aboutus": "ABOUT US",
       "ourteam": "OUR TEAM",
+      "ourteamLC": "Our Team",
       "resources": "RESOURCES",
       "feedback": "FEEDBACK",
       "contactus": "CONTACT US",
@@ -196,5 +197,10 @@
       "subtitle2": "OUR DOCTORS",
       "subtitle3": "OUR MANAGEMENT",
       "subtitle4": "INJECTION CO-ORDINATOR"
+    },
+
+    "Footer": {
+      "contactus": "Contact Us",
+      "quicklinks": "Quick Links"
     }
 }

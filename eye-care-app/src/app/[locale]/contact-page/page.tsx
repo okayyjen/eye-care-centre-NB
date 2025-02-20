@@ -4,19 +4,21 @@ export default function ContactPage() {
     const t = useTranslations("Contact");
     const days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
     return (
-        <div className="flex justify-center mt-[50px]">
+        <div className="flex justify-center mt-[50px] mb-[50px]">
             <div className="flex flex-col md:flex-row w-full max-w-[1200px]">
                 <div className="w-full md:w-[600px] bg-white p-5 flex-1 h-auto md:h-full">
                     <h2 className="text-[25px]">{t("title")}</h2>
                     <section className="select-none my-[-5px] mt-[-5px] mb-[10px]">______</section>
 
                     <div className="mb-[10px]">
-                        <h1 className="mb-[10px]"><strong>NB Eye Care Centre</strong></h1>
+                        <h1 className="mb-[10px]"><strong>Eye Care Centre NB</strong></h1>
 
                         <div className="mb-[10px]">
-                            <p className="mb-[10px]">5085 Principale-Est Ave</p>
-                            <p className="mb-[10px]">Dieppe, NB</p>
-                            <p className="mb-[10px]">Tel: (506) 830-1773</p>
+                            <p className="mb-[10px]">5085 Principale-Est Ave, Suite 1</p>
+                            <p className="mb-[10px]">Dieppe, NB E1A 9T8</p>
+                            <p className="mb-[10px]">Email: <a href="mailto:example@example.com">example@example.com</a> </p>
+                            <p className="mb-[10px]">Tel: 506-830-1773</p>
+                            <p className="mb-[10px]">Fax: 506-388-6074</p>
                         </div>
                         <div className="flex flex-col mb-[10px]">
                             {days.map(day => (
@@ -25,9 +27,6 @@ export default function ContactPage() {
                                     <span className="flex-1 text-left">8 am – 5 pm</span>
                                 </div>
                             ))}
-                        </div>
-                        <div className="mb-[10px]">
-                            <a href="mailto:example@example.com">example@example.com</a>
                         </div>
                     </div>
                 </div>

@@ -173,19 +173,19 @@ const AppBar = () => {
             onMouseEnter={handleOurTeamMouseEnter}
             onMouseLeave={handleOurTeamMouseLeave}
           >
-            <DropdownItem key="cataract" href={`/${currentLocale}/our-team`}>
-              Our Team
+            <DropdownItem key="teampage" href={`/${currentLocale}/our-team`}>
+              {t("ourteamLC")}
             </DropdownItem>
-            <DropdownItem key="cataract" href={`/${currentLocale}/doctor-ponce`}>
+            <DropdownItem key="doctorPonce" href={`/${currentLocale}/doctor-ponce`}>
               Dr. José Ramón Ponce-Martínez
             </DropdownItem>
-            <DropdownItem key="diabetes" href={`/${currentLocale}/doctor-saad`}>
+            <DropdownItem key="doctorSaad" href={`/${currentLocale}/doctor-saad`}>
               Dr. Julien Saad
             </DropdownItem>
-            <DropdownItem key="glaucoma" href={`/${currentLocale}/doctor-savoie`}>
+            <DropdownItem key="doctorSavoie" href={`/${currentLocale}/doctor-savoie`}>
               Dr. Isabelle Aucoin-Savoie
             </DropdownItem>
-            <DropdownItem key="laser" href={`/${currentLocale}/doctor-sekhavat`}>
+            <DropdownItem key="doctorSekhavat" href={`/${currentLocale}/doctor-sekhavat`}>
               Dr. Houfar Sekhavat
             </DropdownItem>
           </DropdownMenu>
@@ -195,6 +195,11 @@ const AppBar = () => {
             {t("resources")}
           </Link>
         </NavbarItem>
+        <NavbarMenuItem>
+          <Link className="text-sm" color="foreground" href="https://forms.gle/YNPChVSxmcjv5GPv7">
+            {t("feedback")}
+          </Link>
+        </NavbarMenuItem>
         <NavbarItem>
           <Link className="text-sm" color="foreground" href={`/${currentLocale}/contact-page`}>
             {t("contactus")}
@@ -256,7 +261,7 @@ const AppBar = () => {
           {isMobileOurTeamDropdownOpen && (
             <div className="pl-4 pt-2">
               <Link color="foreground" href={`/${currentLocale}/our-team`}>
-                Our Team
+                {t("ourteamLC")}
               </Link>
               <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-ponce`}>
                 Dr. José Ramón Ponce-Martínez
@@ -276,6 +281,11 @@ const AppBar = () => {
         <NavbarMenuItem>
           <Link color="foreground" className="w-full" href={`/${currentLocale}/resources`}>
             {t("resources")}
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link color="foreground" className="w-full" href="https://forms.gle/YNPChVSxmcjv5GPv7">
+            {t("feedback")}
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
