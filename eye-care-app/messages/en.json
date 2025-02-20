@@ -10,8 +10,13 @@
       "ourteam": "OUR TEAM",
       "resources": "RESOURCES",
       "feedback": "FEEDBACK",
-      "contactus": "CONTACT US"
-
+      "contactus": "CONTACT US",
+      "cataractSurgery": "CATARACT SURGERY",
+      "diabetes": "DIABETES",
+      "glaucomaManagement": "GLAUCOMA MANAGEMENT",
+      "laserTreatments": "LASER TREATMENTS",
+      "typesOfCataracts": "TYPES OF CATARACTS",
+      "macularDegeneration": "MACULAR DEGENERATION"
     },
     "AboutUs": {
       "subTitle1": "About Us",

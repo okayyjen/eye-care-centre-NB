@@ -11,8 +11,13 @@
       "ourteam": "NOTRE ÉQUIPE",
       "resources": "RESSOURCES",
       "feedback": "COMMENTAIRES",
-      "contactus": "CONTACTEZ-NOUS"
-
+      "contactus": "CONTACTEZ-NOUS",
+      "cataractSurgery": "CHIRURGIE DE LA CATARACTE",
+      "diabetes": "DIABÈTE",
+      "glaucomaManagement": "GESTION DU GLAUCOME",
+      "laserTreatments": "TRAITEMENTS AU LASER",
+      "typesOfCataracts": "TYPES DE CATARACTES",
+      "macularDegeneration": "DÉGÉNÉRESCENCE MACULAIRE"
     },
     "AboutUs": {
       "subTitle1": "À propos de nous",
