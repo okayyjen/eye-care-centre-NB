@@ -52,7 +52,8 @@
       "thursday":"Thursday",
       "friday":"Friday",
       "saturday":"Saturday",
-      "sunday":"Sunday"
+      "sunday":"Sunday",
+      "closed": "Closed"
     },
     "GlaucomaManagementService":{
       "serviceName":"Glaucoma Management",

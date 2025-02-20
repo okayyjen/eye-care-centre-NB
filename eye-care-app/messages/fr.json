@@ -53,7 +53,8 @@
       "thursday":"Jeudi",
       "friday":"Vendredi",
       "saturday":"Samedi",
-      "sunday":"Dimanche"
+      "sunday":"Dimanche",
+      "closed": "Fermée"
     },
     "GlaucomaManagementService":{
       "serviceName":"Gestion du glaucome",

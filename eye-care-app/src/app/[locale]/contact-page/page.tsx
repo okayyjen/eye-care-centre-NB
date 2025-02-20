@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 
 export default function ContactPage() {
     const t = useTranslations("Contact");
-    const days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+    const days = ["monday", "tuesday", "wednesday", "thursday", "friday"];
     return (
         <div className="flex justify-center mt-[50px] mb-[50px]">
             <div className="flex flex-col md:flex-row w-full max-w-[1200px]">
@@ -27,6 +27,15 @@ export default function ContactPage() {
                                     <span className="flex-1 text-left">8 am – 5 pm</span>
                                 </div>
                             ))}
+                            <div key="saturday" className="flex justify-between py-[2px]">
+                                <span className="flex-1 text-left"><strong>{t("saturday")}:</strong></span>
+                                <span className="flex-1 text-left">8 am – 1 pm</span>
+                            </div>
+
+                            <div key="sunday" className="flex justify-between py-[2px]">
+                                <span className="flex-1 text-left"><strong>{t("sunday")}:</strong></span>
+                                <span className="flex-1 text-left">{t('closed')}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
