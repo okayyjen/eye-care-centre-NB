@@ -150,5 +150,50 @@
       "text2":"Une cataracte corticale est caractérisée par des opacités blanches en forme de coin qui commencent sur les bords extérieurs du cristallin et se dirigent vers le centre, ayant l’apparence d’un rayon de roue ou d’un motif en étoile. Ce type de cataracte se produit dans le cortex du cristallin, qui est la partie du cristallin qui entoure le noyau central. Les personnes diabétiques sont les plus susceptibles d’être touchées par ce type de cataracte.",
       "title3":"Cataracte – Sous-capsulaire postérieure",
       "text3":"Les cataractes sous-capsulaires postérieures commencent par une petite zone trouble ou opaque à l'arrière ou postérieure du cristallin. Les personnes atteintes de diabète ou celles qui prennent une dose élevée de stéroïdes sont susceptibles de développer une cataracte souscapsulaire postérieure. Une myopie extrême et/ou une rétinite pigmentaire peuvent développer ce type de cataracte. Les cataractes sous-capsulaires peuvent se développer rapidement et les symptômes peuvent devenir perceptibles en quelques mois."
+    },
+
+    "Sekhavat": {
+      "name": "Dr. Houfar Sekhavat, MD FRCSC",
+      "title": "Ophtalmologiste",
+      "bio": "Le Dr Houfar Sekhavat, MD FRCSC, est ophtalmologiste et exerce depuis 2005. Il fait partie intégrante du Centre de soins oculaires du Nouveau-Brunswick et a effectué plus de 15 000 chirurgies intraoculaires depuis qu'il s'est joint à l'équipe. Il a étudié la médecine à l'Université de Sherbrooke et a complété sa spécialité à l'Université Laval, dans la province de Québec. De plus, il s'intéresse à la médecine internationale, ayant exercé dans différents pays. Il est membre en règle de diverses sociétés médicales internationales et participe activement à leurs réunions. Il parle couramment quatre langues et s'intéresse à l'industrie cosmétique. Le Dr Sekhavat possède une expérience considérable dans divers domaines de recherche. Il est le fondateur et président exécutif de Triple Hair, le fondateur et PDG de Pulmonem et le fondateur et CO-PDG d'"
+    },
+
+    "Savoie": {
+      "name": "Dr. Isabelle Aucoin-Savoie",
+      "title": "Ophtalmologiste Chirurgien et Médical",
+      "bio1": "Dre Savoie a obtenu son diplôme en médecine de l’Université de Sherbrooke en 2006 et a complété sa résidence en ophtalmologie à l’Université Laval en 2011. Elle est membre du Collège royal des chirurgiens du Canada depuis cette date. Elle était ravie de revenir dans sa province natale du Nouveau-Brunswick pour établir sa pratique et apporter une contribution significative à la communauté du Grand Moncton, qu’elle chérit tant.",
+      "bio2": "Passionnée par la restauration de la vue, Dre Savoie trouve une grande satisfaction dans la chirurgie de la cataracte. Elle apprécie également tous les aspects de l’ophtalmologie générale, y compris la prise en charge du glaucome, des maladies oculaires liées au diabète, de la dégénérescence maculaire et d’autres affections oculaires."
+    },
+    
+    "Saad": {
+      "name": "Dr. Julien Saad, MD FRCSC ",
+      "title": "Ophtalmologiste Chirurgien et Médical",
+      "bio": "bio ici"
+    },
+
+    "Ponce": {
+      "name": "Dr. José Ramón Ponce-Martínez, MD",
+      "title": "Ophtalmologiste | Chirurgie du Segment Antérieur & Apécialiste du Glaucome",
+      "bio1": "Dr. José Ramón Ponce-Martínez is a distinguished ophthalmologist specializing in anterior segment surgery and glaucoma. A graduate of the prestigious National Autonomous University of Mexico, Dr. Ponce-Martínez completed advanced training at the General Hospital of Mexico and the National Rehabilitation Institute. With over a decade of experience, he served as a Professor of Anterior Segment Surgery at the General Hospital of Mexico from 2011 to 2022, where he trained and mentored the next generation of ophthalmologists.",
+      "bio2": "Dr. Ponce-Martínez has made significant contributions to glaucoma research, most recently as the Coordinator of Glaucoma Research at the Apex Eye Institute in Corner Brook, Newfoundland. He is an active member of several prestigious professional organizations, including the Mexican Society of Ophthalmology, the Mexican Center of Cataract Surgeons, the American Society of Cataract and Refractive Surgeons, and the College of Physicians and Surgeons of New Brunswick.",
+      "bio3": "Committed to improving global eye care, Dr. Ponce-Martínez has been a dedicated participant in cataract surgery programs for humanitarian purposes in Mexico and Trinidad & Tobago since 2015, holding an honorary medical license in Trinidad & Tobago.",
+      "bio4": "Combining clinical expertise, academic leadership, and a passion for humanitarian work, Dr. José Ramón Ponce-Martínez continues to advance the field of ophthalmology through innovation, education, and compassionate care."
+    },
+
+    "LaPierre": {
+      "name": "Tatjana LaPierre",
+      "title": "Carrière de plus de 30 ans dans le domaine de la santé. Membre de l'équipe des soins oculaires depuis 2014."
+    },
+
+    "White": {
+      "name": "Twila White"
+    },
+
+    "OurTeam": {
+      "bannerTitle": "Rencontrez Notre Équipe",
+      "subtitle1": "UN RÉSEAU DE MÉDECINS EXPÉRIMENTÉS",
+      "subtitle2": "NOS MÉDECINS",
+      "subtitle3": "NOTRE ÉQUIPE DE GESTION",
+      "subtitle4": "COORDONNATEUR D'INJECTION"
     }
 }
