@@ -1,4 +1,4 @@
-export default function ServicePageLayout({
+export default function LaserTreatmentPageLayout({
     children,
   }: {
     children: React.ReactNode
