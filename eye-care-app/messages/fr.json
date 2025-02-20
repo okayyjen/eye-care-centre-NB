@@ -12,12 +12,12 @@
       "resources": "RESSOURCES",
       "feedback": "COMMENTAIRES",
       "contactus": "CONTACTEZ-NOUS",
-      "cataractSurgery": "CHIRURGIE DE LA CATARACTE",
-      "diabetes": "DIABÈTE",
-      "glaucomaManagement": "GESTION DU GLAUCOME",
-      "laserTreatments": "TRAITEMENTS AU LASER",
-      "typesOfCataracts": "TYPES DE CATARACTES",
-      "macularDegeneration": "DÉGÉNÉRESCENCE MACULAIRE"
+      "cataractSurgery": "Chirurgie de la Cataracte",
+      "diabetes": "Diabète",
+      "glaucomaManagement": "Gestion du Glaucome",
+      "laserTreatments": "Traitements au Laser",
+      "typesOfCataracts": "Types de Cataractes",
+      "macularDegeneration": "Dégénérescence Maculaire"
     },
     "AboutUs": {
       "subTitle1": "À propos de nous",

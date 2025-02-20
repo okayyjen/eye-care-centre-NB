@@ -24,7 +24,10 @@ import Image from "next/image";
 const AppBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
-  const [isMobileDropdownOpen, setIsMobileDropdownOpen] = React.useState(false);
+  const [isOurTeamDropdownOpen, setIsOurTeamDropdownOpen] = React.useState(false);
+  
+  const [isMobileServiceDropdownOpen, setIsMobileServiceDropdownOpen] = React.useState(true);
+  const [isMobileOurTeamDropdownOpen, setIsMobileOurTeamDropdownOpen] = React.useState(true);
   const params = useParams();
   const pathname = usePathname();
   const currentLocale = params.locale || "en";
@@ -43,6 +46,18 @@ const AppBar = () => {
   const handleMouseLeave = () => {
     if (window.innerWidth >= 768) {
       setIsDropdownOpen(false);
+    }
+  };
+
+  const handleOurTeamMouseEnter = () => {
+    if (window.innerWidth >= 768) {
+      setIsOurTeamDropdownOpen(true);
+    }
+  };
+
+  const handleOurTeamMouseLeave = () => {
+    if (window.innerWidth >= 768) {
+      setIsOurTeamDropdownOpen(false);
     }
   };
 
@@ -138,11 +153,43 @@ const AppBar = () => {
             {t("aboutus")}
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link className="text-sm" color="foreground" href={`/${currentLocale}/our-team`}>
-            {t("ourteam")}
-          </Link>
-        </NavbarItem>
+        <Dropdown isOpen={isOurTeamDropdownOpen} onOpenChange={setIsOurTeamDropdownOpen}>
+          <NavbarItem onMouseEnter={handleOurTeamMouseEnter} onMouseLeave={handleOurTeamMouseLeave}>
+            <DropdownTrigger>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent text-sm font-medium text-foreground"
+                endContent={icons.chevron}
+                radius="sm"
+                variant="light"
+              >
+                {t("ourteam")}
+              </Button>
+            </DropdownTrigger>
+          </NavbarItem>
+          <DropdownMenu
+            aria-label="Services Menu"
+            className="min-w-[190px]"
+            onMouseEnter={handleOurTeamMouseEnter}
+            onMouseLeave={handleOurTeamMouseLeave}
+          >
+            <DropdownItem key="cataract" href={`/${currentLocale}/our-team`}>
+              Our Team
+            </DropdownItem>
+            <DropdownItem key="cataract" href={`/${currentLocale}/doctor-ponce`}>
+              Dr. José Ramón Ponce-Martínez
+            </DropdownItem>
+            <DropdownItem key="diabetes" href={`/${currentLocale}/doctor-saad`}>
+              Dr. Julien Saad
+            </DropdownItem>
+            <DropdownItem key="glaucoma" href={`/${currentLocale}/doctor-savoie`}>
+              Dr. Isabelle Aucoin-Savoie
+            </DropdownItem>
+            <DropdownItem key="laser" href={`/${currentLocale}/doctor-sekhavat`}>
+              Dr. Houfar Sekhavat
+            </DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
         <NavbarItem>
           <Link className="text-sm" color="foreground" href={`/${currentLocale}/resources`}>
             {t("resources")}
@@ -169,11 +216,11 @@ const AppBar = () => {
           <Link
             as="button"
             className="w-full text-left text-foreground text-medium py-2 flex justify-between"
-            onClick={() => setIsMobileDropdownOpen((prev) => !prev)}
+            onClick={() => setIsMobileServiceDropdownOpen((prev) => !prev)}
           >
             {t("services")} {icons.chevron}
           </Link>
-          {isMobileDropdownOpen && (
+          {isMobileServiceDropdownOpen && (
             <div className="pl-4 pt-2">
               <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/cataract-surgery`}>
                 {t("cataractSurgery")}
@@ -199,9 +246,29 @@ const AppBar = () => {
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" className="w-full" key="diabetes" href={`/${currentLocale}/our-team`}>
-            {t("ourteam")}
+          <Link
+            as="button"
+            className="w-full text-left text-foreground text-medium py-2 flex justify-between"
+            onClick={() => setIsMobileOurTeamDropdownOpen((prev) => !prev)}
+          >
+            {t("ourteam")} {icons.chevron}
           </Link>
+          {isMobileOurTeamDropdownOpen && (
+            <div className="pl-4 pt-2">
+              <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-ponce`}>
+                Dr. José Ramón Ponce-Martínez
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-saad`}>
+                Dr. Julien Saad
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-savoie`}>
+                Dr. Isabelle Aucoin-Savoie
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-sekhavat`}>
+                Dr. Houfar Sekhavat
+              </Link>
+            </div>
+          )}
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link color="foreground" className="w-full" href={`/${currentLocale}/resources`}>

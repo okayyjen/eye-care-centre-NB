@@ -11,13 +11,13 @@
       "resources": "RESOURCES",
       "feedback": "FEEDBACK",
       "contactus": "CONTACT US",
-      "cataractSurgery": "CATARACT SURGERY",
-      "diabetes": "DIABETES",
-      "glaucomaManagement": "GLAUCOMA MANAGEMENT",
-      "laserTreatments": "LASER TREATMENTS",
-      "typesOfCataracts": "TYPES OF CATARACTS",
-      "macularDegeneration": "MACULAR DEGENERATION"
-    },
+      "cataractSurgery": "Cataract surgery",
+      "diabetes": "Diabetes",
+      "glaucomaManagement": "Glaucoma Management",
+      "laserTreatments": "Laser Treatments",
+      "typesOfCataracts": "Types of Tataracts",
+      "macularDegeneration": "Macular Degeneration"
+      },
     "AboutUs": {
       "subTitle1": "About Us",
       "title1":  "EYE CARE CENTRE NEW BRUNSWICK",
