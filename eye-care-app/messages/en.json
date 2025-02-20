@@ -12,5 +12,49 @@
       "feedback": "FEEDBACK",
       "contactus": "CONTACT US"
 
+    },
+   "Sekhavat": {
+      "name": "Dr. Houfar Sekhavat, MD FRCSC",
+      "title": "Ophthalmologist",
+      "bio": "Dr. Houfar Sekhavat, MD FRCSC, is an Ophthalmologist and has been practicing since 2005. He is an integral part of the Eye Care Center NB and has conducted over 15000 intraocular surgeries since joining the team. He studied medicine at Sherbrooke University and completed his specialty at Laval University in the province of Quebec. Furthermore, he is interested in international medicine, having practiced in various countries. He is a member in good standing of various international medical societies and actively participates in their meetings. He is fluent in four languages and is interested in the cosmetic industry. Dr. Sekhavat has considerable experience in various fields of research. He is the Founder and Executive Chairman of Triple Hair, the Founder and CEO of Pulmonem and the Founder and CO-CEO of "
+    },
+
+    "Savoie": {
+      "name": "Dr. Isabelle Aucoin-Savoie",
+      "title": "Surgeon and Medical Ophthalmologist",
+      "bio1": "Dr. Savoie, originally from Moncton, earned her medical degree from the University of Sherbrooke in 2006. She completed her ophthalmology residency at Université Laval in 2011 and has been a Fellow of the Royal College of Surgeons of Canada ever since. She was delighted to return to her New Brunswick roots to establish her practice and make meaningful contributions to the Greater Moncton community she cherishes.",
+      "bio2": "Dr. Savoie finds great fulfillment in restoring sight through cataract surgery. She also enjoys the full scope of comprehensive ophthalmology, including the management of glaucoma, diabetic eye disease, macular degeneration, and other ocular conditions."
+    },
+
+    "Saad": {
+      "name": "Dr. Julien Saad, MD FRCSC",
+      "title": "Surgeon and Medical Ophthalmologist",
+      "bio": "bio here"
+    },
+
+    "Ponce": {
+      "name": "Dr. José Ramón Ponce-Martínez, MD",
+      "title": "Ophthalmologist | Anterior Segment Surgery & Glaucoma Specialist",
+      "bio1": "Dr. José Ramón Ponce-Martínez is a distinguished ophthalmologist specializing in anterior segment surgery and glaucoma. A graduate of the prestigious National Autonomous University of Mexico, Dr. Ponce-Martínez completed advanced training at the General Hospital of Mexico and the National Rehabilitation Institute. With over a decade of experience, he served as a Professor of Anterior Segment Surgery at the General Hospital of Mexico from 2011 to 2022, where he trained and mentored the next generation of ophthalmologists.",
+      "bio2": "Dr. Ponce-Martínez has made significant contributions to glaucoma research, most recently as the Coordinator of Glaucoma Research at the Apex Eye Institute in Corner Brook, Newfoundland. He is an active member of several prestigious professional organizations, including the Mexican Society of Ophthalmology, the Mexican Center of Cataract Surgeons, the American Society of Cataract and Refractive Surgeons, and the College of Physicians and Surgeons of New Brunswick.",
+      "bio3": "Committed to improving global eye care, Dr. Ponce-Martínez has been a dedicated participant in cataract surgery programs for humanitarian purposes in Mexico and Trinidad & Tobago since 2015, holding an honorary medical license in Trinidad & Tobago.",
+      "bio4": "Combining clinical expertise, academic leadership, and a passion for humanitarian work, Dr. José Ramón Ponce-Martínez continues to advance the field of ophthalmology through innovation, education, and compassionate care."
+    },
+
+    "LaPierre": {
+      "name": "Tatjana LaPierre",
+      "title": "Career spanning 30+ years in health care. A part of the Eye Care Team since 2014."
+    },
+
+    "White": {
+      "name": "Twila White"
+    },
+
+    "AboutUs": {
+      "bannerTitle": "Meet Our Team",
+      "subtitle1": "A NETWORK OF EXPERIENCED DOCTORS",
+      "subtitle2": "OUR DOCTORS",
+      "subtitle3": "OUR MANAGEMENT",
+      "subtitle4": "INJECTION CO-ORDINATOR"
     }
 }
