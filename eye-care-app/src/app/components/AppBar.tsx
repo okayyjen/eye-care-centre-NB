@@ -113,7 +113,7 @@ const AppBar = () => {
             <DropdownTrigger>
               <Button
                 disableRipple
-                className="p-0 bg-transparent data-[hover=true]:bg-transparent text-sm font-medium text-foreground"
+                className="p-0 bg-transparent h-auto data-[hover=true]:bg-transparent text-sm font-medium text-foreground"
                 endContent={icons.chevron}
                 radius="sm"
                 variant="light"
@@ -158,7 +158,7 @@ const AppBar = () => {
             <DropdownTrigger>
               <Button
                 disableRipple
-                className="p-0 bg-transparent data-[hover=true]:bg-transparent text-sm font-medium text-foreground"
+                className="p-0 bg-transparent h-auto data-[hover=true]:bg-transparent text-sm text-foreground"
                 endContent={icons.chevron}
                 radius="sm"
                 variant="light"
@@ -255,6 +255,9 @@ const AppBar = () => {
           </Link>
           {isMobileOurTeamDropdownOpen && (
             <div className="pl-4 pt-2">
+              <Link color="foreground" href={`/${currentLocale}/our-team`}>
+                Our Team
+              </Link>
               <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-ponce`}>
                 Dr. José Ramón Ponce-Martínez
               </Link>
