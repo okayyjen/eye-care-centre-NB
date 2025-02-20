@@ -7,7 +7,7 @@ export default function TeamPage() {
     const saad = useTranslations('Saad');
     const savoie = useTranslations('Savoie');
     const sekhavat = useTranslations('Sekhavat');
-    const t = useTranslations('AboutUs');
+    const t = useTranslations('OurTeam');
     const lapierre = useTranslations('LaPierre');
     const white = useTranslations('White');
 
