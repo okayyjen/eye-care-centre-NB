@@ -10,9 +10,14 @@
       "ourteam": "OUR TEAM",
       "resources": "RESOURCES",
       "feedback": "FEEDBACK",
-      "contactus": "CONTACT US"
-
-    },
+      "contactus": "CONTACT US",
+      "cataractSurgery": "Cataract surgery",
+      "diabetes": "Diabetes",
+      "glaucomaManagement": "Glaucoma Management",
+      "laserTreatments": "Laser Treatments",
+      "typesOfCataracts": "Types of Tataracts",
+      "macularDegeneration": "Macular Degeneration"
+      },
     "AboutUs": {
       "subTitle1": "About Us",
       "title1":  "EYE CARE CENTRE NEW BRUNSWICK",
