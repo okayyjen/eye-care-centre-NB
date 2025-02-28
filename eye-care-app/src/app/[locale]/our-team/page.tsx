@@ -56,12 +56,13 @@ export default function TeamPage() {
     ]
     return (
         <div>
-            <div className='div-with-bg'>
-                <div className='ml-[50px] mb-[50px]'>
+            <div className="div-with-bg mb-24">
+                <div className="div-text-content ml-[50px] mb-[50px]">
                     <h1 className="text-5xl md:text-6xl font-bold text-white">{t('bannerTitle')}</h1>
                     <p className="text-lg md:text-xl text-white mt-[10px]">{t('bannerSubTitle')}</p>
                 </div>
             </div>
+
 
             <div className="text-center my-8">
                 <p className="text-sm md:text-base text-gray-600">{t('subtitle1')}</p>
