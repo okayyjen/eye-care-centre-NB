@@ -5,9 +5,10 @@ export default function CataractPage() {
     return (
         
         <div>
-            <div className='div-with-bg mb-24'>
-                <div>
-                    <h1 className="text-5xl text-center font-bold text-[#fffcfcef] pt-4">{t('serviceName')}</h1>
+            <div className="div-with-bg mb-24">
+                <div className="div-text-content ml-[50px] mb-[50px]">
+                    <h1 className="text-5xl md:text-6xl font-bold text-white">{t('serviceName')}</h1>
+                    <p className="text-lg md:text-xl text-white mt-[10px]">{t('bannerSubTitle')}</p>
                 </div>
             </div>
 
