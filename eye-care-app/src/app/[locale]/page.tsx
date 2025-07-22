@@ -1,11 +1,9 @@
 import "../homepage.css";
 import { useTranslations } from 'next-intl';
 import ImageBlock from "../components/ImageBlock";
-import ContentBlockC from "../components/ContentBlockC";
 import ContentBlockD from "../components/ContentBlockD";
 import Card from "../components/Card";
-import StatCard from "../components/StatCard";
-import { contentBlockAData, statCardsData } from "../data/general";
+import { contentBlockAData } from "../data/general";
 import Image from "next/image";
 
 export default function Home() {
@@ -32,18 +30,6 @@ export default function Home() {
           <Card key={index} title={card.title} text={card.text} link={card.link} />
         ))}
       </div>
-
-      <div className="flex justify-center items-center flex-wrap p-5">
-        {statCardsData.map((card, index) => (
-          <StatCard
-            key={index}
-            text={card.text}
-            className={card.className}
-          />
-        ))}
-      </div>
-
-      <ContentBlockC />
 
       <ImageBlock />
 
