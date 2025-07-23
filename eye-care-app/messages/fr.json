@@ -207,7 +207,12 @@
 
     "Footer": {
       "contactus": "Contactez-Nous",
-      "quicklinks": "Liens Rapides"
+      "quicklinks": "Liens Rapides",
+      "services": "Services",
+      "aboutus": "À Propos De Nous",
+      "ourteam": "Notre Équipe",
+      "feedback": "Commentaires",
+      "mission": "Mission"
     }
 
 }
