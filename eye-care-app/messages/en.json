@@ -203,6 +203,11 @@
 
     "Footer": {
       "contactus": "Contact Us",
-      "quicklinks": "Quick Links"
+      "quicklinks": "Quick Links",
+      "services": "Services",
+      "aboutus": "About Us",
+      "ourteam": "Our Team",
+      "feedback": "Feedback",
+      "mission": "Mission"
     }
 }
