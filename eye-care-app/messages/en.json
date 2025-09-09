@@ -68,7 +68,7 @@
       "buttonTitle3": "button title"
     },
     "CataractSurgeryService":{
-      "serviceName":"Cataract Surgery",
+      "serviceName":"Cataract\nSurgery",
       "title1":"ENHANCED VISION THAT SUITS YOUR LIFESTYLE WITH CATARACT SURGERY",
       "text1":"At Eye Care Centre NB , we see patients with cataracts every day. We know what can cause cataracts, the effects of cataracts, and how to safely remove them. For our patients, it can be scary, bothersome, and inconvenient to lose their vision from cataracts. Cataracts have a significant impact on lifestyle, independence, and mobility. Our eye doctors are committed to offering effective treatment options and delivering great patient care. We believe in educating patients so they can make informed decisions about their treatment. Our patients are treated with respect, compassion, and patience throughout the entire experience. If you are progressively losing your vision due to cataracts, and it is becoming increasingly harder to perform everyday tasks — such as driving or reading the label on a bottle of medicine — we invite you to schedule a free consultation with our cataract specialists. We can explain why your vision is worsening and what we can do about it.",
       "title2":"HOW DO I KNOW IF I HAVE CATARACTS?",
@@ -81,7 +81,8 @@
       "text5":"Cataract surgery is designed to give you clearer and more colourful vision (sort of like the vision you enjoyed in your youth). Driving and reading become easier. High-definition vision makes the details of your surroundings stand out. Your dependence on corrective glasses may change depending on your lens choice — you may only need glasses for reading, or possibly not at all. For many people, improved vision correlates with better self-confidence, improved mental health, more independence, and a reduction in falls. Hobbies, activities, and social outings become more enjoyable. Overall quality of life increases. There is no age limit for cataract surgery. Anyone with cataracts can enjoy the benefits of cataract surgery regardless of their age.",
       "buttonTitle1": "LEARN ABOUT GLAUCOMA",
       "buttonTitle2": "button title",
-      "buttonTitle3": "button title"
+      "buttonTitle3": "button title",
+      "bannerSubTitle": "Regain Clear Vision with Safe, Modern Cataract Surgery"
     },
     "DiabetesService": {
       "serviceName": "Diabetic Retinopathy",

@@ -77,8 +77,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent),
-    linear-gradient(to right, rgba(0, 0, 0, 0.60), transparent);
+  background: linear-gradient(to top, rgba(134, 149, 192, 0.5), transparent),
+    linear-gradient(to right, rgba(134, 149, 192, 0.6), transparent);
   z-index: 2;
 }
 
