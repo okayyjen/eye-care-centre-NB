@@ -6,10 +6,8 @@ import { Providers } from "../providers";
 import Footer from "../components/Footer";
 import AppBar from "../components/AppBar";
 import Reviews from "../components/Reviews";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { NextIntlClientProvider } from "next-intl";
+import enMessages from "../../../messages/en.json"; // static messages
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,33 +16,20 @@ export const metadata: Metadata = {
   description: "NB Eye Care Clinic",
 };
 
-export default async function RootLayout({
-  children,
-  params: {locale}
-}: Readonly<{
-  children: React.ReactNode;
-  params: {locale: string};
-}>) {
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
-    notFound();
-  }
- 
-  const messages = await getMessages();
- 
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={locale} className="light">
+    <html lang="en" className="light">
       <body className={inter.className}>
         <Providers>
-          <NextIntlClientProvider messages={messages}>
+          <NextIntlClientProvider locale="en" messages={enMessages}>
             <AppBar />
             <main>{children}</main>
 
             <div id="reviews-wrapper" className="bottom-0 w-full">
-                <Reviews/>
-            </div> 
+              <Reviews />
+            </div>
             <div className="bottom-0 w-full">
-                  <Footer/>
+              <Footer />
             </div>
           </NextIntlClientProvider>
         </Providers>

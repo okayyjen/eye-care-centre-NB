@@ -88,7 +88,7 @@ const AppBar = () => {
               />
             </Link>
           </NavbarBrand>
-          <LanguageToggle />
+          {/* <LanguageToggle /> */}
         </div>
       </NavbarContent>
 
@@ -205,7 +205,7 @@ const AppBar = () => {
             {t("contactus")}
           </Link>
         </NavbarItem>
-        <LanguageToggle />
+        {/* <LanguageToggle /> */}
       </NavbarContent>
 
       <NavbarMenu>
