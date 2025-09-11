@@ -45,7 +45,12 @@
       "text6": "The level of care we provide would not be possible without every member of our team. We are constantly communicating and working with one another to make the patient’s experience as seamless as possible."
     },
     "Contact":{
+      "bannerTitle":  "Eye Care Centre NB",
       "title": "Contact Us",
+      "title2": "How can we help you?",
+      "helpText": "Upon referral from your family doctor, nurse practitioner or Optometrist we will be able to evaluate you and assist you in a treatment plan",
+      "title3": "See the difference",
+      "helpText2": "Our multi-subspecialty team of Eye Physicians & Surgeons will be able to cater to your needs and help create a medical or surgical plan",
       "monday":"Monday",
       "tuesday":"Tuesday",
       "wednesday":"Wednesday",

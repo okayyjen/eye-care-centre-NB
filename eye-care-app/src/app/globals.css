@@ -82,6 +82,45 @@ body {
   z-index: 2;
 }
 
+.div-with-bg-contact {
+  position: relative;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30rem;
+  padding: 1rem;
+}
+
+.div-with-bg-contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/images/contact_us_banner.png");
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.div-with-bg-contact::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent),
+    linear-gradient(to right, rgba(0, 0, 0, 0.60), transparent);
+  z-index: 2;
+}
+
 .div-text-content {
   position: relative;
   z-index: 3;
