@@ -14,7 +14,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { ChevronDown } from "./Icons";
 import { usePathname, useParams } from "next/navigation";
 import LanguageToggle from "./LanguageToggle";

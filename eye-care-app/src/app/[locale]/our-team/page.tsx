@@ -1,4 +1,4 @@
-import { Card, CardBody, CardFooter, Image } from '@nextui-org/react';
+import { Card, CardBody, CardFooter, Image } from "@heroui/react";
 import React from "react";
 import "../../globals.css";
 import { useTranslations } from 'next-intl';
