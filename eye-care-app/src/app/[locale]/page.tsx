@@ -1,3 +1,4 @@
+'use client';
 import "../homepage.css";
 import { useTranslations } from 'next-intl';
 import ImageBlock from "../components/ImageBlock";

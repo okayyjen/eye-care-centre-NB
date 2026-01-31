@@ -20,12 +20,13 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params: {locale}
-}: Readonly<{
+  params
+}: {
   children: React.ReactNode;
-  params: {locale: string};
-}>) {
-  // Ensure that the incoming `locale` is valid
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -37,7 +38,8 @@ export default async function RootLayout({
       <body className={inter.className}>
         <Providers>
           <NextIntlClientProvider messages={messages}>
-            <AppBar />
+            
+            {/* <AppBar /> */}
             <main>{children}</main>
 
             <div id="reviews-wrapper" className="bottom-0 w-full">
