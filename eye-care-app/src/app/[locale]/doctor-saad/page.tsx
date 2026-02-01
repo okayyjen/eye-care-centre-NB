@@ -26,53 +26,43 @@ export default function DoctorSaadPage() {
     
                     <p className="text-[28px]">{t('name')}</p>
                     <div className="separator">____</div>
-        
-                    <div className="flex items-center pb-[25px]">
-                        <div className="min-w-[78px] flex">
-                            <Image
-                                className="check-icon" 
-                                src={require("../../images/check.png")}
-                                alt="check icon"
-                                layout="responsive"
-                            />
+
+                    <div>
+                        <div className="flex items-center pb-[25px]">
+                            <div className="min-w-[78px] flex">
+                                <Image
+                                    className="check-icon" 
+                                    src={require("../../images/check.png")}
+                                    alt="check icon"
+                                    layout="responsive"
+                                />
+                            </div>
+                            <p className="text-[20px] pl-[15px]">{t('bp1')}</p>
                         </div>
-                        <p className="text-[20px] pl-[15px]">LOREM IPSUM DOLOR SIT AMET, CONSECETUR ADIPISCING ELIT.</p>
-                    </div>
-        
-                    <div className="flex items-center pb-[25px]">
-                        <div className="min-w-[78px] flex">
-                            <Image
-                                className="check-icon"
-                                src={require("../../images/check.png")}
-                                alt="check icon"
-                                layout="responsive"
-                            />
+            
+                        <div className="flex items-center pb-[25px]">
+                            <div className="min-w-[78px] flex">
+                                <Image
+                                    className="check-icon"
+                                    src={require("../../images/check.png")}
+                                    alt="check icon"
+                                    layout="responsive"
+                                />
+                            </div>
+                            <p className="text-[20px] pl-[15px]">{t('bp2')}</p>
                         </div>
-                        <p className="text-[20px] pl-[15px]">LOREM IPSUM DOLOR SIT AMET, CONSECETUR ADIPISCING ELIT.</p>
-                    </div>
-        
-                    <div className="flex items-center pb-[25px]">
-                        <div className="min-w-[78px] flex">
-                            <Image
-                                className="check-icon"
-                                src={require("../../images/check.png")}
-                                alt="check icon"
-                                layout="responsive"
-                            />
+            
+                        <div className="flex items-center pb-[25px]">
+                            <div className="min-w-[78px] flex">
+                                <Image
+                                    className="check-icon"
+                                    src={require("../../images/check.png")}
+                                    alt="check icon"
+                                    layout="responsive"
+                                />
+                            </div>
+                            <p className="text-[20px] pl-[15px]">{t('bp3')}</p>
                         </div>
-                        <p className="text-[20px] pl-[15px]">LOREM IPSUM DOLOR SIT AMET, CONSECETUR ADIPISCING ELIT.</p>
-                    </div>
-        
-                    <div className="flex items-center pb-[25px]">
-                        <div className="min-w-[78px] flex">
-                            <Image
-                                className="check-icon"
-                                src={require("../../images/check.png")}
-                                alt="check icon"
-                                layout="responsive"
-                            />
-                        </div>
-                        <p className="text-[20px] pl-[15px]">LOREM IPSUM DOLOR SIT AMET, CONSECETUR ADIPISCING ELIT.</p>
                     </div>
                 </div>
             </div>

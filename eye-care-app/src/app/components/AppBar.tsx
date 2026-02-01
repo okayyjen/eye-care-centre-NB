@@ -188,6 +188,12 @@ const AppBar = () => {
             <DropdownItem key="doctorSekhavat" href={`/${currentLocale}/doctor-sekhavat`}>
               Dr. Houfar Sekhavat
             </DropdownItem>
+            <DropdownItem key="doctorShokrollahi" href={`/${currentLocale}/doctor-shokrollahi`}>
+              Dr. Siamak Shokrollahi
+            </DropdownItem>
+            <DropdownItem key="doctorGoguen" href={`/${currentLocale}/doctor-goguen`}>
+              Dr. Christian Goguen
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>
@@ -275,6 +281,13 @@ const AppBar = () => {
               <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-sekhavat`}>
                 Dr. Houfar Sekhavat
               </Link>
+              <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-shokrollahi`}>
+                Dr. Siamak Shokrollahi
+              </Link>
+              <Link color="foreground" className="block py-1 text-medium" href={`/${currentLocale}/doctor-goguen`}>
+                Dr. Christian Goguen
+              </Link>
+              
             </div>
           )}
         </NavbarMenuItem>

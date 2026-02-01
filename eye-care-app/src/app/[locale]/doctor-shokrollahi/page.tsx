@@ -2,8 +2,8 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Link from "next/link";
 
-export default function DoctorSavoiePage() {
-    const t = useTranslations('Savoie');
+export default function DoctorShokrollahiPage() {
+    const t = useTranslations('Shokrollahi');
     return (
         <div className="flex justify-center flex-wrap">
             <div className="max-w-[1200px] w-full flex flex-col md:flex-row justify-center">
@@ -14,6 +14,36 @@ export default function DoctorSavoiePage() {
                     <div className="space-y-5">
                         <p>{t('bio1')}</p>
                         <p>{t('bio2')}</p>
+                        <p>{t('bio3')}</p>
+                        <p>
+                        {t('bio4')}
+                        <Link href="https://scholar.google.com/citations?user=jS6iirgAAAAJ&hl=en" className="underline hover:no-underline">
+                            {t('publicationLink')}
+                        </Link>
+                    </p>
+                    </div>
+                     <div className="mt-10">
+                        <h3 className="text-[22px] font-semibold mb-4">
+                        {t("activitiesTitle")}
+                        </h3>
+
+                        <ol className="list-decimal pl-5 space-y-3 text-[17px]">
+                        {t.raw("activities").map((item: string, index: number) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                        </ol>
+                    </div>
+                    <div className="mt-10">
+                        <h3 className="text-[22px] font-semibold mb-2">
+                        {t("publicationsTitle")}
+                        </h3>
+                        <p>{t('googleScholar')}</p>
+
+                        <ol className="list-decimal pl-5 space-y-3 text-[17px]">
+                        {t.raw("publications").map((pub: string, index: number) => (
+                            <li key={index}>{pub}</li>
+                        ))}
+                        </ol>
                     </div>
                    
                 </div>
