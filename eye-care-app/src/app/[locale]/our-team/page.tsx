@@ -7,6 +7,8 @@ export default function TeamPage() {
     const saad = useTranslations('Saad');
     const savoie = useTranslations('Savoie');
     const sekhavat = useTranslations('Sekhavat');
+    const goguen = useTranslations('Goguen');
+    const shokrollahi = useTranslations('Shokrollahi');
     const t = useTranslations('OurTeam');
     const lapierre = useTranslations('LaPierre');
     const white = useTranslations('White');
@@ -14,11 +16,12 @@ export default function TeamPage() {
 
     const doctorList = [
         {
-            name: sekhavat('name'),
-            title: sekhavat('title'),
+            name: ponce('name'),
+            title: ponce('title'),
             img: "/images/sekhavat.png",
-            link: "doctor-sekhavat"
+            link: "doctor-ponce"
         },
+        
         {
             name: savoie('name'),
             title: savoie('title'),
@@ -31,12 +34,25 @@ export default function TeamPage() {
             img: "/images/sekhavat.png",
             link: "doctor-saad"
         },
+        
         {
-            name: ponce('name'),
-            title: ponce('title'),
+            name: sekhavat('name'),
+            title: sekhavat('title'),
             img: "/images/sekhavat.png",
-            link: "doctor-ponce"
-        }
+            link: "doctor-sekhavat"
+        },
+        {
+            name: goguen('name'),
+            title: goguen('title'),
+            img: "/images/goguen.png",
+            link: "doctor-goguen"
+        },
+        {
+            name: shokrollahi('name'),
+            title: shokrollahi('title'),
+            img: "/images/sekhavat.png",
+            link: "doctor-shokrollahi"
+        },
     ]
 
     const memberList = [
@@ -71,7 +87,7 @@ export default function TeamPage() {
 
 
             <div className="flex justify-center px-4 sm:px-6 lg:px-8 py-6">
-                <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6 w-full max-w-[1600px]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-[1600px]">
                     {doctorList.map((doctor, index) => (
                         <a key={index} href={doctor.link} className="hover:scale-105 transition-transform">
                             <div className="flex flex-col items-center text-center">
@@ -92,7 +108,7 @@ export default function TeamPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 sm:px-6 lg:px-8 py-6 max-w-[1200px] mx-auto justify-items-center">
                 {memberList.map((member, index) => (
-                    <div key={index} className="flex flex-col items-center text-center w-full max-w-[320px] hover:scale-105 transition-transform">
+                    <div key={index} className="flex flex-col items-center text-center w-full max-w-[320px]">
                         <div className="text-center my-8">
                             <p className="text-xl md:text-2xl font-bold mt-2 whitespace-nowrap">{member.subtitle}</p>
                         </div>

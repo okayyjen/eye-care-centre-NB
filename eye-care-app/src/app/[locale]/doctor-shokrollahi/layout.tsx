@@ -1,4 +1,4 @@
-export default function DoctorGoguenPageLayout({
+export default function DoctorShokrollahiPageLayout({
     children,
   }: {
     children: React.ReactNode

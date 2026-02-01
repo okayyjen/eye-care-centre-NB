@@ -160,23 +160,77 @@
       "title3":"Cataract – Posterior Subcapsular",
       "text3":"Posterior subcapsular cataracts begin as a small, cloudy or opaque area on the back, or posterior, of the lens. People with diabetes or those taking a high dosage of steroids are likely to develop a posterior subcapsular cataract. Extreme nearsightedness, and/or retinitis pigmentosa may develop this type of cataract. Subcapsular cataracts can develop rapidly and symptoms can become noticeable within months."
     },
+    "Goguen": {
+      "name": "Dr. Christian Goguen",
+      "title": "Ophthalmologist",
+      "bio1": "Originally from Dieppe, Dr. Goguen returned to his native region to practice his profession. He obtained a degree in health sciences from the Université de Moncton and a doctorate in medicine from the Centre de formation médicale du Nouveau-Brunswick. He then completed his residency in ophthalmology at the University of Sherbrooke.",
+      "bio2": "He began practising at the Eye Care Centre, in Dieppe, in September 2025.",
+      "bp1": "Started his practice September 2025",
+      "bp2": "Completed residency @ University of Sherbrooke, originating from Dieppe NB",
+      "bp3": "Specializing in cataracts and comprehensive ophthalmology with interest in anterior segment"
+    },
+    "Shokrollahi": {
+      "name": "Dr. Siamak Shokrollahi ",
+      "title": "Ophthalmologist",
+      "bio1": "Dr. Shokrollahi has been practicing as an ophthalmologist since 2006, after completing his medical training in Tehran. He became a Canadian citizen in 2012 and continued his advanced training at the Joslin Diabetes Center and the Beetham Eye Institute at Harvard Medical School in Boston, Massachusetts.",
+      "bio2": "He joined Eye Care Centre NB in June 2025. Dr. Shokrollahi specializes in cornea and anterior segment diseases and is the author of multiple publications in clinical ophthalmology.",
+      "bio3": "Outside of medicine, his interests include history, geography, and etymology. He enjoys Persian, classical, and country music, as well as swimming, walking, and tennis. He is also an established amateur oil painter.",
+      "bio4": "View Dr. Shokrollahi's publications ",
+      "publicationLink":"here",
+      "activitiesTitle": "Activities & Lectures",
+      "activities": [
+        "S. Shokrollahi, M. Bahmani Kashkuli, B. Beigi: Crohn’s Disease and Sclerosing Orbital Pseudotumor. A clinicopathologic case report and literature review. XIII Ophthalmology Congress of Iran.",
+        "S. Shokrollahi, M. Soltan Sanjari: Evaluation of corneal refractive and topographic changes after hang-back strabismus surgery. XV Ophthalmology Congress of Iran (also published in IUMS Journal).",
+        "Lectures for ophthalmic technicians and nurses at the 16th Iranian Congress of Ophthalmology: Cataract surgery—past, present, and future.",
+        "ARVO 2019 Annual Meeting, April 28–May 2, 2019, Vancouver, BC, Canada. Association of ultrawidefield retinal vessel caliber with predominantly peripheral lesions and diabetic retinopathy severity.",
+        "Comparison of Diabetic Retinopathy (DR) severity identified on ultrawide field retinal images (UWFRI) and ultrawide field fluorescein angiograms (UWF-FA). Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
+        "English editor of the Journal of Iranian Medical Council.",
+        "Nine years (2000–2008) of continuous activities preparing medical students and general physicians for residency entry exams in Iran and abroad."
+      ],
+      "publicationsTitle": "Publications",
+      "googleScholar": "Google scholar profile under the name of: Siamak Shokrollahi",
+      "publications": [
+        "Effect of Homatropine Eye Drops on Pain After Photorefractive Keratectomy: A Pilot Study. Saudi Journal of Ophthalmology 27(2), 83–85.",
+        "Comparison of the Effect of Cycloplegic Versus NSAID Eye Drops on Pain After Photorefractive Keratectomy. Journal of Current Ophthalmology 27(3–4), 87–91.",
+        "Intraocular Pressure–Lowering Effect of 0.005% Latanoprost With Two Different Dosing Regimens. Journal of Ocular Pharmacology and Therapeutics 28(5), 524–528.",
+        "Diabetic Retinopathy and Ultrawide Field Imaging. Seminars in Ophthalmology 35(1), 56–65.",
+        "Retinal Vascular Caliber Association With Nonperfusion and Diabetic Retinopathy Severity. Ophthalmology Retina, online September 2020.",
+        "Association of Ultrawide Field Retinal Vessel Caliber With Diabetic Retinopathy Severity, Predominantly Peripheral Lesions and Retinal Nonperfusion. Investigative Ophthalmology & Visual Science 60(9), 4771–4771.",
+        "Comparison of Diabetic Retinopathy Severity Identified on Ultrawide Field Retinal Images and Ultrawide Field Fluorescein Angiograms. Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
+        "Refractive and Corneal Topographic Changes After Hang-Back Strabismus Surgery. Razi Journal of Medical Sciences 16, 49–55."
+      ],
+      "bp1": "Cornea & anterior segment specialist",
+      "bp2": "Fellowship @ Harvard Medical School, Boston, Massachusetts, USA.",
+      "bp3": "Published author of numerous clinical ophthalmic studies"
+    },
    "Sekhavat": {
       "name": "Dr. Houfar Sekhavat, MD FRCSC",
       "title": "Ophthalmologist",
-      "bio": "Dr. Houfar Sekhavat, MD FRCSC, is an Ophthalmologist and has been practicing since 2005. He is an integral part of the Eye Care Center NB and has conducted over 15000 intraocular surgeries since joining the team. He studied medicine at Sherbrooke University and completed his specialty at Laval University in the province of Quebec. Furthermore, he is interested in international medicine, having practiced in various countries. He is a member in good standing of various international medical societies and actively participates in their meetings. He is fluent in four languages and is interested in the cosmetic industry. Dr. Sekhavat has considerable experience in various fields of research. He is the Founder and Executive Chairman of Triple Hair, the Founder and CEO of Pulmonem and the Founder and CO-CEO of "
+      "bio": "Dr. Houfar Sekhavat, MD FRCSC, is an Ophthalmologist and has been practicing since 2005. He is an integral part of the Eye Care Center NB and has conducted over 15000 intraocular surgeries since joining the team. He studied medicine at Sherbrooke University and completed his specialty at Laval University in the province of Quebec. Furthermore, he is interested in international medicine, having practiced in various countries. He is a member in good standing of various international medical societies and actively participates in their meetings. He is fluent in four languages and is interested in the cosmetic industry. Dr. Sekhavat has considerable experience in various fields of research. He is the Founder and Executive Chairman of Triple Hair, the Founder and CEO of Pulmonem and the Founder and CO-CEO of ",
+      "bp1": "Over 20,000 eye procedures specializing in cataracts",
+      "bp2": "Utlizing the most up to date and current techniques and equipment",
+      "bp3": "Dedicated to global health, participating annually in mission trips to 3rd world regions",
+      "bp4": "Globally known surgeon for innovative advancement in surgical instruments for ophthalmology",
+      "bp5": "Founder of Pulmonem, Triplehair and Hexiris"
     },
 
     "Savoie": {
       "name": "Dr. Isabelle Aucoin-Savoie",
       "title": "Surgeon and Medical Ophthalmologist",
       "bio1": "Dr. Savoie, originally from Moncton, earned her medical degree from the University of Sherbrooke in 2006. She completed her ophthalmology residency at Université Laval in 2011 and has been a Fellow of the Royal College of Surgeons of Canada ever since. She was delighted to return to her New Brunswick roots to establish her practice and make meaningful contributions to the Greater Moncton community she cherishes.",
-      "bio2": "Dr. Savoie finds great fulfillment in restoring sight through cataract surgery. She also enjoys the full scope of comprehensive ophthalmology, including the management of glaucoma, diabetic eye disease, macular degeneration, and other ocular conditions."
+      "bio2": "Dr. Savoie finds great fulfillment in restoring sight through cataract surgery. She also enjoys the full scope of comprehensive ophthalmology, including the management of glaucoma, diabetic eye disease, macular degeneration, and other ocular conditions.",
+      "bp1": "Over 8,000 eye procedures specializing in cataracts",
+      "bp2": "Utilizing the most up to date and current techniques and equipment",
+      "bp3": "Dedicated to global health, participating annually in mission trips to 3rd world regions"
     },
 
     "Saad": {
       "name": "Dr. Julien Saad, MD FRCSC",
       "title": "Surgeon and Medical Ophthalmologist",
-      "bio": "bio here"
+      "bio": "bio here",
+      "bp1": "Over 10,000 eye procedures specializing in cataracts and eyelids",
+      "bp2": "Utilizing the most up to date and current techniques and equipment",
+      "bp3": "Expertise in administering intravitreal injections to treat complex retinal conditions"
     },
 
     "Ponce": {
@@ -185,7 +239,11 @@
       "bio1": "Dr. José Ramón Ponce-Martínez is a distinguished ophthalmologist specializing in anterior segment surgery and glaucoma. A graduate of the prestigious National Autonomous University of Mexico, Dr. Ponce-Martínez completed advanced training at the General Hospital of Mexico and the National Rehabilitation Institute. With over a decade of experience, he served as a Professor of Anterior Segment Surgery at the General Hospital of Mexico from 2011 to 2022, where he trained and mentored the next generation of ophthalmologists.",
       "bio2": "Dr. Ponce-Martínez has made significant contributions to glaucoma research, most recently as the Coordinator of Glaucoma Research at the Apex Eye Institute in Corner Brook, Newfoundland. He is an active member of several prestigious professional organizations, including the Mexican Society of Ophthalmology, the Mexican Center of Cataract Surgeons, the American Society of Cataract and Refractive Surgeons, and the College of Physicians and Surgeons of New Brunswick.",
       "bio3": "Committed to improving global eye care, Dr. Ponce-Martínez has been a dedicated participant in cataract surgery programs for humanitarian purposes in Mexico and Trinidad & Tobago since 2015, holding an honorary medical license in Trinidad & Tobago.",
-      "bio4": "Combining clinical expertise, academic leadership, and a passion for humanitarian work, Dr. José Ramón Ponce-Martínez continues to advance the field of ophthalmology through innovation, education, and compassionate care."
+      "bio4": "Combining clinical expertise, academic leadership, and a passion for humanitarian work, Dr. José Ramón Ponce-Martínez continues to advance the field of ophthalmology through innovation, education, and compassionate care.",
+      "bp1": "Over 10,000 eye procedures specializing in cataracts and anterior segment surgery ",
+      "bp2": "Utilizing the most up to date and current techniques and equipment",
+      "bp3": "Dedicated to global health, participating annually in mission trips to Tobago",
+      "bp4": "Medical Director, @AOSAVI. Mexico City"
     },
 
     "LaPierre": {

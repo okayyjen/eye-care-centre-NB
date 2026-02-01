@@ -2,8 +2,8 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Link from "next/link";
 
-export default function DoctorSavoiePage() {
-    const t = useTranslations('Savoie');
+export default function DoctorGoguenPage() {
+    const t = useTranslations('Goguen');
     return (
         <div className="flex justify-center flex-wrap">
             <div className="max-w-[1200px] w-full flex flex-col md:flex-row justify-center">
@@ -22,7 +22,7 @@ export default function DoctorSavoiePage() {
                     <div className="w-[300px]">
                         <Image
                             className="w-[50px] md:w-[100px] h-auto mt-[20px] mb-[20px]"
-                            src={require("../../images/doctor.png")}
+                            src={require("../../images/goguen.png")}
                             alt="doctor"
                             layout="responsive"
                         />
