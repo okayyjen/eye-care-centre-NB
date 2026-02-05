@@ -19,6 +19,30 @@
     "typesOfCataracts": "Types de Cataractes",
     "macularDegeneration": "Dégénérescence Maculaire"
   },
+  "HomePageCards": {
+    "cardContents": [
+      {
+        "title": "Cataracts",
+        "text": "Enhanced vision through surgery that suits your life and needs",
+        "buttonTitle": "Cataract Surgery"
+      },
+      {
+        "title": "Diabetes",
+        "text": "Diagnosis and treatment for Diabetes",
+        "buttonTitle": "Diabetes"
+      },
+      {
+        "title": "Glaucoma",
+        "text": "Diagnosis, treatment and management of Glaucoma",
+        "buttonTitle": "Glaucoma Management"
+      },
+      {
+        "title": "Macular Degeneration",
+        "text": "Diagnosis, treatment and management of Dry and wet macular degeneration",
+        "buttonTitle": "Macular Degeneration"
+      }
+    ]
+  },
   "AboutUs": {
     "subTitle1": "À propos de nous",
     "title1": "EYE CARE CENTRE NEW BRUNSWICK",

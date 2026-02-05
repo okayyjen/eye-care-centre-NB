@@ -5,21 +5,26 @@ interface CardProps {
   title: string;
   text: string;
   link: string;
+  buttonTitle: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, text, link }) => {
+const Card: React.FC<CardProps> = ({ title, text, link, buttonTitle }) => {
   return (
-    <div className="flex flex-col items-center justify-center p-5 w-[285px] bg-[#384C84] text-white">
-      <Image 
-        className="max-w-[50px] py-5 pt-5 pb-[35px]"
-        src={require("../images/visible.png")}
-        alt="logo"
-        layout="responsive"
-      />
-      <h1 className="pb-5 text-xl">{title}</h1>
-      <p className="text-center">{text}</p>
-      <a href={link}>
-        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">LOREM IPSUM</button>
+    <div className="flex flex-col w-[285px] p-5 bg-[#384C84] text-white">
+      <div className="h-[70px] flex justify-center items-center">
+        <Image
+          src={require("../images/visible.png")}
+          alt="logo"
+          width={50}
+          height={50}
+        />
+      </div>
+      <h1 className="mt-4 mb-3 text-xl text-center">{title}</h1>
+      <p className="text-center flex-grow">{text}</p>
+      <a href={link} className="mt-auto flex justify-center">
+        <button className="border-2 w-full border-white py-4 px-7 rounded-[5px] mt-4 ">
+          {buttonTitle}
+        </button>
       </a>
     </div>
   );

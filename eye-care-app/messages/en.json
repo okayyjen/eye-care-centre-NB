@@ -20,14 +20,32 @@
     "macularDegeneration": "Macular Degeneration"
   },
   "HomePageCards": {
-    "title1": "Cataracts",
-    "subTitle1": "Enhanced vision through surgery that suits your life and needs",
-    "title2": "Diabetes",
-    "subTitle2": "Diagnosis and treatment for Diabetes",
-    "title3": "Glaucoma",
-    "subTitle3": "Diagnosis, treatment and management of Glaucoma",
-    "title4": "Macular Degeneration",
-    "subTitle4": "Diagnosis, treatment and management of Dry and wet macular degeneration"
+    "cardContents": [
+      {
+        "title": "Cataracts",
+        "text": "Enhanced vision through surgery that suits your life and needs",
+        "buttonTitle": "Cataract Surgery",
+        "link":"cataract-surgery"
+      },
+      {
+        "title": "Diabetes",
+        "text": "Diagnosis and treatment for Diabetes",
+        "buttonTitle": "Diabetes",
+        "link":"diabetes"
+      },
+      {
+        "title": "Glaucoma",
+        "text": "Diagnosis, treatment and management of Glaucoma",
+        "buttonTitle": "Glaucoma Management",
+        "link":"glaucoma"
+      },
+      {
+        "title": "Macular Degeneration",
+        "text": "Diagnosis, treatment and management of Dry and wet macular degeneration",
+        "buttonTitle": "Macular Degeneration",
+        "link":"macular-defeneration"
+      }
+    ]
   },
   "AboutUs": {
     "subTitle1": "About Us",
