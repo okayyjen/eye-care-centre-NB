@@ -1,276 +1,299 @@
 {
-    "Home": {
-      "bannerTitle": "Welcome!",
-      "bannerSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
-    },
-    "NavBar": {
-      "home": "HOME",
-      "services": "SERVICES",
-      "aboutus": "ABOUT US",
-      "ourteam": "OUR TEAM",
-      "ourteamLC": "Our Team",
-      "resources": "RESOURCES",
-      "feedback": "FEEDBACK",
-      "contactus": "CONTACT US",
-      "cataractSurgery": "Cataract surgery",
-      "diabetes": "Diabetes",
-      "glaucomaManagement": "Glaucoma Management",
-      "laserTreatments": "Laser Treatments",
-      "typesOfCataracts": "Types of Cataracts",
-      "macularDegeneration": "Macular Degeneration"
+  "Home": {
+    "bannerTitle": "Welcome!",
+    "bannerSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+  },
+  "NavBar": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "aboutus": "ABOUT US",
+    "ourteam": "OUR TEAM",
+    "ourteamLC": "Our Team",
+    "resources": "RESOURCES",
+    "feedback": "FEEDBACK",
+    "contactus": "CONTACT US",
+    "cataractSurgery": "Cataract surgery",
+    "diabetes": "Diabetes",
+    "glaucomaManagement": "Glaucoma Management",
+    "laserTreatments": "Laser Treatments",
+    "typesOfCataracts": "Types of Cataracts",
+    "macularDegeneration": "Macular Degeneration"
+  },
+  "HomePageCards": {
+    "title1": "Cataracts",
+    "subTitle1": "Enhanced vision through surgery that suits your life and needs",
+    "title2": "Diabetes",
+    "subTitle2": "Diagnosis and treatment for Diabetes",
+    "title3": "Glaucoma",
+    "subTitle3": "Diagnosis, treatment and management of Glaucoma",
+    "title4": "Macular Degeneration",
+    "subTitle4": "Diagnosis, treatment and management of Dry and wet macular degeneration"
+  },
+  "AboutUs": {
+    "subTitle1": "About Us",
+    "title1": "EYE CARE CENTRE NEW BRUNSWICK",
+    "text1": "Our ophthalmologists offer experienced medical treatment for diseases of the eye, and eye care options like:, cataracts, eyelid, or cosmetic surgery for patients across the Maritimes.",
+    "subTitle2": "Let Us Introduce Ourselves",
+    "title2": "GENERAL OPHTHALMOLOGY PRACTICE",
+    "text2": "We are pleased to welcome you to Eye Care Centre NB, our comprehensive ophthalmology practice located in Dieppe, co-founded in 2019 by Dr. Houfar Sekhavat and Dr. Julien Saad. As a state-of-the-art medical centre, we stay current in diagnostic and surgical procedures and continually endeavor to provide our patients with the highest quality of care.",
+    "subTitle3": "Our Extensive Eye Care Services",
+    "title3": "OPHTHALMOLOGY & SURGICAL SERVICES",
+    "text3": "• CATARACT SURGERY • EYELID AND COSMETIC SURGERIES • GLAUCOMA MANAGEMENT • DIABETIC RETINAL EXAMS • DRY EYE • VISUAL PROBLEMS REQUIRING EVALUATION • URGENT EYE CONDITIONS"
+  },
+  "Mission": {
+    "title1": "VISION",
+    "text1": "We are pleased to welcome you to Eye Care Centre NB, our comprehensive ophthalmology practice and surgical facility located Dieppe, co-founded in 2019 by Dr. Houfar Sekhavat and Dr. Julien Saad. As a state-of-the-art medical Centre, we stay current in diagnostic and surgical procedures and continually endeavor to provide our patients with the highest quality of care.",
+    "title2": "MISSION",
+    "text2": "Our mission is to bring the highest quality of ophthalmic care to each and every patient in the Maritimes. We know this can only be done by ensuring each member of our team is committed to providing compassionate, personal care to all patients that trust us with their vision.",
+    "title3": "QUALITY, BEST CARE AND THE BEST OUTCOMES",
+    "text3": "We constantly work to maintain and further develop the highest standard of care available to patients in the Maritimes. Our team of staff and doctors are always looking for ways to improve the services we provide for our patients.",
+    "title4": "PATIENT CENTRICITY",
+    "text4": "We recognize that each patient's needs are unique and do our best to care for those who visit our clinic in a way that reflects that.",
+    "title5": "PROFESSIONALISM AND HIGH ETHICAL STANDARDS",
+    "text5": "We adhere to a high ethical standard and aim to display professionalism in all that we do. We believe in using our actions to show patients and referring partners that they can trust us.",
+    "title6": "TEAMWORK AND PRODUCTIVITY",
+    "text6": "The level of care we provide would not be possible without every member of our team. We are constantly communicating and working with one another to make the patient’s experience as seamless as possible."
+  },
+  "Contact": {
+    "bannerTitle": "Eye Care Centre NB",
+    "title": "Contact Us",
+    "title2": "How can we help you?",
+    "helpText": "Upon referral from your family doctor, nurse practitioner or Optometrist we will be able to evaluate you and assist you in a treatment plan",
+    "title3": "See the difference",
+    "helpText2": "Our multi-subspecialty team of Eye Physicians & Surgeons will be able to cater to your needs and help create a medical or surgical plan",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed"
+  },
+  "GlaucomaManagementService": {
+    "serviceName": "Glaucoma Management",
+    "title1": "MANAGING THE SYMPTOMS AND SIDE EFFECTS OF GLAUCOMA",
+    "text1": "Glaucoma is an eye disease characterized by damage to the optic nerve, which is the nerve that transmits visual information from the eye to the brain. It is usually caused by fluid buildup in the front portion of the eye which creates pressure in the eye and damages the nerve. Glaucoma is the leading cause of blindness for people over the age of 60, and any vision lost to glaucoma cannot be recovered. However, with early diagnosis and intervention, treatment can prevent vision loss and blindness. There are several different kinds of glaucoma and treatment depends on the specific type and severity. The primary goal of treatment is to lower or control the intraocular pressure, or pressure in the eye, which threatens the optic nerve.",
+    "title2": "MEDICATED EYEDROPS",
+    "text2": "One of the first lines of defense against glaucoma is usually the use of medicated eye drops. Eye drops can either reduce the amount of fluid created in the eye or improve the flow of fluid out of the eye. For example, certain medicated eye drops contain prostaglandins — drugs that improve the non-conventional flow of fluids out of the eye, thereby reducing intraocular pressure. Other drugs are alphaadrenergic agonists or beta-blockers, both of which decrease the fluid production in the eye. These eye drops may be prescribed alone or in combination with each other. Like any medication, medicated eye drops are not prescribed to individuals that have certain medical conditions or health concerns. For some individuals, eye drops placed in the eye could be absorbed by the blood vessels in the nasal mucosa and may affect heart rate and breathing. In rare cases, some eye drops can compromise health and exacerbate certain conditions like asthma. For this reason, all candidates are carefully evaluated and their detailed medical history is recorded before the doctor prescribes medicated eye drops.",
+    "title3": "SURGERY CAN MANAGE GLAUCOMA",
+    "text3": "If medicated eye drops fail to adequately treat glaucoma or if they cause undesirable side effects, surgery is another treatment option. Surgery is designed to improve the flow of fluids out of the eye to help lower intraocular pressure. A procedure called laser trabeculoplasty uses a laser to stimulate the eye’s drainage system to work more efficiently. This relieves some of the pressure in the eye. Laser iridotomy is another procedure in which a tiny hole is made through the eye’s iris to improve the flow of the fluid in the eye. Minimally Invasive Glaucoma Surgery (MIGS) is a newer procedure where stents are implanted to help drain fluid from your eye. In a trabeculectomy, a flap is created in the white of the eye (the sclera) and an opening is made in the eye to release built-up fluid. These procedures may be combined with the use of medicated eye drops for the best results.",
+    "buttonTitle1": "LEARN ABOUT GLAUCOMA",
+    "buttonTitle2": "button title",
+    "buttonTitle3": "button title"
+  },
+  "CataractSurgeryService": {
+    "serviceName": "Cataract Surgery",
+    "title1": "ENHANCED VISION THAT SUITS YOUR LIFESTYLE WITH CATARACT SURGERY",
+    "text1": "At Eye Care Centre NB , we see patients with cataracts every day. We know what can cause cataracts, the effects of cataracts, and how to safely remove them. For our patients, it can be scary, bothersome, and inconvenient to lose their vision from cataracts. Cataracts have a significant impact on lifestyle, independence, and mobility. Our eye doctors are committed to offering effective treatment options and delivering great patient care. We believe in educating patients so they can make informed decisions about their treatment. Our patients are treated with respect, compassion, and patience throughout the entire experience. If you are progressively losing your vision due to cataracts, and it is becoming increasingly harder to perform everyday tasks — such as driving or reading the label on a bottle of medicine — we invite you to schedule a free consultation with our cataract specialists. We can explain why your vision is worsening and what we can do about it.",
+    "title2": "HOW DO I KNOW IF I HAVE CATARACTS?",
+    "text2": "Cataracts are diagnosed after an eye exam with one of our doctors or an optometrist. You may have cataracts if you: • Are over the age of 60 • Notice your vision is progressively worsening• Have cloudy or blurry vision • Need frequent prescription changes in your eyeglasses or contact lenses • See glare around headlights, lamps, or sunlight • Have poor night vision • Have double vision or multiple images • Notice that colours seem faded or “washed out”",
+    "title3": "HOW CATARACT SURGERY WORKS",
+    "text3": "If your cataracts progress to the point where they interfere with your vision and make it difficult to perform everyday tasks, surgical treatment is the best choice. If left untreated, poor vision may lead to motor vehicle accidents, falls, and other accidents to the patient or others. Cataract surgery involves removing the clouded, cataract-diseased lens and replacing it with an artificial lens implant (an intraocular lens or IOL). The most common surgery performed in the world, cataract surgery is extremely safe and effective. Complications are rare. There are different lenses to suit different lifestyles. Some lenses are designed to work best for near vision; others for distance vision. Special lenses have the ability to adjust for both near and distance vision. Other lenses are intended to correct astigmatism. For example, if you spend a lot of time reading or sewing, you may opt for a different lens than someone who spends a lot of time driving or playing sports. Our eye doctors and cataract consultants will help you select the best lens package for your lifestyle.",
+    "title4": "WHAT TO EXPECT",
+    "text4": "Prior to cataract surgery, several tests will be performed to determine the most suitable type of intraocular lens package for your lifestyle. We specialize in many types of new, high-technology lenses that allow for clear vision for distance, near, or both, even without glasses or contact lenses. Once your surgery date has been scheduled, you will receive comprehensive instructions and a prescription for medicated eye drops. We recommend starting the eye drops two days before your cataract surgery. On the day of surgery, you will need to arrange for someone to drive you to and from surgery. Please plan on being here for several hours. You will be awake during surgery but you will not be able to see the surgery being performed. If you are nervous, we have medication you can take prior to the surgery to relax you. The procedure takes 8 – 15 minutes and goes by very quickly. It is not painful but there is a sensation of pressure and water. After surgery, we will place a clear, plastic protective patch over your eye. Both eyes are generally done on separate days.",
+    "title5": "LIFE AFTER CATARACT SURGERY",
+    "text5": "Cataract surgery is designed to give you clearer and more colourful vision (sort of like the vision you enjoyed in your youth). Driving and reading become easier. High-definition vision makes the details of your surroundings stand out. Your dependence on corrective glasses may change depending on your lens choice — you may only need glasses for reading, or possibly not at all. For many people, improved vision correlates with better self-confidence, improved mental health, more independence, and a reduction in falls. Hobbies, activities, and social outings become more enjoyable. Overall quality of life increases. There is no age limit for cataract surgery. Anyone with cataracts can enjoy the benefits of cataract surgery regardless of their age.",
+    "buttonTitle1": "LEARN ABOUT GLAUCOMA",
+    "buttonTitle2": "button title",
+    "buttonTitle3": "HOW IT WORKS",
+    "cataractSurgeryHowItWorksVideoLink": "https://youtu.be/eTkmphaQYKU"
+  },
+  "DiabetesService": {
+    "serviceName": "Diabetic Retinopathy",
+    "text1": "Diabetic retinopathy is a medical condition in which damage occurs to the retina due to diabetes. It is a leading cause of blindness in developed countries and one of the lead causes of sight loss in the world, even though there are many new therapies and improved treatments for helping people live with diabetes.",
+    "subtitle1": "Diabetes and Your Eyes: What You Need to Know",
+    "title2": "How can diabetes affect your eyes?",
+    "text2": "Diabetes occurs when your body does not properly process food as energy. When you have diabetes, your body either does not respond to or does not produce insulin, which is a hormone that delivers glucose (blood sugar) to the cells in your body. Having too much glucose in the bloodstream, outside the cells where it belongs, can lead to damage of the blood vessels and nerves that run throughout your body, including to the eyes.",
+    "title3": "Diabetic Eye Disease",
+    "text3": "Diabetic eye disease refers to the group of eye conditions that can result from diabetes. These include:",
+    "text3a": "Diabetic retinopathy. The leading cause of blindness in American adults, diabetic retinopathy occurs when changes in the retina’s blood vessels cause either leaking of the vessels or growth of abnormal new blood vessels on the retina’s surface.",
+    "text3b": "Macular edema. The macula — the center of the retina that provides sharp, straight vision — can swell due to leaky blood vessels caused by diabetes. This can result in blurred or distorted vision.",
+    "text3c": "Glaucoma. One form of glaucoma, neovascular glaucoma, is caused by diabetes. High sugar levels can damage the retina’s blood vessels and result in the creation of abnormal new ones. When new blood vessels grow on the eye’s iris (the colored part of the",
+    "text3d": "Cataracts. Cataracts can form earlier and progress faster in people with diabetes due to the increase of sugar in the blood. This creates a cloudy buildup in the eye’s lens, resulting in a cataract.",
+    "title4": "Swelling of the Eye Lens",
+    "text4": "Another potential effect from diabetes is swelling of the eye lens, leading to blurry vision. If your blood sugar levels change quickly from low to normal, the shape of your eye’s lens can be affected and your vision can be blurred. Your vision goes back to normal after your blood sugar stabilizes.",
+    "title5": "Diabetic eye disease prevention",
+    "text5a": "The best way to prevent diabetes-related eye problems is to manage your blood sugar levels, blood pressure and cholesterol levels. Ways you can help prevent eye problems caused by diabetes include:",
+    "text5b": "Control your blood sugar. Your doctor can provide direction on how to keep your blood sugar normal and avoid fluctuations that can lead to diabetic eye diseases. “In addition to getting your eyes checked, it’s also very important to keep the blood sugars under control,” says Cai. “This is not only good for you overall, but also good for your eyes.”",
+    "text5c": "Lower your blood pressure and cholesterol. Get recommendations from your doctor on ways you can combat high blood pressure and cholesterol, because these can worsen diabetic eye disease.",
+    "text5d": "Stop smoking. Smoking can cause further damage to your blood vessels, including the ones in your eyes, so it’s very important to stop smoking.",
+    "text5e": "Avoid harmful rays. Protect yourself from the sun’s harmful ultraviolet rays by wearing sunglasses. Exposure to these rays can speed up the progression of cataracts."
+  },
+  "LaserTreatmentService": {
+    "serviceName": "Laser treatments",
+    "text1": "Selective Laser Trabeculoplasty (SLT) is a laser procedure that reduces pressure inside the eye. It's used to treat glaucoma and ocular hypertension.",
+    "text2": "Laser iridotomy, also known as laser peripheral iridotomy (LPI), is a laser eye surgery that treats and prevents glaucoma. It involves making a small hole in the iris to improve drainage and lower pressure in the eye.",
+    "text3": "A YAG laser capsulotomy is a laser eye surgery that improves vision after cataract surgery. It's also known as a posterior capsulotomy. You might need sometime after cataract surgery. It helps you see clearly if your vision becomes cloudy again.",
+    "text4": "Argon laser is a procedure that uses a laser beam to treat eye conditions. The laser beam is focused on the back of the eye to treat conditions such as diabetic retinopathy, retinal tears, and glaucoma.",
+    "text5": "Three common conditions treated by Argon laser are diabetic retinopathy, retinal vein occlusion and retinal tears. The retina is a delicate tissue lining the inside of the eye and the macula is a small area at the centre of the retina.",
+    "text6": "The Ellex 2RT ophthalmic laser is a proprietary nanosecond laser technology used to treat early stages of age-related macular degeneration (AMD) by stimulating the eye's natural healing response, essentially aiming to \"rejuvenate\" the retina through a process called Retinal Rejuvenation Therapy (2RT) which targets specific cells within the retinal pigment epithelium (RPE) using a unique pixelated beam profile; it is designed to deliver precise energy without causing damage to surrounding tissue."
+  },
+  "MacularDegenerationService": {
+    "serviceName": "Macular Degeneration",
+    "title1": "Macular Degeneration or Age Related Macular Degeneration",
+    "text1": "Macular degeneration, also known as age-related macular degeneration, is a medical condition which may result in blurred or no vision in the center of the visual field. Early on there are often no symptoms. Over time, however, some people experience a gradual worsening of vision that may affect one or both eyes.",
+    "title2": "What you need to know",
+    "text2": "• Age-related macular degeneration (AMD) is a disease that affects a person’s central vision.",
+    "text2a": "• AMD can result in severe loss of central vision, but people rarely go blind from it.",
+    "text2b": "• Risk factors for AMD include being 50 and older, smoking, having high blood pressure and eating a diet high in saturated fat.",
+    "text2c": "• Although there is no cure for AMD, there are treatment options that may prevent or slow the progression of the disease.",
+    "title3": "Age-Related Macular Degeneration Definition",
+    "text3": "Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.",
+    "text3a": "AMD affects the central vision, and with it, the ability to see fine details. In AMD, a part of the retina called the macula is damaged. In advanced stages, people lose their ability to drive, to see faces, and to read smaller print. In its early stages, AMD may have no signs or symptoms, so people may not suspect they have it.",
+    "title4": "Types of Age-Related Macular Degeneration and Causes",
+    "text4": "The two primary types of age-related macular degeneration have different causes:",
+    "text4a": "• Dry. This type is the most common. About 80% of those with AMD have the dry form. Its exact cause is unknown, although both genetic and environmental factors are thought to play a role. This happens as the light-sensitive cells in the macula slowly break down, generally one eye at a time. The loss of vision in this condition is usually slow and gradual. It is believed that the age-related damage of an important support membrane under the retina contributes to dry age-related macular degeneration.",
+    "text4b": "• Wet. Though this type is less common, it usually leads to more severe vision loss in patients than dry AMD. It is the most common cause of severe loss of vision. Wet AMD happens when abnormal blood vessels start to grow beneath the retina. They leak fluid and blood — hence the name wet AMD — and can create a large blind spot in the center of the visual field.",
+    "title5": "Risk Factors for Age-Related Macular Degeneration",
+    "text5a": "There are several risk factors that can contribute to developing age-related macular degeneration, including:",
+    "text5b": "• Being 50 and older",
+    "text5c": "• Eating a diet high in saturated fat",
+    "text5d": "• Smoking",
+    "text5e": "• High blood pressure or hypertension",
+    "title6": "Age-Related Macular Degeneration Symptoms",
+    "text6": "The following are the most common symptoms of age-related macular degeneration. However, each individual may experience symptoms differently. Symptoms may include:",
+    "text6a": "• Blurry or fuzzy vision",
+    "text6b": "• Difficulty recognizing familiar faces",
+    "text6c": "• Straight lines appear wavy",
+    "text6d": "• A dark, empty area or blind spot appears in the center of vision",
+    "text6e": "• Loss of central vision, which is necessary for driving, reading, recognizing faces and performing close-up work",
+    "text6f": "The presence of drusen, which are tiny yellow deposits in the retina, is one of the most common early signs of age-related macular degeneration. It may mean the eye is at risk for developing more severe age-related macular degeneration. These will be visible to your doctor during an eye exam.",
+    "text6g": "The symptoms of age-related macular degeneration may look like other eye conditions. Speak with an eye care professional for diagnosis."
+  },
+  "CataractService": {
+    "serviceName": "Different Types of Cataracts",
+    "typesOfCataracts": [
+      {
+        "title": "Nuclear Sclerosis",
+        "text": "A nuclear sclerotic cataract is when there is a hardening and yellowing in the centre (nucleus) of the natural lens which sits just behind the iris inside of the eye. A nuclear sclerotic cataract progresses slowly and may require many years of gradual development before it begins to affect vision. If left untreated, can cause blindness."
       },
-    "AboutUs": {
-      "subTitle1": "About Us",
-      "title1":  "EYE CARE CENTRE NEW BRUNSWICK",
-      "text1":"Our ophthalmologists offer experienced medical treatment for diseases of the eye, and eye care options like:, cataracts, eyelid, or cosmetic surgery for patients across the Maritimes.",
-      "subTitle2":"Let Us Introduce Ourselves",
-      "title2": "GENERAL OPHTHALMOLOGY PRACTICE",
-      "text2": "We are pleased to welcome you to Eye Care Centre NB, our comprehensive ophthalmology practice located in Dieppe, co-founded in 2019 by Dr. Houfar Sekhavat and Dr. Julien Saad. As a state-of-the-art medical centre, we stay current in diagnostic and surgical procedures and continually endeavor to provide our patients with the highest quality of care.",
-      "subTitle3":"Our Extensive Eye Care Services",
-      "title3": "OPHTHALMOLOGY & SURGICAL SERVICES",
-      "text3": "• CATARACT SURGERY • EYELID AND COSMETIC SURGERIES • GLAUCOMA MANAGEMENT • DIABETIC RETINAL EXAMS • DRY EYE • VISUAL PROBLEMS REQUIRING EVALUATION • URGENT EYE CONDITIONS"
-    },
-    "Mission": {
-      "title1": "VISION",
-      "text1": "We are pleased to welcome you to Eye Care Centre NB, our comprehensive ophthalmology practice and surgical facility located Dieppe, co-founded in 2019 by Dr. Houfar Sekhavat and Dr. Julien Saad. As a state-of-the-art medical Centre, we stay current in diagnostic and surgical procedures and continually endeavor to provide our patients with the highest quality of care.",
-      "title2":"MISSION",
-      "text2": "Our mission is to bring the highest quality of ophthalmic care to each and every patient in the Maritimes. We know this can only be done by ensuring each member of our team is committed to providing compassionate, personal care to all patients that trust us with their vision.",
-      "title3":"QUALITY, BEST CARE AND THE BEST OUTCOMES",
-      "text3": "We constantly work to maintain and further develop the highest standard of care available to patients in the Maritimes. Our team of staff and doctors are always looking for ways to improve the services we provide for our patients.",
-      "title4":"PATIENT CENTRICITY",
-      "text4": "We recognize that each patient's needs are unique and do our best to care for those who visit our clinic in a way that reflects that.",
-      "title5":"PROFESSIONALISM AND HIGH ETHICAL STANDARDS",
-      "text5": "We adhere to a high ethical standard and aim to display professionalism in all that we do. We believe in using our actions to show patients and referring partners that they can trust us.",
-      "title6":"TEAMWORK AND PRODUCTIVITY",
-      "text6": "The level of care we provide would not be possible without every member of our team. We are constantly communicating and working with one another to make the patient’s experience as seamless as possible."
-    },
-    "Contact":{
-      "bannerTitle":  "Eye Care Centre NB",
-      "title": "Contact Us",
-      "title2": "How can we help you?",
-      "helpText": "Upon referral from your family doctor, nurse practitioner or Optometrist we will be able to evaluate you and assist you in a treatment plan",
-      "title3": "See the difference",
-      "helpText2": "Our multi-subspecialty team of Eye Physicians & Surgeons will be able to cater to your needs and help create a medical or surgical plan",
-      "monday":"Monday",
-      "tuesday":"Tuesday",
-      "wednesday":"Wednesday",
-      "thursday":"Thursday",
-      "friday":"Friday",
-      "saturday":"Saturday",
-      "sunday":"Sunday",
-      "closed": "Closed"
-    },
-    "GlaucomaManagementService":{
-      "serviceName":"Glaucoma Management",
-      "title1":"MANAGING THE SYMPTOMS AND SIDE EFFECTS OF GLAUCOMA",
-      "text1":"Glaucoma is an eye disease characterized by damage to the optic nerve, which is the nerve that transmits visual information from the eye to the brain. It is usually caused by fluid buildup in the front portion of the eye which creates pressure in the eye and damages the nerve. Glaucoma is the leading cause of blindness for people over the age of 60, and any vision lost to glaucoma cannot be recovered. However, with early diagnosis and intervention, treatment can prevent vision loss and blindness. There are several different kinds of glaucoma and treatment depends on the specific type and severity. The primary goal of treatment is to lower or control the intraocular pressure, or pressure in the eye, which threatens the optic nerve.",
-      "title2":"MEDICATED EYEDROPS",
-      "text2":"One of the first lines of defense against glaucoma is usually the use of medicated eye drops. Eye drops can either reduce the amount of fluid created in the eye or improve the flow of fluid out of the eye. For example, certain medicated eye drops contain prostaglandins — drugs that improve the non-conventional flow of fluids out of the eye, thereby reducing intraocular pressure. Other drugs are alphaadrenergic agonists or beta-blockers, both of which decrease the fluid production in the eye. These eye drops may be prescribed alone or in combination with each other. Like any medication, medicated eye drops are not prescribed to individuals that have certain medical conditions or health concerns. For some individuals, eye drops placed in the eye could be absorbed by the blood vessels in the nasal mucosa and may affect heart rate and breathing. In rare cases, some eye drops can compromise health and exacerbate certain conditions like asthma. For this reason, all candidates are carefully evaluated and their detailed medical history is recorded before the doctor prescribes medicated eye drops.",
-      "title3":"SURGERY CAN MANAGE GLAUCOMA",
-      "text3":"If medicated eye drops fail to adequately treat glaucoma or if they cause undesirable side effects, surgery is another treatment option. Surgery is designed to improve the flow of fluids out of the eye to help lower intraocular pressure. A procedure called laser trabeculoplasty uses a laser to stimulate the eye’s drainage system to work more efficiently. This relieves some of the pressure in the eye. Laser iridotomy is another procedure in which a tiny hole is made through the eye’s iris to improve the flow of the fluid in the eye. Minimally Invasive Glaucoma Surgery (MIGS) is a newer procedure where stents are implanted to help drain fluid from your eye. In a trabeculectomy, a flap is created in the white of the eye (the sclera) and an opening is made in the eye to release built-up fluid. These procedures may be combined with the use of medicated eye drops for the best results.",
-      "buttonTitle1": "LEARN ABOUT GLAUCOMA",
-      "buttonTitle2": "button title",
-      "buttonTitle3": "button title"
-    },
-    "CataractSurgeryService":{
-      "serviceName":"Cataract Surgery",
-      "title1":"ENHANCED VISION THAT SUITS YOUR LIFESTYLE WITH CATARACT SURGERY",
-      "text1":"At Eye Care Centre NB , we see patients with cataracts every day. We know what can cause cataracts, the effects of cataracts, and how to safely remove them. For our patients, it can be scary, bothersome, and inconvenient to lose their vision from cataracts. Cataracts have a significant impact on lifestyle, independence, and mobility. Our eye doctors are committed to offering effective treatment options and delivering great patient care. We believe in educating patients so they can make informed decisions about their treatment. Our patients are treated with respect, compassion, and patience throughout the entire experience. If you are progressively losing your vision due to cataracts, and it is becoming increasingly harder to perform everyday tasks — such as driving or reading the label on a bottle of medicine — we invite you to schedule a free consultation with our cataract specialists. We can explain why your vision is worsening and what we can do about it.",
-      "title2":"HOW DO I KNOW IF I HAVE CATARACTS?",
-      "text2":"Cataracts are diagnosed after an eye exam with one of our doctors or an optometrist. You may have cataracts if you: • Are over the age of 60 • Notice your vision is progressively worsening• Have cloudy or blurry vision • Need frequent prescription changes in your eyeglasses or contact lenses • See glare around headlights, lamps, or sunlight • Have poor night vision • Have double vision or multiple images • Notice that colours seem faded or “washed out”",
-      "title3":"HOW CATARACT SURGERY WORKS",
-      "text3":"If your cataracts progress to the point where they interfere with your vision and make it difficult to perform everyday tasks, surgical treatment is the best choice. If left untreated, poor vision may lead to motor vehicle accidents, falls, and other accidents to the patient or others. Cataract surgery involves removing the clouded, cataract-diseased lens and replacing it with an artificial lens implant (an intraocular lens or IOL). The most common surgery performed in the world, cataract surgery is extremely safe and effective. Complications are rare. There are different lenses to suit different lifestyles. Some lenses are designed to work best for near vision; others for distance vision. Special lenses have the ability to adjust for both near and distance vision. Other lenses are intended to correct astigmatism. For example, if you spend a lot of time reading or sewing, you may opt for a different lens than someone who spends a lot of time driving or playing sports. Our eye doctors and cataract consultants will help you select the best lens package for your lifestyle.",
-      "title4":"WHAT TO EXPECT",
-      "text4":"Prior to cataract surgery, several tests will be performed to determine the most suitable type of intraocular lens package for your lifestyle. We specialize in many types of new, high-technology lenses that allow for clear vision for distance, near, or both, even without glasses or contact lenses. Once your surgery date has been scheduled, you will receive comprehensive instructions and a prescription for medicated eye drops. We recommend starting the eye drops two days before your cataract surgery. On the day of surgery, you will need to arrange for someone to drive you to and from surgery. Please plan on being here for several hours. You will be awake during surgery but you will not be able to see the surgery being performed. If you are nervous, we have medication you can take prior to the surgery to relax you. The procedure takes 8 – 15 minutes and goes by very quickly. It is not painful but there is a sensation of pressure and water. After surgery, we will place a clear, plastic protective patch over your eye. Both eyes are generally done on separate days.",
-      "title5":"LIFE AFTER CATARACT SURGERY",
-      "text5":"Cataract surgery is designed to give you clearer and more colourful vision (sort of like the vision you enjoyed in your youth). Driving and reading become easier. High-definition vision makes the details of your surroundings stand out. Your dependence on corrective glasses may change depending on your lens choice — you may only need glasses for reading, or possibly not at all. For many people, improved vision correlates with better self-confidence, improved mental health, more independence, and a reduction in falls. Hobbies, activities, and social outings become more enjoyable. Overall quality of life increases. There is no age limit for cataract surgery. Anyone with cataracts can enjoy the benefits of cataract surgery regardless of their age.",
-      "buttonTitle1": "LEARN ABOUT GLAUCOMA",
-      "buttonTitle2": "button title",
-      "buttonTitle3": "button title"
-    },
-    "DiabetesService": {
-      "serviceName": "Diabetic Retinopathy",
-      "text1": "Diabetic retinopathy is a medical condition in which damage occurs to the retina due to diabetes. It is a leading cause of blindness in developed countries and one of the lead causes of sight loss in the world, even though there are many new therapies and improved treatments for helping people live with diabetes.",
-      "subtitle1":"Diabetes and Your Eyes: What You Need to Know",
-      "title2":"How can diabetes affect your eyes?",
-      "text2": "Diabetes occurs when your body does not properly process food as energy. When you have diabetes, your body either does not respond to or does not produce insulin, which is a hormone that delivers glucose (blood sugar) to the cells in your body. Having too much glucose in the bloodstream, outside the cells where it belongs, can lead to damage of the blood vessels and nerves that run throughout your body, including to the eyes.",
-      "title3":"Diabetic Eye Disease",
-      "text3": "Diabetic eye disease refers to the group of eye conditions that can result from diabetes. These include:",
-      "text3a": "Diabetic retinopathy. The leading cause of blindness in American adults, diabetic retinopathy occurs when changes in the retina’s blood vessels cause either leaking of the vessels or growth of abnormal new blood vessels on the retina’s surface.",
-      "text3b": "Macular edema. The macula — the center of the retina that provides sharp, straight vision — can swell due to leaky blood vessels caused by diabetes. This can result in blurred or distorted vision.",
-      "text3c": "Glaucoma. One form of glaucoma, neovascular glaucoma, is caused by diabetes. High sugar levels can damage the retina’s blood vessels and result in the creation of abnormal new ones. When new blood vessels grow on the eye’s iris (the colored part of the",
-      "text3d":"Cataracts. Cataracts can form earlier and progress faster in people with diabetes due to the increase of sugar in the blood. This creates a cloudy buildup in the eye’s lens, resulting in a cataract.",
-      "title4":"Swelling of the Eye Lens",
-      "text4":"Another potential effect from diabetes is swelling of the eye lens, leading to blurry vision. If your blood sugar levels change quickly from low to normal, the shape of your eye’s lens can be affected and your vision can be blurred. Your vision goes back to normal after your blood sugar stabilizes.",
-      "title5":"Diabetic eye disease prevention",
-      "text5a":"The best way to prevent diabetes-related eye problems is to manage your blood sugar levels, blood pressure and cholesterol levels. Ways you can help prevent eye problems caused by diabetes include:",
-      "text5b":"Control your blood sugar. Your doctor can provide direction on how to keep your blood sugar normal and avoid fluctuations that can lead to diabetic eye diseases. “In addition to getting your eyes checked, it’s also very important to keep the blood sugars under control,” says Cai. “This is not only good for you overall, but also good for your eyes.”",
-      "text5c":"Lower your blood pressure and cholesterol. Get recommendations from your doctor on ways you can combat high blood pressure and cholesterol, because these can worsen diabetic eye disease.",
-      "text5d":"Stop smoking. Smoking can cause further damage to your blood vessels, including the ones in your eyes, so it’s very important to stop smoking.",
-      "text5e":"Avoid harmful rays. Protect yourself from the sun’s harmful ultraviolet rays by wearing sunglasses. Exposure to these rays can speed up the progression of cataracts."
-    },
-    "LaserTreatmentService":{
-      "serviceName":"Laser treatments",
-      "text1":"Selective Laser Trabeculoplasty (SLT) is a laser procedure that reduces pressure inside the eye. It's used to treat glaucoma and ocular hypertension.",
-      "text2":"Laser iridotomy, also known as laser peripheral iridotomy (LPI), is a laser eye surgery that treats and prevents glaucoma. It involves making a small hole in the iris to improve drainage and lower pressure in the eye.",
-      "text3":"A YAG laser capsulotomy is a laser eye surgery that improves vision after cataract surgery. It's also known as a posterior capsulotomy. You might need sometime after cataract surgery. It helps you see clearly if your vision becomes cloudy again.",
-      "text4":"Argon laser is a procedure that uses a laser beam to treat eye conditions. The laser beam is focused on the back of the eye to treat conditions such as diabetic retinopathy, retinal tears, and glaucoma.",
-      "text5":"Three common conditions treated by Argon laser are diabetic retinopathy, retinal vein occlusion and retinal tears. The retina is a delicate tissue lining the inside of the eye and the macula is a small area at the centre of the retina.",
-      "text6":"The Ellex 2RT ophthalmic laser is a proprietary nanosecond laser technology used to treat early stages of age-related macular degeneration (AMD) by stimulating the eye's natural healing response, essentially aiming to \"rejuvenate\" the retina through a process called Retinal Rejuvenation Therapy (2RT) which targets specific cells within the retinal pigment epithelium (RPE) using a unique pixelated beam profile; it is designed to deliver precise energy without causing damage to surrounding tissue."
-    },
-    
-    "MacularDegenerationService":{
-      "serviceName": "Macular Degeneration",
-      "title1":"Macular Degeneration or Age Related Macular Degeneration",
-      "text1":"Macular degeneration, also known as age-related macular degeneration, is a medical condition which may result in blurred or no vision in the center of the visual field. Early on there are often no symptoms. Over time, however, some people experience a gradual worsening of vision that may affect one or both eyes.",
-      "title2":"What you need to know",
-      "text2":"• Age-related macular degeneration (AMD) is a disease that affects a person’s central vision.",
-      "text2a":"• AMD can result in severe loss of central vision, but people rarely go blind from it.",
-      "text2b":"• Risk factors for AMD include being 50 and older, smoking, having high blood pressure and eating a diet high in saturated fat.",
-      "text2c":"• Although there is no cure for AMD, there are treatment options that may prevent or slow the progression of the disease.",
-      "title3":"Age-Related Macular Degeneration Definition",
-      "text3":"Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.",
-      "text3a":"AMD affects the central vision, and with it, the ability to see fine details. In AMD, a part of the retina called the macula is damaged. In advanced stages, people lose their ability to drive, to see faces, and to read smaller print. In its early stages, AMD may have no signs or symptoms, so people may not suspect they have it.",
-      "title4":"Types of Age-Related Macular Degeneration and Causes",
-      "text4":"The two primary types of age-related macular degeneration have different causes:",
-      "text4a":"• Dry. This type is the most common. About 80% of those with AMD have the dry form. Its exact cause is unknown, although both genetic and environmental factors are thought to play a role. This happens as the light-sensitive cells in the macula slowly break down, generally one eye at a time. The loss of vision in this condition is usually slow and gradual. It is believed that the age-related damage of an important support membrane under the retina contributes to dry age-related macular degeneration.",
-      "text4b":"• Wet. Though this type is less common, it usually leads to more severe vision loss in patients than dry AMD. It is the most common cause of severe loss of vision. Wet AMD happens when abnormal blood vessels start to grow beneath the retina. They leak fluid and blood — hence the name wet AMD — and can create a large blind spot in the center of the visual field.",
-      "title5":"Risk Factors for Age-Related Macular Degeneration",
-      "text5a":"There are several risk factors that can contribute to developing age-related macular degeneration, including:",
-      "text5b":"• Being 50 and older",
-      "text5c":"• Eating a diet high in saturated fat",
-      "text5d":"• Smoking",
-      "text5e":"• High blood pressure or hypertension",
-      "title6":"Age-Related Macular Degeneration Symptoms",
-      "text6":"The following are the most common symptoms of age-related macular degeneration. However, each individual may experience symptoms differently. Symptoms may include:",
-      "text6a":"• Blurry or fuzzy vision",
-      "text6b":"• Difficulty recognizing familiar faces",
-      "text6c":"• Straight lines appear wavy",
-      "text6d":"• A dark, empty area or blind spot appears in the center of vision",
-      "text6e":"• Loss of central vision, which is necessary for driving, reading, recognizing faces and performing close-up work",
-      "text6f":"The presence of drusen, which are tiny yellow deposits in the retina, is one of the most common early signs of age-related macular degeneration. It may mean the eye is at risk for developing more severe age-related macular degeneration. These will be visible to your doctor during an eye exam.",
-      "text6g":"The symptoms of age-related macular degeneration may look like other eye conditions. Speak with an eye care professional for diagnosis."
-    },
-    "CataractService":{
-      "serviceName": "Different Types of Cataracts",
-      "title1":"Cataract – Nuclear Sclerosis",
-      "text1":"A nuclear sclerotic cataract is when there is a hardening and yellowing in the centre (nucleus) of the natural lens which sits just behind the iris inside of the eye. A nuclear sclerotic cataract progresses slowly and may require many years of gradual development before it begins to affect vision. If left untreated, can cause blindness.",
-      "title2":"Cataract – Cortical Spokes",
-      "text2":"A cortical cataract is characterized by white, wedge-like opacities that start on the outer edges of the lens and work their way to the centre having the appearance of a wheel spoke or star like pattern. This type of cataract occurs in the lens cortex, which is the part of the lens that surrounds the central nucleus. People with diabetes are most likely to be effected by this type of cataract.",
-      "title3":"Cataract – Posterior Subcapsular",
-      "text3":"Posterior subcapsular cataracts begin as a small, cloudy or opaque area on the back, or posterior, of the lens. People with diabetes or those taking a high dosage of steroids are likely to develop a posterior subcapsular cataract. Extreme nearsightedness, and/or retinitis pigmentosa may develop this type of cataract. Subcapsular cataracts can develop rapidly and symptoms can become noticeable within months."
-    },
-    "Goguen": {
-      "name": "Dr. Christian Goguen",
-      "title": "Ophthalmologist",
-      "bio1": "Originally from Dieppe, Dr. Goguen returned to his native region to practice his profession. He obtained a degree in health sciences from the Université de Moncton and a doctorate in medicine from the Centre de formation médicale du Nouveau-Brunswick. He then completed his residency in ophthalmology at the University of Sherbrooke.",
-      "bio2": "He began practising at the Eye Care Centre, in Dieppe, in September 2025.",
-      "bp1": "Started his practice September 2025",
-      "bp2": "Completed residency @ University of Sherbrooke, originating from Dieppe NB",
-      "bp3": "Specializing in cataracts and comprehensive ophthalmology with interest in anterior segment"
-    },
-    "Shokrollahi": {
-      "name": "Dr. Siamak Shokrollahi ",
-      "title": "Ophthalmologist",
-      "bio1": "Dr. Shokrollahi has been practicing as an ophthalmologist since 2006, after completing his medical training in Tehran. He became a Canadian citizen in 2012 and continued his advanced training at the Joslin Diabetes Center and the Beetham Eye Institute at Harvard Medical School in Boston, Massachusetts.",
-      "bio2": "He joined Eye Care Centre NB in June 2025. Dr. Shokrollahi specializes in cornea and anterior segment diseases and is the author of multiple publications in clinical ophthalmology.",
-      "bio3": "Outside of medicine, his interests include history, geography, and etymology. He enjoys Persian, classical, and country music, as well as swimming, walking, and tennis. He is also an established amateur oil painter.",
-      "bio4": "View Dr. Shokrollahi's publications ",
-      "publicationLink":"here",
-      "activitiesTitle": "Activities & Lectures",
-      "activities": [
-        "S. Shokrollahi, M. Bahmani Kashkuli, B. Beigi: Crohn’s Disease and Sclerosing Orbital Pseudotumor. A clinicopathologic case report and literature review. XIII Ophthalmology Congress of Iran.",
-        "S. Shokrollahi, M. Soltan Sanjari: Evaluation of corneal refractive and topographic changes after hang-back strabismus surgery. XV Ophthalmology Congress of Iran (also published in IUMS Journal).",
-        "Lectures for ophthalmic technicians and nurses at the 16th Iranian Congress of Ophthalmology: Cataract surgery—past, present, and future.",
-        "ARVO 2019 Annual Meeting, April 28–May 2, 2019, Vancouver, BC, Canada. Association of ultrawidefield retinal vessel caliber with predominantly peripheral lesions and diabetic retinopathy severity.",
-        "Comparison of Diabetic Retinopathy (DR) severity identified on ultrawide field retinal images (UWFRI) and ultrawide field fluorescein angiograms (UWF-FA). Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
-        "English editor of the Journal of Iranian Medical Council.",
-        "Nine years (2000–2008) of continuous activities preparing medical students and general physicians for residency entry exams in Iran and abroad."
-      ],
-      "publicationsTitle": "Publications",
-      "googleScholar": "Google scholar profile under the name of: Siamak Shokrollahi",
-      "publications": [
-        "Effect of Homatropine Eye Drops on Pain After Photorefractive Keratectomy: A Pilot Study. Saudi Journal of Ophthalmology 27(2), 83–85.",
-        "Comparison of the Effect of Cycloplegic Versus NSAID Eye Drops on Pain After Photorefractive Keratectomy. Journal of Current Ophthalmology 27(3–4), 87–91.",
-        "Intraocular Pressure–Lowering Effect of 0.005% Latanoprost With Two Different Dosing Regimens. Journal of Ocular Pharmacology and Therapeutics 28(5), 524–528.",
-        "Diabetic Retinopathy and Ultrawide Field Imaging. Seminars in Ophthalmology 35(1), 56–65.",
-        "Retinal Vascular Caliber Association With Nonperfusion and Diabetic Retinopathy Severity. Ophthalmology Retina, online September 2020.",
-        "Association of Ultrawide Field Retinal Vessel Caliber With Diabetic Retinopathy Severity, Predominantly Peripheral Lesions and Retinal Nonperfusion. Investigative Ophthalmology & Visual Science 60(9), 4771–4771.",
-        "Comparison of Diabetic Retinopathy Severity Identified on Ultrawide Field Retinal Images and Ultrawide Field Fluorescein Angiograms. Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
-        "Refractive and Corneal Topographic Changes After Hang-Back Strabismus Surgery. Razi Journal of Medical Sciences 16, 49–55."
-      ],
-      "bp1": "Cornea & anterior segment specialist",
-      "bp2": "Fellowship @ Harvard Medical School, Boston, Massachusetts, USA.",
-      "bp3": "Published author of numerous clinical ophthalmic studies"
-    },
-   "Sekhavat": {
-      "name": "Dr. Houfar Sekhavat, MD FRCSC",
-      "title": "Ophthalmologist",
-      "bio": "Dr. Houfar Sekhavat, MD FRCSC, is an Ophthalmologist and has been practicing since 2005. He is an integral part of the Eye Care Center NB and has conducted over 15000 intraocular surgeries since joining the team. He studied medicine at Sherbrooke University and completed his specialty at Laval University in the province of Quebec. Furthermore, he is interested in international medicine, having practiced in various countries. He is a member in good standing of various international medical societies and actively participates in their meetings. He is fluent in four languages and is interested in the cosmetic industry. Dr. Sekhavat has considerable experience in various fields of research. He is the Founder and Executive Chairman of Triple Hair, the Founder and CEO of Pulmonem and the Founder and CO-CEO of ",
-      "bp1": "Over 20,000 eye procedures specializing in cataracts",
-      "bp2": "Utlizing the most up to date and current techniques and equipment",
-      "bp3": "Dedicated to global health, participating annually in mission trips to 3rd world regions",
-      "bp4": "Globally known surgeon for innovative advancement in surgical instruments for ophthalmology",
-      "bp5": "Founder of Pulmonem, Triplehair and Hexiris"
-    },
-
-    "Savoie": {
-      "name": "Dr. Isabelle Aucoin-Savoie",
-      "title": "Surgeon and Medical Ophthalmologist",
-      "bio1": "Dr. Savoie, originally from Moncton, earned her medical degree from the University of Sherbrooke in 2006. She completed her ophthalmology residency at Université Laval in 2011 and has been a Fellow of the Royal College of Surgeons of Canada ever since. She was delighted to return to her New Brunswick roots to establish her practice and make meaningful contributions to the Greater Moncton community she cherishes.",
-      "bio2": "Dr. Savoie finds great fulfillment in restoring sight through cataract surgery. She also enjoys the full scope of comprehensive ophthalmology, including the management of glaucoma, diabetic eye disease, macular degeneration, and other ocular conditions.",
-      "bp1": "Over 8,000 eye procedures specializing in cataracts",
-      "bp2": "Utilizing the most up to date and current techniques and equipment",
-      "bp3": "Dedicated to global health, participating annually in mission trips to 3rd world regions"
-    },
-
-    "Saad": {
-      "name": "Dr. Julien Saad, MD FRCSC",
-      "title": "Surgeon and Medical Ophthalmologist",
-      "bio": "bio here",
-      "bp1": "Over 10,000 eye procedures specializing in cataracts and eyelids",
-      "bp2": "Utilizing the most up to date and current techniques and equipment",
-      "bp3": "Expertise in administering intravitreal injections to treat complex retinal conditions"
-    },
-
-    "Ponce": {
-      "name": "Dr. José Ramón Ponce-Martínez, MD",
-      "title": "Ophthalmologist | Anterior Segment Surgery & Glaucoma Specialist",
-      "bio1": "Dr. José Ramón Ponce-Martínez is a distinguished ophthalmologist specializing in anterior segment surgery and glaucoma. A graduate of the prestigious National Autonomous University of Mexico, Dr. Ponce-Martínez completed advanced training at the General Hospital of Mexico and the National Rehabilitation Institute. With over a decade of experience, he served as a Professor of Anterior Segment Surgery at the General Hospital of Mexico from 2011 to 2022, where he trained and mentored the next generation of ophthalmologists.",
-      "bio2": "Dr. Ponce-Martínez has made significant contributions to glaucoma research, most recently as the Coordinator of Glaucoma Research at the Apex Eye Institute in Corner Brook, Newfoundland. He is an active member of several prestigious professional organizations, including the Mexican Society of Ophthalmology, the Mexican Center of Cataract Surgeons, the American Society of Cataract and Refractive Surgeons, and the College of Physicians and Surgeons of New Brunswick.",
-      "bio3": "Committed to improving global eye care, Dr. Ponce-Martínez has been a dedicated participant in cataract surgery programs for humanitarian purposes in Mexico and Trinidad & Tobago since 2015, holding an honorary medical license in Trinidad & Tobago.",
-      "bio4": "Combining clinical expertise, academic leadership, and a passion for humanitarian work, Dr. José Ramón Ponce-Martínez continues to advance the field of ophthalmology through innovation, education, and compassionate care.",
-      "bp1": "Over 10,000 eye procedures specializing in cataracts and anterior segment surgery ",
-      "bp2": "Utilizing the most up to date and current techniques and equipment",
-      "bp3": "Dedicated to global health, participating annually in mission trips to Tobago",
-      "bp4": "Medical Director, @AOSAVI. Mexico City"
-    },
-
-    "LaPierre": {
-      "name": "Tatjana LaPierre",
-      "title": "Career spanning 30+ years in health care. A part of the Eye Care Team since 2014."
-    },
-
-    "White": {
-      "name": "Twila White"
-    },
-
-    "OurTeam": {
-      "bannerTitle": "Meet Our Team",
-      "bannerSubTitle": "Dedicated to Your Vision, Driven by Expertise.",
-      "subtitle1": "A NETWORK OF EXPERIENCED DOCTORS",
-      "subtitle2": "OUR DOCTORS",
-      "subtitle3": "OUR MANAGEMENT",
-      "subtitle4": "INJECTION CO-ORDINATOR"
-    },
-
-    "Footer": {
-      "contactus": "Contact Us",
-      "quicklinks": "Quick Links",
-      "services": "Services",
-      "aboutus": "About Us",
-      "ourteam": "Our Team",
-      "feedback": "Feedback",
-      "mission": "Mission"
-    }
+      {
+        "title": "Cortical Spokes",
+        "text": "A cortical cataract is characterized by white, wedge-like opacities that start on the outer edges of the lens and work their way to the centre having the appearance of a wheel spoke or star like pattern. This type of cataract occurs in the lens cortex, which is the part of the lens that surrounds the central nucleus. People with diabetes are most likely to be effected by this type of cataract."
+      },
+      {
+        "title": "Posterior Subcapsular",
+        "text": "Posterior subcapsular cataracts begin as a small, cloudy or opaque area on the back, or posterior, of the lens. People with diabetes or those taking a high dosage of steroids are likely to develop a posterior subcapsular cataract. Extreme nearsightedness, and/or retinitis pigmentosa may develop this type of cataract. Subcapsular cataracts can develop rapidly and symptoms can become noticeable within months."
+      },
+      {
+        "title": "Congenital Cataracts",
+        "text": "Congenital cataracts are present at birth or in childhood, sometimes due to infection or metabolic issues."
+      },
+      {
+        "title": "Secondary Cataract",
+        "text": "Secondary cataract develop after a previous eye surgery (posterior capsule opacification) or due to other diseases (e.g., diabetes, steroid use)."
+      },
+      {
+        "title": "Traumatic Cataracts",
+        "text": "Traumatic cataracts develop after an eye injury."
+      }
+    ]
+  },
+  "Goguen": {
+    "name": "Dr. Christian Goguen",
+    "title": "Ophthalmologist",
+    "bio1": "Originally from Dieppe, Dr. Goguen returned to his native region to practice his profession. He obtained a degree in health sciences from the Université de Moncton and a doctorate in medicine from the Centre de formation médicale du Nouveau-Brunswick. He then completed his residency in ophthalmology at the University of Sherbrooke.",
+    "bio2": "He began practising at the Eye Care Centre, in Dieppe, in September 2025.",
+    "bp1": "Started his practice September 2025",
+    "bp2": "Completed residency @ University of Sherbrooke, originating from Dieppe NB",
+    "bp3": "Specializing in cataracts and comprehensive ophthalmology with interest in anterior segment"
+  },
+  "Shokrollahi": {
+    "name": "Dr. Siamak Shokrollahi ",
+    "title": "Ophthalmologist",
+    "bio1": "Dr. Shokrollahi has been practicing as an ophthalmologist since 2006, after completing his medical training in Tehran. He became a Canadian citizen in 2012 and continued his advanced training at the Joslin Diabetes Center and the Beetham Eye Institute at Harvard Medical School in Boston, Massachusetts.",
+    "bio2": "He joined Eye Care Centre NB in June 2025. Dr. Shokrollahi specializes in cornea and anterior segment diseases and is the author of multiple publications in clinical ophthalmology.",
+    "bio3": "Outside of medicine, his interests include history, geography, and etymology. He enjoys Persian, classical, and country music, as well as swimming, walking, and tennis. He is also an established amateur oil painter.",
+    "bio4": "View Dr. Shokrollahi's publications ",
+    "publicationLink": "here",
+    "activitiesTitle": "Activities & Lectures",
+    "activities": [
+      "S. Shokrollahi, M. Bahmani Kashkuli, B. Beigi: Crohn’s Disease and Sclerosing Orbital Pseudotumor. A clinicopathologic case report and literature review. XIII Ophthalmology Congress of Iran.",
+      "S. Shokrollahi, M. Soltan Sanjari: Evaluation of corneal refractive and topographic changes after hang-back strabismus surgery. XV Ophthalmology Congress of Iran (also published in IUMS Journal).",
+      "Lectures for ophthalmic technicians and nurses at the 16th Iranian Congress of Ophthalmology: Cataract surgery—past, present, and future.",
+      "ARVO 2019 Annual Meeting, April 28–May 2, 2019, Vancouver, BC, Canada. Association of ultrawidefield retinal vessel caliber with predominantly peripheral lesions and diabetic retinopathy severity.",
+      "Comparison of Diabetic Retinopathy (DR) severity identified on ultrawide field retinal images (UWFRI) and ultrawide field fluorescein angiograms (UWF-FA). Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
+      "English editor of the Journal of Iranian Medical Council.",
+      "Nine years (2000–2008) of continuous activities preparing medical students and general physicians for residency entry exams in Iran and abroad."
+    ],
+    "publicationsTitle": "Publications",
+    "googleScholar": "Google scholar profile under the name of: Siamak Shokrollahi",
+    "publications": [
+      "Effect of Homatropine Eye Drops on Pain After Photorefractive Keratectomy: A Pilot Study. Saudi Journal of Ophthalmology 27(2), 83–85.",
+      "Comparison of the Effect of Cycloplegic Versus NSAID Eye Drops on Pain After Photorefractive Keratectomy. Journal of Current Ophthalmology 27(3–4), 87–91.",
+      "Intraocular Pressure–Lowering Effect of 0.005% Latanoprost With Two Different Dosing Regimens. Journal of Ocular Pharmacology and Therapeutics 28(5), 524–528.",
+      "Diabetic Retinopathy and Ultrawide Field Imaging. Seminars in Ophthalmology 35(1), 56–65.",
+      "Retinal Vascular Caliber Association With Nonperfusion and Diabetic Retinopathy Severity. Ophthalmology Retina, online September 2020.",
+      "Association of Ultrawide Field Retinal Vessel Caliber With Diabetic Retinopathy Severity, Predominantly Peripheral Lesions and Retinal Nonperfusion. Investigative Ophthalmology & Visual Science 60(9), 4771–4771.",
+      "Comparison of Diabetic Retinopathy Severity Identified on Ultrawide Field Retinal Images and Ultrawide Field Fluorescein Angiograms. Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
+      "Refractive and Corneal Topographic Changes After Hang-Back Strabismus Surgery. Razi Journal of Medical Sciences 16, 49–55."
+    ],
+    "bp1": "Cornea & anterior segment specialist",
+    "bp2": "Fellowship @ Harvard Medical School, Boston, Massachusetts, USA.",
+    "bp3": "Published author of numerous clinical ophthalmic studies"
+  },
+  "Sekhavat": {
+    "name": "Dr. Houfar Sekhavat, MD FRCSC",
+    "title": "Ophthalmologist",
+    "bio": "Dr. Houfar Sekhavat, MD FRCSC, is an Ophthalmologist and has been practicing since 2005. He is an integral part of the Eye Care Center NB and has conducted over 15000 intraocular surgeries since joining the team. He studied medicine at Sherbrooke University and completed his specialty at Laval University in the province of Quebec. Furthermore, he is interested in international medicine, having practiced in various countries. He is a member in good standing of various international medical societies and actively participates in their meetings. He is fluent in four languages and is interested in the cosmetic industry. Dr. Sekhavat has considerable experience in various fields of research. He is the Founder and Executive Chairman of Triple Hair, the Founder and CEO of Pulmonem and the Founder and CO-CEO of ",
+    "bp1": "Over 20,000 eye procedures specializing in cataracts",
+    "bp2": "Utlizing the most up to date and current techniques and equipment",
+    "bp3": "Dedicated to global health, participating annually in mission trips to 3rd world regions",
+    "bp4": "Globally known surgeon for innovative advancement in surgical instruments for ophthalmology",
+    "bp5": "Founder of Pulmonem, Triplehair and Hexiris"
+  },
+  "Savoie": {
+    "name": "Dr. Isabelle Aucoin-Savoie",
+    "title": "Surgeon and Medical Ophthalmologist",
+    "bio1": "Dr. Savoie, originally from Moncton, earned her medical degree from the University of Sherbrooke in 2006. She completed her ophthalmology residency at Université Laval in 2011 and has been a Fellow of the Royal College of Surgeons of Canada ever since. She was delighted to return to her New Brunswick roots to establish her practice and make meaningful contributions to the Greater Moncton community she cherishes.",
+    "bio2": "Dr. Savoie finds great fulfillment in restoring sight through cataract surgery. She also enjoys the full scope of comprehensive ophthalmology, including the management of glaucoma, diabetic eye disease, macular degeneration, and other ocular conditions.",
+    "bp1": "Over 8,000 eye procedures specializing in cataracts",
+    "bp2": "Utilizing the most up to date and current techniques and equipment",
+    "bp3": "Dedicated to global health, participating annually in mission trips to 3rd world regions"
+  },
+  "Saad": {
+    "name": "Dr. Julien Saad, MD FRCSC",
+    "title": "Surgeon and Medical Ophthalmologist",
+    "bio": "bio here",
+    "bp1": "Over 10,000 eye procedures specializing in cataracts and eyelids",
+    "bp2": "Utilizing the most up to date and current techniques and equipment",
+    "bp3": "Expertise in administering intravitreal injections to treat complex retinal conditions"
+  },
+  "Ponce": {
+    "name": "Dr. José Ramón Ponce-Martínez, MD",
+    "title": "Ophthalmologist | Anterior Segment Surgery & Glaucoma Specialist",
+    "bio1": "Dr. José Ramón Ponce-Martínez is a distinguished ophthalmologist specializing in anterior segment surgery and glaucoma. A graduate of the prestigious National Autonomous University of Mexico, Dr. Ponce-Martínez completed advanced training at the General Hospital of Mexico and the National Rehabilitation Institute. With over a decade of experience, he served as a Professor of Anterior Segment Surgery at the General Hospital of Mexico from 2011 to 2022, where he trained and mentored the next generation of ophthalmologists.",
+    "bio2": "Dr. Ponce-Martínez has made significant contributions to glaucoma research, most recently as the Coordinator of Glaucoma Research at the Apex Eye Institute in Corner Brook, Newfoundland. He is an active member of several prestigious professional organizations, including the Mexican Society of Ophthalmology, the Mexican Center of Cataract Surgeons, the American Society of Cataract and Refractive Surgeons, and the College of Physicians and Surgeons of New Brunswick.",
+    "bio3": "Committed to improving global eye care, Dr. Ponce-Martínez has been a dedicated participant in cataract surgery programs for humanitarian purposes in Mexico and Trinidad & Tobago since 2015, holding an honorary medical license in Trinidad & Tobago.",
+    "bio4": "Combining clinical expertise, academic leadership, and a passion for humanitarian work, Dr. José Ramón Ponce-Martínez continues to advance the field of ophthalmology through innovation, education, and compassionate care.",
+    "bp1": "Over 10,000 eye procedures specializing in cataracts and anterior segment surgery ",
+    "bp2": "Utilizing the most up to date and current techniques and equipment",
+    "bp3": "Dedicated to global health, participating annually in mission trips to Tobago",
+    "bp4": "Medical Director, @AOSAVI. Mexico City"
+  },
+  "LaPierre": {
+    "name": "Tatjana LaPierre",
+    "title": "Career spanning 30+ years in health care. A part of the Eye Care Team since 2014."
+  },
+  "White": {
+    "name": "Twila White"
+  },
+  "OurTeam": {
+    "bannerTitle": "Meet Our Team",
+    "bannerSubTitle": "Dedicated to Your Vision, Driven by Expertise.",
+    "subtitle1": "A NETWORK OF EXPERIENCED DOCTORS",
+    "subtitle2": "OUR DOCTORS",
+    "subtitle3": "OUR MANAGEMENT",
+    "subtitle4": "INJECTION CO-ORDINATOR"
+  },
+  "Footer": {
+    "contactus": "Contact Us",
+    "quicklinks": "Quick Links",
+    "services": "Services",
+    "aboutus": "About Us",
+    "ourteam": "Our Team",
+    "feedback": "Feedback",
+    "mission": "Mission"
+  }
 }

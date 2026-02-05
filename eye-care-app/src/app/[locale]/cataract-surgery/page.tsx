@@ -3,7 +3,6 @@ import { useTranslations } from "next-intl";
 export default function CataractSurgeryPage() {
     const t = useTranslations("CataractSurgeryService");
     return (
-        
         <div>
             <div className="div-with-bg mb-24">
                 <div className="div-text-content ml-[50px] mb-[50px]">
@@ -25,43 +24,48 @@ export default function CataractSurgeryPage() {
                 </div>
 
                 <div>
-                <div className = "flex max-w-[1200px] items-stretch justify-center">
-            
-                    <Image className="max-w-[600px] block max-[1260px]:hidden"
-                    src={require("../../images/activity_1.png")}
-                    alt="logo"
-                    layout="responsive"
-                    />
-            
-                    <div className="bg-[#8695C0] flex flex-col justify-center text-white w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
-                        <h1 className="pb-5 text-xl">{t('title2')}</h1>
-                        <section className="separator" >______</section>
-                        <p>{t('text2')}</p>
-                        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">{t('buttonTitle2')}</button>
+                    <div className="flex max-w-[1200px] items-stretch justify-center">
+                        <Image className="max-w-[600px] block max-[1260px]:hidden"
+                            src={require("../../images/activity_1.png")}
+                            alt="logo"
+                            layout="responsive"
+                        />
+                        <div className="bg-[#8695C0] flex flex-col justify-center text-white w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
+                            <h1 className="pb-5 text-xl">{t('title2')}</h1>
+                            <section className="separator" >______</section>
+                            <p>{t('text2')}</p>
+                            <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">{t('buttonTitle2')}</button>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div className = "flex max-w-[1200px] items-stretch justify-center">
-                    <div className = "bg-white flex flex-col justify-center w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
+                <div className="flex max-w-[1200px] items-stretch justify-center">
+                    <div className="bg-white flex flex-col justify-center w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
                         <h1 className="pb-5 text-xl">{t('title3')}</h1>
                         <section className="select-none my-[30px]" id="separator-style-2" >______</section>
                         <p>{t('text3')}</p>
-                        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">{t('buttonTitle3')}</button>
+                        <a
+                            href={t('cataractSurgeryHowItWorksVideoLink')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block mt-10 text-center border-3 border-white w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white"
+                        >
+                            {t('buttonTitle3')}
+                        </a>
                     </div>
-                    <Image className="max-w-[600px] block max-[1260px]:hidden" 
-                            src={require("../../images/activity_2.png")}
-                            alt="logo"
-                            layout="responsive"
+                    <Image className="max-w-[600px] block max-[1260px]:hidden"
+                        src={require("../../images/activity_2.png")}
+                        alt="logo"
+                        layout="responsive"
                     />
                 </div>
-                <div className = "flex max-w-[1200px] items-stretch justify-center">
-            
+                <div className="flex max-w-[1200px] items-stretch justify-center">
+
                     <Image className="max-w-[600px] block max-[1260px]:hidden"
-                    src={require("../../images/activity_1.png")}
-                    alt="logo"
-                    layout="responsive"
+                        src={require("../../images/activity_1.png")}
+                        alt="logo"
+                        layout="responsive"
                     />
-            
+
                     <div className="bg-[#8695C0] flex flex-col justify-center text-white w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
                         <h1 className="pb-5 text-xl">{t('title4')}</h1>
                         <section className="separator" >______</section>
@@ -69,17 +73,17 @@ export default function CataractSurgeryPage() {
                         <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px]">{t('buttonTitle2')}</button>
                     </div>
                 </div>
-                <div className = "flex max-w-[1200px] items-stretch justify-center">
-                    <div className = "bg-white flex flex-col justify-center w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
+                <div className="flex max-w-[1200px] items-stretch justify-center">
+                    <div className="bg-white flex flex-col justify-center w-1/2 px-[60px] box-border p-[70px] max-[1260px]:p-[70px] w-full">
                         <h1 className="pb-5 text-xl">{t('title5')}</h1>
                         <section className="select-none my-[30px]" id="separator-style-2" >______</section>
                         <p>{t('text5')}</p>
-                        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">{t('buttonTitle3')}</button>
+                        <button className="mt-10 border-3 border-white w-auto py-4 px-7 rounded-[5px] bg-[#8695C0] text-white">{t('buttonTitle2')}</button>
                     </div>
-                    <Image className="max-w-[600px] block max-[1260px]:hidden" 
-                            src={require("../../images/activity_2.png")}
-                            alt="logo"
-                            layout="responsive"
+                    <Image className="max-w-[600px] block max-[1260px]:hidden"
+                        src={require("../../images/activity_2.png")}
+                        alt="logo"
+                        layout="responsive"
                     />
                 </div>
             </div>

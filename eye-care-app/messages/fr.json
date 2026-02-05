@@ -1,286 +1,289 @@
 {
-    "Home": {
-      "bannerTitle": "Bienvenue!",
-      "bannerSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
-    },
-
-    "NavBar": {
-      "home": "HOME",
-      "services": "SERVICES",
-      "aboutus": "À PROPOS DE NOUS",
-      "ourteam": "NOTRE ÉQUIPE",
-      "ourteamLC": "Notre Équipe",
-      "resources": "RESSOURCES",
-      "feedback": "COMMENTAIRES",
-      "contactus": "CONTACTEZ-NOUS",
-      "cataractSurgery": "Chirurgie de la Cataracte",
-      "diabetes": "Diabète",
-      "glaucomaManagement": "Gestion du Glaucome",
-      "laserTreatments": "Traitements au Laser",
-      "typesOfCataracts": "Types de Cataractes",
-      "macularDegeneration": "Dégénérescence Maculaire"
-    },
-    "AboutUs": {
-      "subTitle1": "À propos de nous",
-      "title1":  "EYE CARE CENTRE NEW BRUNSWICK",
-      "text1":"Nos ophtalmologistes offrent des traitements médicaux expérimentés pour les maladies oculaires et des options de soins oculaires telles que : la cataracte, les paupières ou la chirurgie esthétique pour les patients des Maritimes.",
-      "subTitle2":"Laissez-nous nous présenter",
-      "title2": "PRATIQUE DE L'OPHTALMOLOGIE GÉNÉRALE",
-      "text2": "Nous sommes heureux de vous accueillir au Eye Care Centre NB, notre cabinet d'ophtalmologie complète situé à Dieppe, cofondé en 2019 par le Dr Houfar Sekhavat et le Dr Julien Saad. En tant que centre médical de pointe, nous restons à la pointe des procédures diagnostiques et chirurgicales et nous efforçons continuellement de fournir à nos patients des soins de la plus haute qualité.",
-      "subTitle3":"Nos services complets de soins oculaires",
-      "title3": "OPHTALMOLOGIE ET SERVICES CHIRURGICAUX",
-      "text3": "• CHIRURGIE DE LA CATARACTE • CHIRURGIE DES PAUPIÈRES ET CHIRURGIE COSMÉTIQUE • GESTION DU GLAUCOME • EXAMENS RÉTINIENS DIABÉTIQUES • YEUX SECS • PROBLÈMES VISUELS NÉCESSITANT UNE ÉVALUATION • CONDITIONS OCULAIRES URGENTES"
-    },
-    "Mission": {
-      "title1": "VISION",
-      "text1": "Nous sommes heureux de vous accueillir au Eye Care Centre NB, notre cabinet d'ophtalmologie complet et notre établissement chirurgical situé à Dieppe, cofondé en 2019 par le Dr Houfar Sekhavat et le Dr Julien Saad. En tant que centre médical de pointe, nous restons à la pointe des procédures diagnostiques et chirurgicales et nous efforçons continuellement de fournir à nos patients des soins de la plus haute qualité.",
-      "title2":"MISSION",
-      "text2": "Notre mission est d'offrir des soins ophtalmologiques de la plus haute qualité à chaque patient des Maritimes. Nous savons que cela ne peut être fait qu’en veillant à ce que chaque membre de notre équipe s’engage à fournir des soins personnels et empreints de compassion à tous les patients qui nous font confiance pour leur vision.",
-      "title3":"QUALITÉ, MEILLEURS SOINS ET MEILLEURS RÉSULTATS",
-      "text3": "Nous travaillons constamment à maintenir et à développer davantage la norme de soins la plus élevée offerte aux patients des Maritimes. Notre équipe de personnel et de médecins est  toujours à la recherche de moyens d'améliorer les services que nous fournissons à nos patients.",
-      "title4":"CENTRICITÉ SUR LE PATIENT",
-      "text4": "Nous reconnaissons que les besoins de chaque patient sont uniques et faisons de notre mieux pour prendre soin de ceux qui visitent notre clinique d'une manière qui reflète cela.",
-      "title5":"PROFESSIONNALISME ET NORMES ÉTHIQUES ÉLEVÉES",
-      "text5": "Nous adhérons à des normes éthiques élevées et visons à faire preuve de professionnalisme dans tout ce que nous faisons. Nous croyons qu'il est important d'utiliser nos actions pour montrer aux patients et aux partenaires référents qu'ils peuvent nous faire confiance.",
-      "title6":"TRAVAIL D'ÉQUIPE ET PRODUCTIVITÉ",
-      "text6": "Le niveau de soins que nous fournissons ne serait pas possible sans chaque membre de notre équipe. Nous communiquons et travaillons constamment les uns avec les autres pour rendre l’expérience du patient aussi fluide que possible."
-    },
-    "Contact":{
-      "bannerTitle":  "Centre De L'oeil NB",
-      "title": "Contactez-nous",
-      "title2": "Comment pouvons-nous vous aider?",
-      "helpText": "Sur recommandation de votre médecin de famille, infirmier praticien ou optométriste, nous serons en mesure de vous évaluer et de vous aider à établir un plan de traitement.",
-      "title3": "Voyez la différence",
-      "helpText2": "Notre équipe multispecialisée de médecins et chirurgiens ophtalmologistes pourra répondre à vos besoins et vous aider à élaborer un plan médical ou chirurgical.",
-      "monday":"Lundi",
-      "tuesday":"Mardi",
-      "wednesday":"Mercredi",
-      "thursday":"Jeudi",
-      "friday":"Vendredi",
-      "saturday":"Samedi",
-      "sunday":"Dimanche",
-      "closed": "Fermée"
-    },
-    "GlaucomaManagementService":{
-      "serviceName":"Gestion du glaucome",
-      "title1":"GESTION DES SYMPTÔMES ET DES EFFETS SECONDAIRES DU GLAUCOME",
-      "text1":"Le glaucome est une maladie oculaire caractérisée par des lésions du nerf optique, qui est le nerf qui transmet les informations visuelles de l'oeil au cerveau. Elle est généralement causée par une accumulation de liquide dans la partie avant de l’oeil, ce qui crée une pression dans l’oeil et endommage le nerf. Le glaucome est la principale cause de cécité chez les personnes de plus de 60 ans, et toute perte de vision due au glaucome ne peut être récupérée. Cependant, avec un diagnostic et une intervention précoces, le traitement peut prévenir la perte de vision et la cécité. Il existe plusieurs types de glaucome et le traitement dépend du type spécifique et de la gravité. L’objectif principal du traitement est de réduire ou de contrôler la pression intraoculaire, ou pression dans l’oeil, qui menace le nerf optique.",
-      "title2":"COLLES MÉDICAMENTEUX",
-      "text2":"L’une des premières lignes de défense contre le glaucome est généralement l’utilisation de gouttes ophtalmiques médicamenteuses. Les gouttes oculaires peuvent soit réduire la quantité de liquide créée dans l’oeil, soit améliorer l’écoulement du liquide hors de l’oeil. Par exemple, certains collyres médicamenteux contiennent des prostaglandines, des médicaments qui améliorent l’écoulement non conventionnel des liquides hors de l’oeil, réduisant ainsi la pression intraoculaire. D'autres médicaments sont des agonistes alphaadrénergiques ou des bêtabloquants, qui diminuent tous deux la production de liquide dans l'oeil. Ces gouttes oculaires peuvent être prescrites seules ou en association les unes avec les autres. Comme tout médicament, les gouttes ophtalmiques médicamenteuses ne sont pas prescrites aux personnes souffrant de certains problèmes de santé ou de problèmes de santé. Chez certaines personnes, les gouttes oculaires placées dans l’oeil pourraient être absorbées par les vaisseaux sanguins de la muqueuse nasale et affecter la fréquence cardiaque et la respiration. Dans de rares cas, certains collyres peuvent compromettre la santé et exacerber certaines affections comme l’asthme. Pour cette raison, tous les candidats sont soigneusement évalués et leurs antécédents médicaux détaillés sont enregistrés avant que le médecin ne leur prescrive des gouttes ophtalmiques médicamenteuses.",
-      "title3":"LA CHIRURGIE PEUT GÉRER LE GLAUCOME",
-      "text3":"Si les collyres médicamenteux ne parviennent pas à traiter correctement le glaucome ou s’ils provoquent des effets secondaires indésirables, la chirurgie est une autre option de traitement. La chirurgie est conçue pour améliorer l’écoulement des liquides hors de l’oeil afin de contribuer à réduire la pression intraoculaire. Une procédure appelée trabéculoplastie au laser utilise un laser pour stimuler le système de drainage de l’oeil afin qu’il fonctionne plus efficacement. Cela soulage une partie de la pression dans les yeux. L'iridotomie au laser est une autre procédure dans laquelle un petit trou est pratiqué dans l'iris de l'oeil pour améliorer la circulation du liquide dans l'oeil. La chirurgie mini-invasive du glaucome (MIGS) est une procédure plus récente dans laquelle des stents sont implantés pour aider à drainer le liquide de votre oeil. Lors d'une trabéculectomie, un lambeau est créé dans le blanc de l'oeil (la sclère) et une ouverture est pratiquée dans l'oeil pour libérer le liquide accumulé. Ces procédures peuvent être combinées à l’utilisation de gouttes ophtalmiques médicamenteuses pour obtenir les meilleurs résultats.",
-      "buttonTitle1": "EN SAVOIR PLUS SUR LE GLAUCOME",
-      "buttonTitle2": "button title",
-      "buttonTitle3": "button title"
-    },
-    "CataractSurgeryService":{
-      "serviceName":"Cataract Surgery",
-      "title1":"UNE VISION AMÉLIORÉE ADAPTÉE À VOTRE STYLE DE VIE GRÂCE À LA CHIRURGIE DE LA CATARACTE",
-      "text1":"Au Centre de soins oculaires du Nouveau-Brunswick, nous voyons quotidiennement des patients atteints de cataracte. Nous savons ce qui peut causer la cataracte, ses effets et comment les éliminer en toute sécurité. Pour nos patients, il peut être effrayant, gênant et gênant de perdre la vision à cause de la cataracte. Les cataractes ont un impact significatif sur le mode de vie, l'autonomie et la mobilité. Nos ophtalmologistes s’engagent à proposer des options de traitement efficaces et à prodiguer d’excellents soins aux patients. Nous croyons en l’éducation des patients afin qu’ils puissent prendre des décisions éclairées concernant leur traitement. Nos patients sont traités avec respect, compassion et patience tout au long de leur expérience. Si vous perdez progressivement la vue à cause de la cataracte et qu'il devient de plus en plus difficile d'accomplir les tâches quotidiennes, comme conduire ou lire l'étiquette d'un flacon de médicament, nous vous invitons à planifier une consultation gratuite avec nos spécialistes de la cataracte. Nous pouvons vous expliquer pourquoi votre vision se détériore et ce que nous pouvons faire pour y remédier.",
-      "title2":"COMMENT SAVOIR SI J'AI UNE CATARACTE?",
-      "text2":"Les cataractes sont diagnostiquées après un examen de la vue effectué par l'un de nos médecins ou un optométriste. Vous pourriez avoir une cataracte si vous : • Vous avez plus de 60 ans • Remarquez que votre vision se détériore progressivement • Avez une vision trouble ou floue • Besoin de changements fréquents de prescription pour vos lunettes ou vos lentilles de contact • Observez l'éblouissement autour des phares, des lampes ou de la lumière du soleil. • Avoir une mauvaise vision nocturne • Avoir une vision double ou plusieurs images • Notez que les couleurs semblent délavées ou « délavées ».",
-      "title3":"COMMENT FONCTIONNE LA CHIRURGIE DE LA CATARACTE",
-      "text3":"Si votre cataracte progresse au point où elle interfère avec votre vision et rend difficile l'exécution des tâches quotidiennes, le traitement chirurgical est le meilleur choix. Si elle n'est pas traitée, une mauvaise vision peut entraîner des accidents de la route, des chutes et d'autres accidents pour le patient ou pour autrui. La chirurgie de la cataracte consiste à retirer le cristallin opacifié et atteint de la cataracte et à le remplacer par un implant de cristallin artificiel (une lentille intraoculaire ou LIO). Chirurgie la plus courante dans le monde, la chirurgie de la cataracte est extrêmement sûre et efficace. Les complications sont rares. Il existe différents verres adaptés à différents styles de vie. Certaines lentilles sont conçues pour fonctionner mieux pour la vision de près ; d'autres pour la vision de loin. Les verres spéciaux ont la capacité de s’ajuster à la fois à la vision de près et à celle de loin. D'autres lentilles sont destinées à corriger l'astigmatisme. Par exemple, si vous passez beaucoup de temps à lire ou à coudre, vous pouvez opter pour un objectif différent de celui d'une personne qui passe beaucoup de temps à conduire ou à faire du sport. Nos ophtalmologistes et consultants en cataracte vous aideront à sélectionner le meilleur ensemble de lentilles adapté à votre style de vie.",
-      "title4":"À QUOI S'ATTENDRE",
-      "text4":"Avant l’opération de la cataracte, plusieurs tests seront effectués pour déterminer le type de lentille intraoculaire le plus adapté à votre style de vie. Nous sommes spécialisés dans de nombreux types de nouveaux verres de haute technologie qui permettent une vision claire de loin, de près ou les deux, même sans lunettes ni lentilles de contact. Une fois la date de votre intervention chirurgicale fixée, vous recevrez des instructions complètes et une prescription de gouttes ophtalmiques médicamenteuses. Nous vous recommandons de commencer le collyre deux jours avant votre opération de la cataracte. Le jour de l’opération, vous devrez demander à quelqu’un de vous conduire vers et depuis l’opération. Veuillez prévoir d'être ici pendant plusieurs heures. Vous serez éveillé pendant l’opération mais vous ne pourrez pas voir l’opération se dérouler. Si vous êtes nerveux, nous avons des médicaments que vous pouvez prendre avant la chirurgie pour vous détendre. La procédure prend 8 à 15 minutes et se déroule très rapidement. Ce n'est pas douloureux mais il y a une sensation de pression et d'eau. Après l’opération, nous placerons un patch protecteur en plastique transparent sur votre oeil. Les deux yeux sont généralement réalisés à des jours différents.",
-      "title5":"LA VIE APRÈS LA CHIRURGIE DE LA CATARACTE",
-      "text5":"La chirurgie de la cataracte est conçue pour vous donner une vision plus claire et plus colorée (un peu comme la vision dont vous jouissiez dans votre jeunesse). Conduire et lire deviennent plus faciles. La vision haute définition fait ressortir les détails de votre environnement. Votre dépendance à l'égard des lunettes correctrices peut changer en fonction de votre choix de verres : vous n'aurez peut-être besoin de lunettes que pour lire, voire pas du tout. Pour de nombreuses personnes, une meilleure vision est associée à une meilleure confiance en soi, à une meilleure santé mentale, à une plus grande indépendance et à une réduction des chutes. Les passe-temps, les activités et les sorties sociales deviennent plus agréables. La qualité de vie globale augmente. Il n’y a pas de limite d’âge pour l’opération de la cataracte. Toute personne atteinte de cataracte peut bénéficier des bienfaits de la chirurgie de la cataracte, quel que soit son âge.",
-      "buttonTitle1": "LEARN ABOUT GLAUCOMA",
-      "buttonTitle2": "button title",
-      "buttonTitle3": "button title"
-    },
-    "DiabetesService": {
-      "title1": "Rétinopathie diabétique",
-      "text1": "La rétinopathie diabétique est une maladie dans laquelle la rétine est endommagée en raison du diabète. C'est l'une des principales causes de cécité dans les pays développés et l'une des principales causes de perte de la vue dans le monde, même s'il existe de nombreuses nouvelles thérapies et des traitements améliorés pour aider les personnes atteintes de diabète.",
-      "subtitle1":"Le diabète et vos yeux : ce que vous devez savoir",
-      "title2":"Comment le diabète peut-il affecter vos yeux ?",
-      "text2": "Le diabète survient lorsque votre corps ne transforme pas correctement les aliments en énergie. Lorsque vous souffrez de diabète, votre corps ne répond pas à l'insuline ou ne la produit pas, une hormone qui fournit du glucose (sucre sanguin) aux cellules de votre corps. Avoir trop de glucose dans la circulation sanguine, en dehors des cellules auxquelles il appartient, peut endommager les vaisseaux sanguins et les nerfs qui parcourent tout votre corps, y compris les yeux.",
-      "title3":"Maladie oculaire diabétique",
-      "text3": "La maladie oculaire diabétique fait référence au groupe de maladies oculaires qui peuvent résulter du diabète. Celles-ci comprennent :",
-      "text3a": "Rétinopathie diabétique. La rétinopathie diabétique, principale cause de cécité chez les adultes américains, survient lorsque des modifications des vaisseaux sanguins de la rétine provoquent soit une fuite des vaisseaux, soit la croissance de nouveaux vaisseaux sanguins anormaux à la surface de la rétine.",
-      "text3b": "OEdème maculaire. La macula, le centre de la rétine qui permet une vision nette et droite, peut gonfler en raison de vaisseaux sanguins qui fuient à cause du diabète. Cela peut entraîner une vision floue ou déformée.",
-      "text3c": "Glaucome. Une forme de glaucome, le glaucome néovasculaire, est causée par le diabète. Des taux de sucre élevés peuvent endommager les vaisseaux sanguins de la rétine et entraîner la création de nouveaux vaisseaux anormaux. Lorsque de nouveaux vaisseaux sanguins se développent sur l'iris de l'oeil (la partie colorée de l'oeil), cela peut provoquer une augmentation de la pression oculaire et un glaucome.",
-      "text3d":"Cataractes. Les cataractes peuvent se former plus tôt et progresser plus rapidement chez les personnes atteintes de diabète en raison de l'augmentation du sucre dans le sang. Cela crée une accumulation trouble dans le cristallin de l'oeil, entraînant une cataracte.",
-      "title4":"Gonflement du cristallin",
-      "text4":"Le diabète peut également provoquer un gonflement du cristallin, qui peut entraîner une vision floue. Si votre taux de sucre sanguin passe rapidement d’un niveau bas à un niveau normal, la forme du cristallin de votre oeil peut être affectée et votre vision peut être floue. Votre vision redevient normale une fois votre taux de sucre sanguin stabilisé.",
-      "title5":"Prévention des maladies oculaires liées au diabète",
-      "text5a":"La meilleure façon de prévenir les problèmes oculaires liés au diabète est de gérer votre taux de sucre sanguin, votre tension artérielle et votre taux de cholestérol. Voici quelques moyens de prévenir les problèmes oculaires causés par le diabète :",
-      "text5b":"Contrôlez votre taux de sucre sanguin. Votre médecin peut vous indiquer comment maintenir votre taux de sucre sanguin à un niveau normal et éviter les fluctuations qui peuvent entraîner des maladies oculaires liées au diabète. « En plus de faire examiner vos yeux, il est également très important de garder votre taux de sucre sanguin sous contrôle », explique Cai. « Cela est  non seulement bon pour vous en général, mais aussi pour vos yeux. »",
-      "text5c":"Réduisez votre tension artérielle et votre taux de cholestérol. Demandez à votre médecin des recommandations sur les moyens de lutter contre l’hypertension artérielle et le cholestérol, car ces éléments peuvent aggraver les maladies oculaires liées au diabète.",
-      "text5d":"Arrêtez de fumer. Le tabagisme peut endommager davantage vos vaisseaux sanguins, y compris ceux de vos yeux. Il est donc très important d’arrêter de fumer.",
-      "text5e":"Évitez les rayons nocifs. Protégez-vous des rayons ultraviolets nocifs du soleil en portant des lunettes de soleil. L’exposition à ces rayons peut accélérer la progression de la cataracte."
-    },
-
-    "LaserTreatmentService":{
-      "serviceName":"Traitements au laser",
-      "text1":"La trabéculoplastie sélective au laser (SLT) est une procédure au laser qui réduit la pression à l'intérieur de l'oeil. Elle est utilisée pour traiter le glaucome et l'hypertension oculaire.",
-      "text2":"L'iridotomie au laser, également connue sous le nom d'iridotomie périphérique au laser (LPI), est une chirurgie oculaire au laser qui traite et prévient le glaucome. Elle consiste à faire un petit trou dans l'iris pour améliorer le drainage et réduire la pression dans l'oeil.",
-      "text3":"Une capsulotomie au laser YAG est une chirurgie oculaire au laser qui améliore la vision après une opération de la cataracte. Elle est également connue sous le nom de capsulotomie postérieure. Vous pourriez en avoir besoin quelque temps après une opération de la cataracte. Elle vous aide à voir clairement si votre vision redevient trouble.",
-      "text4":"Le laser à l'argon est une procédure qui utilise un faisceau laser pour traiter les affections oculaires. Le faisceau laser est focalisé sur l'arrière de l'oeil pour traiter des affections telles que la rétinopathie diabétique, les déchirures rétiniennes et le glaucome.",
-      "text5":"Trois pathologies courantes traitées par le laser Argon sont la rétinopathie diabétique, l'occlusion veineuse rétinienne et les déchirures rétiniennes. La rétine est un tissu délicat qui tapisse l'intérieur de l'oeil et la macula est une petite zone au centre de la rétine.",
-      "text6":"Le laser ophtalmique Ellex 2RT est une technologie laser nanoseconde exclusive utilisée pour traiter les premiers stades de la dégénérescence maculaire liée à l'âge (DMLA) en stimulant la réponse de guérison naturelle de l'oeil, visant essentiellement à « rajeunir » la rétine grâce à un processus appelé thérapie de rajeunissement de la rétine (2RT) qui cible des cellules spécifiques de l'épithélium pigmentaire rétinien (RPE) à l'aide d'un profil de faisceau pixellisé unique ; il est conçu pour délivrer une énergie précise sans endommager les tissus environnants."
-    },
-
-    "MacularDegenerationService":{
-      "serviceName": "Dégénérescence maculaire",
-      "title1":"Dégénérescence maculaire ou dégénérescence maculaire liée à l'âge",
-      "text1":"La dégénérescence maculaire, également connue sous le nom de dégénérescence maculaire liée à l'âge, est une affection médicale qui peut entraîner une vision floue ou inexistante au centre du champ visuel. Au début, il n'y a souvent aucun symptôme. Au fil du temps, cependant, certaines personnes connaissent une détérioration progressive de la vision qui peut affecter un ou les deux yeux.",
-      "title2":"Ce que vous devez savoir",
-      "text2":"• La dégénérescence maculaire liée à l’âge (DMLA) est une maladie qui affecte la vision centrale d’une personne.",
-      "text2a":"• La DMLA peut entraîner une perte grave de la vision centrale, mais les personnes atteintes deviennent rarement aveugles.",
-      "text2b":"• Les facteurs de risque de la DMLA comprennent le fait d’avoir 50 ans et plus, de fumer, d’avoir une pression artérielle élevée et de suivre un régime alimentaire riche en graisses saturées.",
-      "text2c":"• Bien qu’il n’existe pas de remède contre la DMLA, il existe des options de traitement qui peuvent prévenir ou ralentir la progression de la maladie.",
-      "title3":"Définition de la dégénérescence maculaire liée à l’âge",
-      "text3":"La dégénérescence maculaire liée à l’âge est la cause la plus fréquente de perte sévère de la vue chez les personnes de 50 ans et plus. Seul le centre de la vision est touché par cette maladie. Il est important de comprendre que les personnes deviennent rarement aveugles à cause de cette maladie.",
-      "text3a":"La DMLA affecte la vision centrale et, avec elle, la capacité à voir les détails fins. Dans la DMLA, une partie de la rétine appelée macula est endommagée. Aux stades avancés, les personnes perdent leur capacité à conduire, à voir les visages et à lire les petits caractères. Aux premiers stades, la DMLA peut ne présenter aucun signe ni symptôme, de sorte que les personnes peuvent ne pas soupçonner qu’elles en sont atteintes.",
-      "title4":"Types de dégénérescence maculaire liée à l’âge et causes",
-      "text4":"Les deux principaux types de dégénérescence maculaire liée à l’âge ont des causes différentes :",
-      "text4a":"• Sec. Ce type est le plus courant. Environ 80 % des personnes atteintes de DMLA ont la forme sèche. Sa cause exacte est inconnue, bien que l’on pense que des facteurs génétiques et environnementaux jouent un rôle. Cela se produit lorsque les cellules photosensibles de la macula se décomposent lentement, généralement un oeil à la fois. La perte de vision dans cette condition est généralement lente et progressive. On pense que les dommages liés à l'âge d'une membrane de soutien importante sous la rétine contribuent à la dégénérescence maculaire sèche liée à l'âge.",
-      "text4b":"• Humide. Bien que ce type soit moins courant, il entraîne généralement une perte de vision plus grave chez les patients que la DMLA sèche. C'est la cause la plus courante de perte de vision grave. La DMLA humide survient lorsque des vaisseaux sanguins anormaux commencent à se développer sous la rétine. Ils laissent échapper du liquide et du sang - d'où le nom de DMLA humide - et peuvent créer une grande tache aveugle au centre du champ visuel.",
-      "title5":"Facteurs de risque de la dégénérescence maculaire liée à l'âge",
-      "text5a":"Plusieurs facteurs de risque peuvent contribuer au développement de la dégénérescence maculaire liée à l'âge, notamment :",
-      "text5b":"• Être âgé de 50 ans et plus",
-      "text5c":"• Avoir une alimentation riche en graisses saturées",
-      "text5d":"• Tabagisme",
-      "text5e":"• Hypertension artérielle ou hypertension",
-      "title6":"Symptômes de la dégénérescence maculaire liée à l'âge",
-      "text6":"Voici les symptômes les plus courants de la dégénérescence maculaire liée à l'âge. Cependant, chaque individu peut ressentir les symptômes différemment. Les symptômes peuvent inclure :",
-      "text6a":"• Vision floue ou confuse",
-      "text6b":"• Difficulté à reconnaître les visages familiers",
-      "text6c":"• Les lignes droites semblent ondulées",
-      "text6d":"• Une zone sombre et vide ou un angle mort apparaît au centre de la vision",
-      "text6e":"• Perte de la vision centrale, qui est nécessaire pour conduire, lire, reconnaître les visages et effectuer des travaux de près",
-      "text6f":"La présence de drusen, qui sont de minuscules dépôts jaunes dans la rétine, est l'un des premiers signes les plus courants de la dégénérescence maculaire liée à l'âge. Cela peut signifier que l'oeil risque de développer une dégénérescence maculaire liée à l'âge plus grave. Ceux-ci seront visibles par votre médecin lors d'un examen de la vue.",
-      "text6g":"Les symptômes de la dégénérescence maculaire liée à l'âge peuvent ressembler à ceux d'autres affections oculaires. Consultez un professionnel de la vue pour obtenir un diagnostic."
-    },
-
-    "CataractService":{
-      "serviceName": "Types de Cataractes",
-      "title1":"Cataracte – Sclérose nucléaire",
-      "text1":"Une cataracte est une déformation de la rétine qui rend l'oeil inaccessible à la lueur. Elle peut être due à des causes telles que des problèmes de vision, des troubles cardiaques, des maladies de la génito-urinaire, des infections, des infections génitales, ou des problèmes de sport. Les cataractes peuvent être sévères, affectant la vision de tous les yeux, ou modérées, affectant uniquement un ou deux yeux. Cette déformation peut être visible par votre médecin ou par des examens d'oeil.",
-      "title2":"Cataracte – Rayons corticaux",
-      "text2":"Une cataracte corticale est caractérisée par des opacités blanches en forme de coin qui commencent sur les bords extérieurs du cristallin et se dirigent vers le centre, ayant l’apparence d’un rayon de roue ou d’un motif en étoile. Ce type de cataracte se produit dans le cortex du cristallin, qui est la partie du cristallin qui entoure le noyau central. Les personnes diabétiques sont les plus susceptibles d’être touchées par ce type de cataracte.",
-      "title3":"Cataracte – Sous-capsulaire postérieure",
-      "text3":"Les cataractes sous-capsulaires postérieures commencent par une petite zone trouble ou opaque à l'arrière ou postérieure du cristallin. Les personnes atteintes de diabète ou celles qui prennent une dose élevée de stéroïdes sont susceptibles de développer une cataracte souscapsulaire postérieure. Une myopie extrême et/ou une rétinite pigmentaire peuvent développer ce type de cataracte. Les cataractes sous-capsulaires peuvent se développer rapidement et les symptômes peuvent devenir perceptibles en quelques mois."
-    },
-
-    "Goguen": {
-      "name": "Dr. Christian Goguen",
-      "title": "Ophthalmologiste",
-      "bio1": "Originaire de Dieppe, le Dr Goguen est retourné dans sa région natale pour y exercer sa profession. Il a obtenu un baccalauréat en sciences de la santé de l'Université de Moncton et un doctorat en médecine du Centre de formation médicale du Nouveau-Brunswick. Il a ensuite complété sa résidence en ophtalmologie à l'Université de Sherbrooke.",
-      "bio2": "Il a commencé à pratiquer au Centre de soins oculaires de Dieppe en septembre 2025.",
-      "bp1": "A débuté sa pratique en septembre 2025",
-      "bp2": "A complété sa résidence à l’Université de Sherbrooke, originaire de Dieppe (N.-B.)",
-      "bp3": "Spécialisé en cataractes et en ophtalmologie générale, avec un intérêt particulier pour le segment antérieur"
-    },
-
-    "Shokrollahi": {
-      "name": "Dr. Siamak Shokrollahi ",
-      "title": "Ophthalmologiste",
-      "bio1": "Le Dr Shokrollahi pratique l’ophtalmologie depuis 2006, après avoir complété sa formation médicale à Téhéran. Il est devenu citoyen canadien en 2012 et a poursuivi sa formation avancée au Joslin Diabetes Center ainsi qu’au Beetham Eye Institute de la Harvard Medical School à Boston, au Massachusetts.",
-      "bio2": "Il s’est joint à Eye Care Centre NB en juin 2025. Le Dr Shokrollahi est spécialisé dans les maladies de la cornée et du segment antérieur et est l’auteur de nombreuses publications en ophtalmologie clinique.",
-      "bio3": "En dehors de la médecine, ses intérêts incluent l’histoire, la géographie et l’étymologie. Il apprécie la musique persane, classique et country, ainsi que la natation, la marche et le tennis. Il est également un peintre amateur établi en peinture à l’huile.",
-      "bio4": "Voir les publications du Dr Shokrollahi ",
-      "publicationLink":"ici",
-      "activitiesTitle": "Activités et Conférences",
-      "activities": [
-        "S. Shokrollahi, M. Bahmani Kashkuli, B. Beigi: Crohn’s Disease and Sclerosing Orbital Pseudotumor. A clinicopathologic case report and literature review. XIII Ophthalmology Congress of Iran.",
-        "S. Shokrollahi, M. Soltan Sanjari: Evaluation of corneal refractive and topographic changes after hang-back strabismus surgery. XV Ophthalmology Congress of Iran (also published in IUMS Journal).",
-        "Lectures for ophthalmic technicians and nurses at the 16th Iranian Congress of Ophthalmology: Cataract surgery—past, present, and future.",
-        "ARVO 2019 Annual Meeting, April 28–May 2, 2019, Vancouver, BC, Canada. Association of ultrawidefield retinal vessel caliber with predominantly peripheral lesions and diabetic retinopathy severity.",
-        "Comparison of Diabetic Retinopathy (DR) severity identified on ultrawide field retinal images (UWFRI) and ultrawide field fluorescein angiograms (UWF-FA). Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
-        "English editor of the Journal of Iranian Medical Council.",
-        "Nine years (2000–2008) of continuous activities preparing medical students and general physicians for residency entry exams in Iran and abroad."
-      ],
-      "publicationsTitle": "Publications",
-      "googleScholar": "Profil Google Scholar sous le nom : Siamak shokrollahi",
-      "publications": [
-        "Effect of Homatropine Eye Drops on Pain After Photorefractive Keratectomy: A Pilot Study. Saudi Journal of Ophthalmology 27(2), 83–85.",
-        "Comparison of the Effect of Cycloplegic Versus NSAID Eye Drops on Pain After Photorefractive Keratectomy. Journal of Current Ophthalmology 27(3–4), 87–91.",
-        "Intraocular Pressure–Lowering Effect of 0.005% Latanoprost With Two Different Dosing Regimens. Journal of Ocular Pharmacology and Therapeutics 28(5), 524–528.",
-        "Diabetic Retinopathy and Ultrawide Field Imaging. Seminars in Ophthalmology 35(1), 56–65.",
-        "Retinal Vascular Caliber Association With Nonperfusion and Diabetic Retinopathy Severity. Ophthalmology Retina, online September 2020.",
-        "Association of Ultrawide Field Retinal Vessel Caliber With Diabetic Retinopathy Severity, Predominantly Peripheral Lesions and Retinal Nonperfusion. Investigative Ophthalmology & Visual Science 60(9), 4771–4771.",
-        "Comparison of Diabetic Retinopathy Severity Identified on Ultrawide Field Retinal Images and Ultrawide Field Fluorescein Angiograms. Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
-        "Refractive and Corneal Topographic Changes After Hang-Back Strabismus Surgery. Razi Journal of Medical Sciences 16, 49–55."
-      ],
-      "bp1": "Spécialiste de la cornée et du segment antérieur",
-      "bp2": "Fellowship à la Harvard Medical School, Boston (Massachusetts, États-Unis)",
-      "bp3": "Auteur de nombreuses publications en ophtalmologie clinique"
-    },
-
-    "Sekhavat": {
-      "name": "Dr. Houfar Sekhavat, MD FRCSC",
-      "title": "Ophtalmologiste",
-      "bio": "Le Dr Houfar Sekhavat, MD FRCSC, est ophtalmologiste et exerce depuis 2005. Il fait partie intégrante du Centre de soins oculaires du Nouveau-Brunswick et a effectué plus de 15 000 chirurgies intraoculaires depuis qu'il s'est joint à l'équipe. Il a étudié la médecine à l'Université de Sherbrooke et a complété sa spécialité à l'Université Laval, dans la province de Québec. De plus, il s'intéresse à la médecine internationale, ayant exercé dans différents pays. Il est membre en règle de diverses sociétés médicales internationales et participe activement à leurs réunions. Il parle couramment quatre langues et s'intéresse à l'industrie cosmétique. Le Dr Sekhavat possède une expérience considérable dans divers domaines de recherche. Il est le fondateur et président exécutif de Triple Hair, le fondateur et PDG de Pulmonem et le fondateur et CO-PDG d'",
-      "bp1": "Plus de 20,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte",
-      "bp2": "Utilise les techniques et les équipements les plus récents et à la fine pointe de la technologie",
-      "bp3": "Engagé envers la santé mondiale, participant annuellement à des missions médicales dans des régions en développement",
-      "bp4": "Chirurgien reconnu à l’échelle internationale pour ses innovations en instruments chirurgicaux en ophtalmologie",
-      "bp5": "Fondateur de Pulmonem, Triplehair et Hexiris"
-
-    },
-
-    "Savoie": {
-      "name": "Dr. Isabelle Aucoin-Savoie",
-      "title": "Ophtalmologiste Chirurgien et Médical",
-      "bio1": "Dre Savoie a obtenu son diplôme en médecine de l’Université de Sherbrooke en 2006 et a complété sa résidence en ophtalmologie à l’Université Laval en 2011. Elle est membre du Collège royal des chirurgiens du Canada depuis cette date. Elle était ravie de revenir dans sa province natale du Nouveau-Brunswick pour établir sa pratique et apporter une contribution significative à la communauté du Grand Moncton, qu’elle chérit tant.",
-      "bio2": "Passionnée par la restauration de la vue, Dre Savoie trouve une grande satisfaction dans la chirurgie de la cataracte. Elle apprécie également tous les aspects de l’ophtalmologie générale, y compris la prise en charge du glaucome, des maladies oculaires liées au diabète, de la dégénérescence maculaire et d’autres affections oculaires.",
-      "bp1": "Plus de 8,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte",
-      "bp2": "Utilise des techniques et des équipements à jour et conformes aux normes les plus récentes",
-      "bp3": "Engagé envers la santé mondiale, participant chaque année à des missions médicales dans des régions en développement"
-
-    },
-    
-    "Saad": {
-      "name": "Dr. Julien Saad, MD FRCSC ",
-      "title": "Ophtalmologiste Chirurgien et Médical",
-      "bio": "bio ici",
-      "bp1": "Plus de 10,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte et des paupières",
-      "bp2": "Utilise les techniques et les équipements les plus récents et à la fine pointe de la technologie",
-      "bp3": "Expertise dans l’administration d’injections intravitréennes pour le traitement de pathologies rétiniennes complexes"
-
-    },
-
-    "Ponce": {
-      "name": "Dr. José Ramón Ponce-Martínez, MD",
-      "title": "Ophtalmologiste | Chirurgie du Segment Antérieur & Apécialiste du Glaucome",
-      "bio1": "Le Dr José Ramón Ponce-Martínez est un ophtalmologiste de renom, spécialisé en chirurgie du segment antérieur et en glaucome. Diplômé de la prestigieuse Université nationale autonome du Mexique (UNAM), il a complété sa formation à l'Hôpital général du Mexique et à l'Institut national de réadaptation (INR). Fort d'une expérience de plus de dix ans, il a été professeur de chirurgie du segment antérieur à l'Hôpital général du Mexique de 2011 à 2022, où il a formé et encadré la relève en ophtalmologie.",
-      "bio2": "Le Dr Ponce-Martínez a apporté une contribution significative à la recherche sur le glaucome, notamment en tant que coordonnateur de la recherche sur le glaucome à l'Apex Eye Institute de Corner Brook, à Terre-Neuve. Il est membre actif de plusieurs organisations professionnelles prestigieuses, dont la Société mexicaine d'ophtalmologie, le Centre mexicain de chirurgie de la cataracte, la Société américaine de chirurgie de la cataracte et de la chirurgie réfractive, et le Collège des médecins et chirurgiens du Nouveau-Brunswick.",
-      "bio3": "Soucieux d'améliorer les soins oculaires à l'échelle mondiale, le Dr Ponce-Martínez participe activement, depuis 2015, à des programmes de chirurgie de la cataracte à vocation humanitaire au Mexique et à Trinité-et-Tobago, où il est titulaire d'un titre honorifique de médecin.",
-      "bio4": "Alliant expertise clinique, leadership académique et engagement humanitaire, le Dr José Ramón Ponce-Martínez contribue à faire progresser l'ophtalmologie par l'innovation, la formation et la compassion.",
-      "bp1": "Plus de 10,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte et du segment antérieur",
-      "bp2": "Utilise les techniques et les équipements les plus récents et à la fine pointe de la technologie",
-      "bp3": "Engagé envers la santé mondiale, participant chaque année à des missions médicales à Tobago",
-      "bp4": "Directeur médical, @AOSAVI. Mexico City"
-    },
-
-    "LaPierre": {
-      "name": "Tatjana LaPierre",
-      "title": "Carrière de plus de 30 ans dans le domaine de la santé. Membre de l'équipe des soins oculaires depuis 2014."
-    },
-
-    "White": {
-      "name": "Twila White"
-    },
-
-    "OurTeam": {
-      "bannerTitle": "Rencontrez Notre Équipe",
-      "bannerSubTitle": "Dévoués à votre vision, guidés par notre expertise.",
-      "subtitle1": "UN RÉSEAU DE MÉDECINS EXPÉRIMENTÉS",
-      "subtitle2": "NOS MÉDECINS",
-      "subtitle3": "NOTRE ÉQUIPE DE GESTION",
-      "subtitle4": "COORDONNATEUR D'INJECTION"
-    },
-
-    "Footer": {
-      "contactus": "Contactez-Nous",
-      "quicklinks": "Liens Rapides",
-      "services": "Services",
-      "aboutus": "À Propos De Nous",
-      "ourteam": "Notre Équipe",
-      "feedback": "Commentaires",
-      "mission": "Mission"
-    }
-
+  "Home": {
+    "bannerTitle": "Bienvenue!",
+    "bannerSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+  },
+  "NavBar": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "aboutus": "À PROPOS DE NOUS",
+    "ourteam": "NOTRE ÉQUIPE",
+    "ourteamLC": "Notre Équipe",
+    "resources": "RESSOURCES",
+    "feedback": "COMMENTAIRES",
+    "contactus": "CONTACTEZ-NOUS",
+    "Surgery": "Chirurgie de la Cataracte",
+    "diabetes": "Diabète",
+    "glaucomaManagement": "Gestion du Glaucome",
+    "laserTreatments": "Traitements au Laser",
+    "typesOfCataracts": "Types de Cataractes",
+    "macularDegeneration": "Dégénérescence Maculaire"
+  },
+  "AboutUs": {
+    "subTitle1": "À propos de nous",
+    "title1": "EYE CARE CENTRE NEW BRUNSWICK",
+    "text1": "Nos ophtalmologistes offrent des traitements médicaux expérimentés pour les maladies oculaires et des options de soins oculaires telles que : la cataracte, les paupières ou la chirurgie esthétique pour les patients des Maritimes.",
+    "subTitle2": "Laissez-nous nous présenter",
+    "title2": "PRATIQUE DE L'OPHTALMOLOGIE GÉNÉRALE",
+    "text2": "Nous sommes heureux de vous accueillir au Eye Care Centre NB, notre cabinet d'ophtalmologie complète situé à Dieppe, cofondé en 2019 par le Dr Houfar Sekhavat et le Dr Julien Saad. En tant que centre médical de pointe, nous restons à la pointe des procédures diagnostiques et chirurgicales et nous efforçons continuellement de fournir à nos patients des soins de la plus haute qualité.",
+    "subTitle3": "Nos services complets de soins oculaires",
+    "title3": "OPHTALMOLOGIE ET SERVICES CHIRURGICAUX",
+    "text3": "• CHIRURGIE DE LA CATARACTE • CHIRURGIE DES PAUPIÈRES ET CHIRURGIE COSMÉTIQUE • GESTION DU GLAUCOME • EXAMENS RÉTINIENS DIABÉTIQUES • YEUX SECS • PROBLÈMES VISUELS NÉCESSITANT UNE ÉVALUATION • CONDITIONS OCULAIRES URGENTES"
+  },
+  "Mission": {
+    "title1": "VISION",
+    "text1": "Nous sommes heureux de vous accueillir au Eye Care Centre NB, notre cabinet d'ophtalmologie complet et notre établissement chirurgical situé à Dieppe, cofondé en 2019 par le Dr Houfar Sekhavat et le Dr Julien Saad. En tant que centre médical de pointe, nous restons à la pointe des procédures diagnostiques et chirurgicales et nous efforçons continuellement de fournir à nos patients des soins de la plus haute qualité.",
+    "title2": "MISSION",
+    "text2": "Notre mission est d'offrir des soins ophtalmologiques de la plus haute qualité à chaque patient des Maritimes. Nous savons que cela ne peut être fait qu’en veillant à ce que chaque membre de notre équipe s’engage à fournir des soins personnels et empreints de compassion à tous les patients qui nous font confiance pour leur vision.",
+    "title3": "QUALITÉ, MEILLEURS SOINS ET MEILLEURS RÉSULTATS",
+    "text3": "Nous travaillons constamment à maintenir et à développer davantage la norme de soins la plus élevée offerte aux patients des Maritimes. Notre équipe de personnel et de médecins est  toujours à la recherche de moyens d'améliorer les services que nous fournissons à nos patients.",
+    "title4": "CENTRICITÉ SUR LE PATIENT",
+    "text4": "Nous reconnaissons que les besoins de chaque patient sont uniques et faisons de notre mieux pour prendre soin de ceux qui visitent notre clinique d'une manière qui reflète cela.",
+    "title5": "PROFESSIONNALISME ET NORMES ÉTHIQUES ÉLEVÉES",
+    "text5": "Nous adhérons à des normes éthiques élevées et visons à faire preuve de professionnalisme dans tout ce que nous faisons. Nous croyons qu'il est important d'utiliser nos actions pour montrer aux patients et aux partenaires référents qu'ils peuvent nous faire confiance.",
+    "title6": "TRAVAIL D'ÉQUIPE ET PRODUCTIVITÉ",
+    "text6": "Le niveau de soins que nous fournissons ne serait pas possible sans chaque membre de notre équipe. Nous communiquons et travaillons constamment les uns avec les autres pour rendre l’expérience du patient aussi fluide que possible."
+  },
+  "Contact": {
+    "bannerTitle": "Centre De L'oeil NB",
+    "title": "Contactez-nous",
+    "title2": "Comment pouvons-nous vous aider?",
+    "helpText": "Sur recommandation de votre médecin de famille, infirmier praticien ou optométriste, nous serons en mesure de vous évaluer et de vous aider à établir un plan de traitement.",
+    "title3": "Voyez la différence",
+    "helpText2": "Notre équipe multispecialisée de médecins et chirurgiens ophtalmologistes pourra répondre à vos besoins et vous aider à élaborer un plan médical ou chirurgical.",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "Fermée"
+  },
+  "GlaucomaManagementService": {
+    "serviceName": "Gestion du glaucome",
+    "title1": "GESTION DES SYMPTÔMES ET DES EFFETS SECONDAIRES DU GLAUCOME",
+    "text1": "Le glaucome est une maladie oculaire caractérisée par des lésions du nerf optique, qui est le nerf qui transmet les informations visuelles de l'oeil au cerveau. Elle est généralement causée par une accumulation de liquide dans la partie avant de l’oeil, ce qui crée une pression dans l’oeil et endommage le nerf. Le glaucome est la principale cause de cécité chez les personnes de plus de 60 ans, et toute perte de vision due au glaucome ne peut être récupérée. Cependant, avec un diagnostic et une intervention précoces, le traitement peut prévenir la perte de vision et la cécité. Il existe plusieurs types de glaucome et le traitement dépend du type spécifique et de la gravité. L’objectif principal du traitement est de réduire ou de contrôler la pression intraoculaire, ou pression dans l’oeil, qui menace le nerf optique.",
+    "title2": "COLLES MÉDICAMENTEUX",
+    "text2": "L’une des premières lignes de défense contre le glaucome est généralement l’utilisation de gouttes ophtalmiques médicamenteuses. Les gouttes oculaires peuvent soit réduire la quantité de liquide créée dans l’oeil, soit améliorer l’écoulement du liquide hors de l’oeil. Par exemple, certains collyres médicamenteux contiennent des prostaglandines, des médicaments qui améliorent l’écoulement non conventionnel des liquides hors de l’oeil, réduisant ainsi la pression intraoculaire. D'autres médicaments sont des agonistes alphaadrénergiques ou des bêtabloquants, qui diminuent tous deux la production de liquide dans l'oeil. Ces gouttes oculaires peuvent être prescrites seules ou en association les unes avec les autres. Comme tout médicament, les gouttes ophtalmiques médicamenteuses ne sont pas prescrites aux personnes souffrant de certains problèmes de santé ou de problèmes de santé. Chez certaines personnes, les gouttes oculaires placées dans l’oeil pourraient être absorbées par les vaisseaux sanguins de la muqueuse nasale et affecter la fréquence cardiaque et la respiration. Dans de rares cas, certains collyres peuvent compromettre la santé et exacerber certaines affections comme l’asthme. Pour cette raison, tous les candidats sont soigneusement évalués et leurs antécédents médicaux détaillés sont enregistrés avant que le médecin ne leur prescrive des gouttes ophtalmiques médicamenteuses.",
+    "title3": "LA CHIRURGIE PEUT GÉRER LE GLAUCOME",
+    "text3": "Si les collyres médicamenteux ne parviennent pas à traiter correctement le glaucome ou s’ils provoquent des effets secondaires indésirables, la chirurgie est une autre option de traitement. La chirurgie est conçue pour améliorer l’écoulement des liquides hors de l’oeil afin de contribuer à réduire la pression intraoculaire. Une procédure appelée trabéculoplastie au laser utilise un laser pour stimuler le système de drainage de l’oeil afin qu’il fonctionne plus efficacement. Cela soulage une partie de la pression dans les yeux. L'iridotomie au laser est une autre procédure dans laquelle un petit trou est pratiqué dans l'iris de l'oeil pour améliorer la circulation du liquide dans l'oeil. La chirurgie mini-invasive du glaucome (MIGS) est une procédure plus récente dans laquelle des stents sont implantés pour aider à drainer le liquide de votre oeil. Lors d'une trabéculectomie, un lambeau est créé dans le blanc de l'oeil (la sclère) et une ouverture est pratiquée dans l'oeil pour libérer le liquide accumulé. Ces procédures peuvent être combinées à l’utilisation de gouttes ophtalmiques médicamenteuses pour obtenir les meilleurs résultats.",
+    "buttonTitle1": "EN SAVOIR PLUS SUR LE GLAUCOME",
+    "buttonTitle2": "button title",
+    "buttonTitle3": "button title"
+  },
+  "CataractSurgeryService": {
+    "serviceName": "Cataract Surgery",
+    "title1": "UNE VISION AMÉLIORÉE ADAPTÉE À VOTRE STYLE DE VIE GRÂCE À LA CHIRURGIE DE LA CATARACTE",
+    "text1": "Au Centre de soins oculaires du Nouveau-Brunswick, nous voyons quotidiennement des patients atteints de cataracte. Nous savons ce qui peut causer la cataracte, ses effets et comment les éliminer en toute sécurité. Pour nos patients, il peut être effrayant, gênant et gênant de perdre la vision à cause de la cataracte. Les cataractes ont un impact significatif sur le mode de vie, l'autonomie et la mobilité. Nos ophtalmologistes s’engagent à proposer des options de traitement efficaces et à prodiguer d’excellents soins aux patients. Nous croyons en l’éducation des patients afin qu’ils puissent prendre des décisions éclairées concernant leur traitement. Nos patients sont traités avec respect, compassion et patience tout au long de leur expérience. Si vous perdez progressivement la vue à cause de la cataracte et qu'il devient de plus en plus difficile d'accomplir les tâches quotidiennes, comme conduire ou lire l'étiquette d'un flacon de médicament, nous vous invitons à planifier une consultation gratuite avec nos spécialistes de la cataracte. Nous pouvons vous expliquer pourquoi votre vision se détériore et ce que nous pouvons faire pour y remédier.",
+    "title2": "COMMENT SAVOIR SI J'AI UNE CATARACTE?",
+    "text2": "Les cataractes sont diagnostiquées après un examen de la vue effectué par l'un de nos médecins ou un optométriste. Vous pourriez avoir une cataracte si vous : • Vous avez plus de 60 ans • Remarquez que votre vision se détériore progressivement • Avez une vision trouble ou floue • Besoin de changements fréquents de prescription pour vos lunettes ou vos lentilles de contact • Observez l'éblouissement autour des phares, des lampes ou de la lumière du soleil. • Avoir une mauvaise vision nocturne • Avoir une vision double ou plusieurs images • Notez que les couleurs semblent délavées ou « délavées ».",
+    "title3": "COMMENT FONCTIONNE LA CHIRURGIE DE LA CATARACTE",
+    "text3": "Si votre cataracte progresse au point où elle interfère avec votre vision et rend difficile l'exécution des tâches quotidiennes, le traitement chirurgical est le meilleur choix. Si elle n'est pas traitée, une mauvaise vision peut entraîner des accidents de la route, des chutes et d'autres accidents pour le patient ou pour autrui. La chirurgie de la cataracte consiste à retirer le cristallin opacifié et atteint de la cataracte et à le remplacer par un implant de cristallin artificiel (une lentille intraoculaire ou LIO). Chirurgie la plus courante dans le monde, la chirurgie de la cataracte est extrêmement sûre et efficace. Les complications sont rares. Il existe différents verres adaptés à différents styles de vie. Certaines lentilles sont conçues pour fonctionner mieux pour la vision de près ; d'autres pour la vision de loin. Les verres spéciaux ont la capacité de s’ajuster à la fois à la vision de près et à celle de loin. D'autres lentilles sont destinées à corriger l'astigmatisme. Par exemple, si vous passez beaucoup de temps à lire ou à coudre, vous pouvez opter pour un objectif différent de celui d'une personne qui passe beaucoup de temps à conduire ou à faire du sport. Nos ophtalmologistes et consultants en cataracte vous aideront à sélectionner le meilleur ensemble de lentilles adapté à votre style de vie.",
+    "title4": "À QUOI S'ATTENDRE",
+    "text4": "Avant l’opération de la cataracte, plusieurs tests seront effectués pour déterminer le type de lentille intraoculaire le plus adapté à votre style de vie. Nous sommes spécialisés dans de nombreux types de nouveaux verres de haute technologie qui permettent une vision claire de loin, de près ou les deux, même sans lunettes ni lentilles de contact. Une fois la date de votre intervention chirurgicale fixée, vous recevrez des instructions complètes et une prescription de gouttes ophtalmiques médicamenteuses. Nous vous recommandons de commencer le collyre deux jours avant votre opération de la cataracte. Le jour de l’opération, vous devrez demander à quelqu’un de vous conduire vers et depuis l’opération. Veuillez prévoir d'être ici pendant plusieurs heures. Vous serez éveillé pendant l’opération mais vous ne pourrez pas voir l’opération se dérouler. Si vous êtes nerveux, nous avons des médicaments que vous pouvez prendre avant la chirurgie pour vous détendre. La procédure prend 8 à 15 minutes et se déroule très rapidement. Ce n'est pas douloureux mais il y a une sensation de pression et d'eau. Après l’opération, nous placerons un patch protecteur en plastique transparent sur votre oeil. Les deux yeux sont généralement réalisés à des jours différents.",
+    "title5": "LA VIE APRÈS LA CHIRURGIE DE LA CATARACTE",
+    "text5": "La chirurgie de la cataracte est conçue pour vous donner une vision plus claire et plus colorée (un peu comme la vision dont vous jouissiez dans votre jeunesse). Conduire et lire deviennent plus faciles. La vision haute définition fait ressortir les détails de votre environnement. Votre dépendance à l'égard des lunettes correctrices peut changer en fonction de votre choix de verres : vous n'aurez peut-être besoin de lunettes que pour lire, voire pas du tout. Pour de nombreuses personnes, une meilleure vision est associée à une meilleure confiance en soi, à une meilleure santé mentale, à une plus grande indépendance et à une réduction des chutes. Les passe-temps, les activités et les sorties sociales deviennent plus agréables. La qualité de vie globale augmente. Il n’y a pas de limite d’âge pour l’opération de la cataracte. Toute personne atteinte de cataracte peut bénéficier des bienfaits de la chirurgie de la cataracte, quel que soit son âge.",
+    "buttonTitle1": "LEARN ABOUT GLAUCOMA",
+    "buttonTitle2": "button title",
+    "buttonTitle3": "HOW IT WORKS",
+    "cataractSurgeryHowItWorksVideoLink": "https://youtu.be/uSCBcrIzp50"
+  },
+  "DiabetesService": {
+    "title1": "Rétinopathie diabétique",
+    "text1": "La rétinopathie diabétique est une maladie dans laquelle la rétine est endommagée en raison du diabète. C'est l'une des principales causes de cécité dans les pays développés et l'une des principales causes de perte de la vue dans le monde, même s'il existe de nombreuses nouvelles thérapies et des traitements améliorés pour aider les personnes atteintes de diabète.",
+    "subtitle1": "Le diabète et vos yeux : ce que vous devez savoir",
+    "title2": "Comment le diabète peut-il affecter vos yeux ?",
+    "text2": "Le diabète survient lorsque votre corps ne transforme pas correctement les aliments en énergie. Lorsque vous souffrez de diabète, votre corps ne répond pas à l'insuline ou ne la produit pas, une hormone qui fournit du glucose (sucre sanguin) aux cellules de votre corps. Avoir trop de glucose dans la circulation sanguine, en dehors des cellules auxquelles il appartient, peut endommager les vaisseaux sanguins et les nerfs qui parcourent tout votre corps, y compris les yeux.",
+    "title3": "Maladie oculaire diabétique",
+    "text3": "La maladie oculaire diabétique fait référence au groupe de maladies oculaires qui peuvent résulter du diabète. Celles-ci comprennent :",
+    "text3a": "Rétinopathie diabétique. La rétinopathie diabétique, principale cause de cécité chez les adultes américains, survient lorsque des modifications des vaisseaux sanguins de la rétine provoquent soit une fuite des vaisseaux, soit la croissance de nouveaux vaisseaux sanguins anormaux à la surface de la rétine.",
+    "text3b": "OEdème maculaire. La macula, le centre de la rétine qui permet une vision nette et droite, peut gonfler en raison de vaisseaux sanguins qui fuient à cause du diabète. Cela peut entraîner une vision floue ou déformée.",
+    "text3c": "Glaucome. Une forme de glaucome, le glaucome néovasculaire, est causée par le diabète. Des taux de sucre élevés peuvent endommager les vaisseaux sanguins de la rétine et entraîner la création de nouveaux vaisseaux anormaux. Lorsque de nouveaux vaisseaux sanguins se développent sur l'iris de l'oeil (la partie colorée de l'oeil), cela peut provoquer une augmentation de la pression oculaire et un glaucome.",
+    "text3d": "Cataractes. Les cataractes peuvent se former plus tôt et progresser plus rapidement chez les personnes atteintes de diabète en raison de l'augmentation du sucre dans le sang. Cela crée une accumulation trouble dans le cristallin de l'oeil, entraînant une cataracte.",
+    "title4": "Gonflement du cristallin",
+    "text4": "Le diabète peut également provoquer un gonflement du cristallin, qui peut entraîner une vision floue. Si votre taux de sucre sanguin passe rapidement d’un niveau bas à un niveau normal, la forme du cristallin de votre oeil peut être affectée et votre vision peut être floue. Votre vision redevient normale une fois votre taux de sucre sanguin stabilisé.",
+    "title5": "Prévention des maladies oculaires liées au diabète",
+    "text5a": "La meilleure façon de prévenir les problèmes oculaires liés au diabète est de gérer votre taux de sucre sanguin, votre tension artérielle et votre taux de cholestérol. Voici quelques moyens de prévenir les problèmes oculaires causés par le diabète :",
+    "text5b": "Contrôlez votre taux de sucre sanguin. Votre médecin peut vous indiquer comment maintenir votre taux de sucre sanguin à un niveau normal et éviter les fluctuations qui peuvent entraîner des maladies oculaires liées au diabète. « En plus de faire examiner vos yeux, il est également très important de garder votre taux de sucre sanguin sous contrôle », explique Cai. « Cela est  non seulement bon pour vous en général, mais aussi pour vos yeux. »",
+    "text5c": "Réduisez votre tension artérielle et votre taux de cholestérol. Demandez à votre médecin des recommandations sur les moyens de lutter contre l’hypertension artérielle et le cholestérol, car ces éléments peuvent aggraver les maladies oculaires liées au diabète.",
+    "text5d": "Arrêtez de fumer. Le tabagisme peut endommager davantage vos vaisseaux sanguins, y compris ceux de vos yeux. Il est donc très important d’arrêter de fumer.",
+    "text5e": "Évitez les rayons nocifs. Protégez-vous des rayons ultraviolets nocifs du soleil en portant des lunettes de soleil. L’exposition à ces rayons peut accélérer la progression de la cataracte."
+  },
+  "LaserTreatmentService": {
+    "serviceName": "Traitements au laser",
+    "text1": "La trabéculoplastie sélective au laser (SLT) est une procédure au laser qui réduit la pression à l'intérieur de l'oeil. Elle est utilisée pour traiter le glaucome et l'hypertension oculaire.",
+    "text2": "L'iridotomie au laser, également connue sous le nom d'iridotomie périphérique au laser (LPI), est une chirurgie oculaire au laser qui traite et prévient le glaucome. Elle consiste à faire un petit trou dans l'iris pour améliorer le drainage et réduire la pression dans l'oeil.",
+    "text3": "Une capsulotomie au laser YAG est une chirurgie oculaire au laser qui améliore la vision après une opération de la cataracte. Elle est également connue sous le nom de capsulotomie postérieure. Vous pourriez en avoir besoin quelque temps après une opération de la cataracte. Elle vous aide à voir clairement si votre vision redevient trouble.",
+    "text4": "Le laser à l'argon est une procédure qui utilise un faisceau laser pour traiter les affections oculaires. Le faisceau laser est focalisé sur l'arrière de l'oeil pour traiter des affections telles que la rétinopathie diabétique, les déchirures rétiniennes et le glaucome.",
+    "text5": "Trois pathologies courantes traitées par le laser Argon sont la rétinopathie diabétique, l'occlusion veineuse rétinienne et les déchirures rétiniennes. La rétine est un tissu délicat qui tapisse l'intérieur de l'oeil et la macula est une petite zone au centre de la rétine.",
+    "text6": "Le laser ophtalmique Ellex 2RT est une technologie laser nanoseconde exclusive utilisée pour traiter les premiers stades de la dégénérescence maculaire liée à l'âge (DMLA) en stimulant la réponse de guérison naturelle de l'oeil, visant essentiellement à « rajeunir » la rétine grâce à un processus appelé thérapie de rajeunissement de la rétine (2RT) qui cible des cellules spécifiques de l'épithélium pigmentaire rétinien (RPE) à l'aide d'un profil de faisceau pixellisé unique ; il est conçu pour délivrer une énergie précise sans endommager les tissus environnants."
+  },
+  "MacularDegenerationService": {
+    "serviceName": "Dégénérescence maculaire",
+    "title1": "Dégénérescence maculaire ou dégénérescence maculaire liée à l'âge",
+    "text1": "La dégénérescence maculaire, également connue sous le nom de dégénérescence maculaire liée à l'âge, est une affection médicale qui peut entraîner une vision floue ou inexistante au centre du champ visuel. Au début, il n'y a souvent aucun symptôme. Au fil du temps, cependant, certaines personnes connaissent une détérioration progressive de la vision qui peut affecter un ou les deux yeux.",
+    "title2": "Ce que vous devez savoir",
+    "text2": "• La dégénérescence maculaire liée à l’âge (DMLA) est une maladie qui affecte la vision centrale d’une personne.",
+    "text2a": "• La DMLA peut entraîner une perte grave de la vision centrale, mais les personnes atteintes deviennent rarement aveugles.",
+    "text2b": "• Les facteurs de risque de la DMLA comprennent le fait d’avoir 50 ans et plus, de fumer, d’avoir une pression artérielle élevée et de suivre un régime alimentaire riche en graisses saturées.",
+    "text2c": "• Bien qu’il n’existe pas de remède contre la DMLA, il existe des options de traitement qui peuvent prévenir ou ralentir la progression de la maladie.",
+    "title3": "Définition de la dégénérescence maculaire liée à l’âge",
+    "text3": "La dégénérescence maculaire liée à l’âge est la cause la plus fréquente de perte sévère de la vue chez les personnes de 50 ans et plus. Seul le centre de la vision est touché par cette maladie. Il est important de comprendre que les personnes deviennent rarement aveugles à cause de cette maladie.",
+    "text3a": "La DMLA affecte la vision centrale et, avec elle, la capacité à voir les détails fins. Dans la DMLA, une partie de la rétine appelée macula est endommagée. Aux stades avancés, les personnes perdent leur capacité à conduire, à voir les visages et à lire les petits caractères. Aux premiers stades, la DMLA peut ne présenter aucun signe ni symptôme, de sorte que les personnes peuvent ne pas soupçonner qu’elles en sont atteintes.",
+    "title4": "Types de dégénérescence maculaire liée à l’âge et causes",
+    "text4": "Les deux principaux types de dégénérescence maculaire liée à l’âge ont des causes différentes :",
+    "text4a": "• Sec. Ce type est le plus courant. Environ 80 % des personnes atteintes de DMLA ont la forme sèche. Sa cause exacte est inconnue, bien que l’on pense que des facteurs génétiques et environnementaux jouent un rôle. Cela se produit lorsque les cellules photosensibles de la macula se décomposent lentement, généralement un oeil à la fois. La perte de vision dans cette condition est généralement lente et progressive. On pense que les dommages liés à l'âge d'une membrane de soutien importante sous la rétine contribuent à la dégénérescence maculaire sèche liée à l'âge.",
+    "text4b": "• Humide. Bien que ce type soit moins courant, il entraîne généralement une perte de vision plus grave chez les patients que la DMLA sèche. C'est la cause la plus courante de perte de vision grave. La DMLA humide survient lorsque des vaisseaux sanguins anormaux commencent à se développer sous la rétine. Ils laissent échapper du liquide et du sang - d'où le nom de DMLA humide - et peuvent créer une grande tache aveugle au centre du champ visuel.",
+    "title5": "Facteurs de risque de la dégénérescence maculaire liée à l'âge",
+    "text5a": "Plusieurs facteurs de risque peuvent contribuer au développement de la dégénérescence maculaire liée à l'âge, notamment :",
+    "text5b": "• Être âgé de 50 ans et plus",
+    "text5c": "• Avoir une alimentation riche en graisses saturées",
+    "text5d": "• Tabagisme",
+    "text5e": "• Hypertension artérielle ou hypertension",
+    "title6": "Symptômes de la dégénérescence maculaire liée à l'âge",
+    "text6": "Voici les symptômes les plus courants de la dégénérescence maculaire liée à l'âge. Cependant, chaque individu peut ressentir les symptômes différemment. Les symptômes peuvent inclure :",
+    "text6a": "• Vision floue ou confuse",
+    "text6b": "• Difficulté à reconnaître les visages familiers",
+    "text6c": "• Les lignes droites semblent ondulées",
+    "text6d": "• Une zone sombre et vide ou un angle mort apparaît au centre de la vision",
+    "text6e": "• Perte de la vision centrale, qui est nécessaire pour conduire, lire, reconnaître les visages et effectuer des travaux de près",
+    "text6f": "La présence de drusen, qui sont de minuscules dépôts jaunes dans la rétine, est l'un des premiers signes les plus courants de la dégénérescence maculaire liée à l'âge. Cela peut signifier que l'oeil risque de développer une dégénérescence maculaire liée à l'âge plus grave. Ceux-ci seront visibles par votre médecin lors d'un examen de la vue.",
+    "text6g": "Les symptômes de la dégénérescence maculaire liée à l'âge peuvent ressembler à ceux d'autres affections oculaires. Consultez un professionnel de la vue pour obtenir un diagnostic."
+  },
+  "CataractService": {
+    "serviceName": "Different Types of Cataracts",
+    "typesOfCataracts": [
+      {
+        "title": "Nuclear Sclerosis",
+        "text": "A nuclear sclerotic cataract is when there is a hardening and yellowing in the centre (nucleus) of the natural lens which sits just behind the iris inside of the eye. A nuclear sclerotic cataract progresses slowly and may require many years of gradual development before it begins to affect vision. If left untreated, can cause blindness."
+      },
+      {
+        "title": "Cortical Spokes",
+        "text": "A cortical cataract is characterized by white, wedge-like opacities that start on the outer edges of the lens and work their way to the centre having the appearance of a wheel spoke or star like pattern. This type of cataract occurs in the lens cortex, which is the part of the lens that surrounds the central nucleus. People with diabetes are most likely to be effected by this type of cataract."
+      },
+      {
+        "title": "Posterior Subcapsular",
+        "text": "Posterior subcapsular cataracts begin as a small, cloudy or opaque area on the back, or posterior, of the lens. People with diabetes or those taking a high dosage of steroids are likely to develop a posterior subcapsular cataract. Extreme nearsightedness, and/or retinitis pigmentosa may develop this type of cataract. Subcapsular cataracts can develop rapidly and symptoms can become noticeable within months."
+      },
+      {
+        "title": "Congenital Cataracts",
+        "text": "Congenital cataracts are present at birth or in childhood, sometimes due to infection or metabolic issues."
+      },
+      {
+        "title": "Secondary Cataract",
+        "text": "Secondary cataract develop after a previous eye surgery (posterior capsule opacification) or due to other diseases (e.g., diabetes, steroid use)."
+      },
+      {
+        "title": "Traumatic Cataracts",
+        "text": "Traumatic cataracts develop after an eye injury."
+      }
+    ]
+  },
+  "Goguen": {
+    "name": "Dr. Christian Goguen",
+    "title": "Ophthalmologiste",
+    "bio1": "Originaire de Dieppe, le Dr Goguen est retourné dans sa région natale pour y exercer sa profession. Il a obtenu un baccalauréat en sciences de la santé de l'Université de Moncton et un doctorat en médecine du Centre de formation médicale du Nouveau-Brunswick. Il a ensuite complété sa résidence en ophtalmologie à l'Université de Sherbrooke.",
+    "bio2": "Il a commencé à pratiquer au Centre de soins oculaires de Dieppe en septembre 2025.",
+    "bp1": "A débuté sa pratique en septembre 2025",
+    "bp2": "A complété sa résidence à l’Université de Sherbrooke, originaire de Dieppe (N.-B.)",
+    "bp3": "Spécialisé en cataractes et en ophtalmologie générale, avec un intérêt particulier pour le segment antérieur"
+  },
+  "Shokrollahi": {
+    "name": "Dr. Siamak Shokrollahi ",
+    "title": "Ophthalmologiste",
+    "bio1": "Le Dr Shokrollahi pratique l’ophtalmologie depuis 2006, après avoir complété sa formation médicale à Téhéran. Il est devenu citoyen canadien en 2012 et a poursuivi sa formation avancée au Joslin Diabetes Center ainsi qu’au Beetham Eye Institute de la Harvard Medical School à Boston, au Massachusetts.",
+    "bio2": "Il s’est joint à Eye Care Centre NB en juin 2025. Le Dr Shokrollahi est spécialisé dans les maladies de la cornée et du segment antérieur et est l’auteur de nombreuses publications en ophtalmologie clinique.",
+    "bio3": "En dehors de la médecine, ses intérêts incluent l’histoire, la géographie et l’étymologie. Il apprécie la musique persane, classique et country, ainsi que la natation, la marche et le tennis. Il est également un peintre amateur établi en peinture à l’huile.",
+    "bio4": "Voir les publications du Dr Shokrollahi ",
+    "publicationLink": "ici",
+    "activitiesTitle": "Activités et Conférences",
+    "activities": [
+      "S. Shokrollahi, M. Bahmani Kashkuli, B. Beigi: Crohn’s Disease and Sclerosing Orbital Pseudotumor. A clinicopathologic case report and literature review. XIII Ophthalmology Congress of Iran.",
+      "S. Shokrollahi, M. Soltan Sanjari: Evaluation of corneal refractive and topographic changes after hang-back strabismus surgery. XV Ophthalmology Congress of Iran (also published in IUMS Journal).",
+      "Lectures for ophthalmic technicians and nurses at the 16th Iranian Congress of Ophthalmology: Cataract surgery—past, present, and future.",
+      "ARVO 2019 Annual Meeting, April 28–May 2, 2019, Vancouver, BC, Canada. Association of ultrawidefield retinal vessel caliber with predominantly peripheral lesions and diabetic retinopathy severity.",
+      "Comparison of Diabetic Retinopathy (DR) severity identified on ultrawide field retinal images (UWFRI) and ultrawide field fluorescein angiograms (UWF-FA). Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
+      "English editor of the Journal of Iranian Medical Council.",
+      "Nine years (2000–2008) of continuous activities preparing medical students and general physicians for residency entry exams in Iran and abroad."
+    ],
+    "publicationsTitle": "Publications",
+    "googleScholar": "Profil Google Scholar sous le nom : Siamak shokrollahi",
+    "publications": [
+      "Effect of Homatropine Eye Drops on Pain After Photorefractive Keratectomy: A Pilot Study. Saudi Journal of Ophthalmology 27(2), 83–85.",
+      "Comparison of the Effect of Cycloplegic Versus NSAID Eye Drops on Pain After Photorefractive Keratectomy. Journal of Current Ophthalmology 27(3–4), 87–91.",
+      "Intraocular Pressure–Lowering Effect of 0.005% Latanoprost With Two Different Dosing Regimens. Journal of Ocular Pharmacology and Therapeutics 28(5), 524–528.",
+      "Diabetic Retinopathy and Ultrawide Field Imaging. Seminars in Ophthalmology 35(1), 56–65.",
+      "Retinal Vascular Caliber Association With Nonperfusion and Diabetic Retinopathy Severity. Ophthalmology Retina, online September 2020.",
+      "Association of Ultrawide Field Retinal Vessel Caliber With Diabetic Retinopathy Severity, Predominantly Peripheral Lesions and Retinal Nonperfusion. Investigative Ophthalmology & Visual Science 60(9), 4771–4771.",
+      "Comparison of Diabetic Retinopathy Severity Identified on Ultrawide Field Retinal Images and Ultrawide Field Fluorescein Angiograms. Investigative Ophthalmology & Visual Science 60(9), 1571–1571.",
+      "Refractive and Corneal Topographic Changes After Hang-Back Strabismus Surgery. Razi Journal of Medical Sciences 16, 49–55."
+    ],
+    "bp1": "Spécialiste de la cornée et du segment antérieur",
+    "bp2": "Fellowship à la Harvard Medical School, Boston (Massachusetts, États-Unis)",
+    "bp3": "Auteur de nombreuses publications en ophtalmologie clinique"
+  },
+  "Sekhavat": {
+    "name": "Dr. Houfar Sekhavat, MD FRCSC",
+    "title": "Ophtalmologiste",
+    "bio": "Le Dr Houfar Sekhavat, MD FRCSC, est ophtalmologiste et exerce depuis 2005. Il fait partie intégrante du Centre de soins oculaires du Nouveau-Brunswick et a effectué plus de 15 000 chirurgies intraoculaires depuis qu'il s'est joint à l'équipe. Il a étudié la médecine à l'Université de Sherbrooke et a complété sa spécialité à l'Université Laval, dans la province de Québec. De plus, il s'intéresse à la médecine internationale, ayant exercé dans différents pays. Il est membre en règle de diverses sociétés médicales internationales et participe activement à leurs réunions. Il parle couramment quatre langues et s'intéresse à l'industrie cosmétique. Le Dr Sekhavat possède une expérience considérable dans divers domaines de recherche. Il est le fondateur et président exécutif de Triple Hair, le fondateur et PDG de Pulmonem et le fondateur et CO-PDG d'",
+    "bp1": "Plus de 20,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte",
+    "bp2": "Utilise les techniques et les équipements les plus récents et à la fine pointe de la technologie",
+    "bp3": "Engagé envers la santé mondiale, participant annuellement à des missions médicales dans des régions en développement",
+    "bp4": "Chirurgien reconnu à l’échelle internationale pour ses innovations en instruments chirurgicaux en ophtalmologie",
+    "bp5": "Fondateur de Pulmonem, Triplehair et Hexiris"
+  },
+  "Savoie": {
+    "name": "Dr. Isabelle Aucoin-Savoie",
+    "title": "Ophtalmologiste Chirurgien et Médical",
+    "bio1": "Dre Savoie a obtenu son diplôme en médecine de l’Université de Sherbrooke en 2006 et a complété sa résidence en ophtalmologie à l’Université Laval en 2011. Elle est membre du Collège royal des chirurgiens du Canada depuis cette date. Elle était ravie de revenir dans sa province natale du Nouveau-Brunswick pour établir sa pratique et apporter une contribution significative à la communauté du Grand Moncton, qu’elle chérit tant.",
+    "bio2": "Passionnée par la restauration de la vue, Dre Savoie trouve une grande satisfaction dans la chirurgie de la cataracte. Elle apprécie également tous les aspects de l’ophtalmologie générale, y compris la prise en charge du glaucome, des maladies oculaires liées au diabète, de la dégénérescence maculaire et d’autres affections oculaires.",
+    "bp1": "Plus de 8,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte",
+    "bp2": "Utilise des techniques et des équipements à jour et conformes aux normes les plus récentes",
+    "bp3": "Engagé envers la santé mondiale, participant chaque année à des missions médicales dans des régions en développement"
+  },
+  "Saad": {
+    "name": "Dr. Julien Saad, MD FRCSC ",
+    "title": "Ophtalmologiste Chirurgien et Médical",
+    "bio": "bio ici",
+    "bp1": "Plus de 10,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte et des paupières",
+    "bp2": "Utilise les techniques et les équipements les plus récents et à la fine pointe de la technologie",
+    "bp3": "Expertise dans l’administration d’injections intravitréennes pour le traitement de pathologies rétiniennes complexes"
+  },
+  "Ponce": {
+    "name": "Dr. José Ramón Ponce-Martínez, MD",
+    "title": "Ophtalmologiste | Chirurgie du Segment Antérieur & Apécialiste du Glaucome",
+    "bio1": "Le Dr José Ramón Ponce-Martínez est un ophtalmologiste de renom, spécialisé en chirurgie du segment antérieur et en glaucome. Diplômé de la prestigieuse Université nationale autonome du Mexique (UNAM), il a complété sa formation à l'Hôpital général du Mexique et à l'Institut national de réadaptation (INR). Fort d'une expérience de plus de dix ans, il a été professeur de chirurgie du segment antérieur à l'Hôpital général du Mexique de 2011 à 2022, où il a formé et encadré la relève en ophtalmologie.",
+    "bio2": "Le Dr Ponce-Martínez a apporté une contribution significative à la recherche sur le glaucome, notamment en tant que coordonnateur de la recherche sur le glaucome à l'Apex Eye Institute de Corner Brook, à Terre-Neuve. Il est membre actif de plusieurs organisations professionnelles prestigieuses, dont la Société mexicaine d'ophtalmologie, le Centre mexicain de chirurgie de la cataracte, la Société américaine de chirurgie de la cataracte et de la chirurgie réfractive, et le Collège des médecins et chirurgiens du Nouveau-Brunswick.",
+    "bio3": "Soucieux d'améliorer les soins oculaires à l'échelle mondiale, le Dr Ponce-Martínez participe activement, depuis 2015, à des programmes de chirurgie de la cataracte à vocation humanitaire au Mexique et à Trinité-et-Tobago, où il est titulaire d'un titre honorifique de médecin.",
+    "bio4": "Alliant expertise clinique, leadership académique et engagement humanitaire, le Dr José Ramón Ponce-Martínez contribue à faire progresser l'ophtalmologie par l'innovation, la formation et la compassion.",
+    "bp1": "Plus de 10,000 interventions oculaires, avec une spécialisation en chirurgie de la cataracte et du segment antérieur",
+    "bp2": "Utilise les techniques et les équipements les plus récents et à la fine pointe de la technologie",
+    "bp3": "Engagé envers la santé mondiale, participant chaque année à des missions médicales à Tobago",
+    "bp4": "Directeur médical, @AOSAVI. Mexico City"
+  },
+  "LaPierre": {
+    "name": "Tatjana LaPierre",
+    "title": "Carrière de plus de 30 ans dans le domaine de la santé. Membre de l'équipe des soins oculaires depuis 2014."
+  },
+  "White": {
+    "name": "Twila White"
+  },
+  "OurTeam": {
+    "bannerTitle": "Rencontrez Notre Équipe",
+    "bannerSubTitle": "Dévoués à votre vision, guidés par notre expertise.",
+    "subtitle1": "UN RÉSEAU DE MÉDECINS EXPÉRIMENTÉS",
+    "subtitle2": "NOS MÉDECINS",
+    "subtitle3": "NOTRE ÉQUIPE DE GESTION",
+    "subtitle4": "COORDONNATEUR D'INJECTION"
+  },
+  "Footer": {
+    "contactus": "Contactez-Nous",
+    "quicklinks": "Liens Rapides",
+    "services": "Services",
+    "aboutus": "À Propos De Nous",
+    "ourteam": "Notre Équipe",
+    "feedback": "Commentaires",
+    "mission": "Mission"
+  }
 }
