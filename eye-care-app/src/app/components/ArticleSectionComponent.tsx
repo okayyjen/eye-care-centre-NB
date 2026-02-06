@@ -13,10 +13,10 @@ export function ArticleSectionComponent({
     button,
     buttonLabel,
     onButtonClick,
-    bgColor = "#ffffff",
+    bgColor = "",
 }: ArticleSectionComponentProps) {
     return (
-        <div className="flex max-w-[1200px] items-stretch justify-center">
+        <div className="flex w-full items-stretch justify-center">
             <div
                 className="flex flex-col justify-center w-1/2 px-[60px] box-border p-[50px] max-[1260px]:p-[70px] w-full"
                 style={{ backgroundColor: bgColor }}
