@@ -12,12 +12,13 @@
     "resources": "RESOURCES",
     "feedback": "FEEDBACK",
     "contactus": "CONTACT US",
-    "cataractSurgery": "Cataract surgery",
+    "cataractSurgery": "Cataract Surgery",
     "diabetes": "Diabetes",
     "glaucomaManagement": "Glaucoma Management",
     "laserTreatments": "Laser Treatments",
     "typesOfCataracts": "Types of Cataracts",
-    "macularDegeneration": "Macular Degeneration"
+    "macularDegeneration": "Macular Degeneration",
+    "redEyesAndUrgentEyeConditions":"Red Eyes & Urgent Eye Conditions"
   },
   "HomePageCards": {
     "cardContents": [
@@ -116,6 +117,23 @@
     "buttonTitle2": "button title",
     "buttonTitle3": "HOW IT WORKS",
     "cataractSurgeryHowItWorksVideoLink": "https://youtu.be/eTkmphaQYKU"
+  },
+    "RedEyesAndUrgentEyeCareService": {
+    "serviceName": "Red Eyes and Urgent Eye Conditions",
+    "title1": "Treating Urgent Eye Conditions",
+    "text1": "Nearly everyone will have a suspicious eye symptom at some point or another — such as red eyes, floaters, or flashes — or develop a more serious and urgent condition like an infection. In either scenario, it’s best to avoid self-diagnosing and see a reputable ophthalmology team such as our doctors, for evaluation.",
+    "title2": "Flashes of Light",
+    "text2": "Seeing flashes of light, which is often referred to as “seeing stars,” becomes a more common occurrence with age. Flashes of light usually indicate that the vitreous (clear gel that fills the eye) is pulling away from back wall of the eye; this is known as posterior vitreous detachment. Flashes can also signal a tear in the retina or the retina becoming dislodged from the posterior lining in the eye. Retinal tear or dislodgement can severely compromise vision. Flashes are more common in individuals that are nearsighted, have had cataract or YAG laser surgery or sustained an eye injury.",
+    "title3": "Floaters",
+    "text3": "Floaters are small clumps of cells floating around the vitreous that cast a shadow on the retina. They may look like clumps, strings or cobwebs. With age, the center of the vitreous begins to dissolve and become watery; some of the vitreous gel that does not liquefy can float around in the liquid center of the vitreous. Most floaters are harmless and do not require examination or treatment. However, a sudden shower of floaters, if accompanied by flashes of light, could suggest something more serious.",
+    "title4": "Eye Infections",
+    "text4": "An eye infection is the result of a harmful bacteria, fungi or a virus entering the eyeball or the area surrounding the eyeball (including the cornea or the membranes lining the eye). Infections can cause red eyes, watery eyes, dry eyes, discharge, pain, sensitivity to light, swelling and itching. They can also make your vision blurry. Eye infections should be promptly examined by a doctor.",
+    "title5": "Foreign Bodies in the Eye",
+    "text5": "A foreign body refers to anything that entered the eye area that does not naturally belong there. This may cause scratches or other injuries to the cornea (the clear surface covering the eye). In cases of a dangerous object like metal or wood, the eye should be examined by an ophthalmologist",
+    "title6":"Sudden Loss of Vision",
+    "text6":"The sudden loss of vision in one or both eyes is an emergency. What most commonly happens is blood flow to the eye is reduced when fat deposits called plaque build up in the blood vessels, narrowing them. Migraines also can lead to a sudden loss of vision by also causing spasms and narrowing of the blood vessels leading to the eye. Loss of vision could also indicate a stroke or something equally serious.",
+    "title7":"Eye Injuries",
+    "text7":"Eye injuries can refer to a physical or chemical injury to the eye or eye socket. The most common eye injury involves an object scratching the cornea. Another common cause is exposure to potent chemicals. Symptoms can include pain, redness or irritation. Most occurrences should be examined by a doctor, who can prescribe treatment based on the specific type of injury. Contact Fraser Valley Cataract & Laser To discuss a visual problem or symptom with the team at Fraser Valley Cataract & Laser, please contact us to schedule an appointment."
   },
   "DiabetesService": {
     "serviceName": "Diabetic Retinopathy",

@@ -146,6 +146,9 @@ const AppBar = () => {
             <DropdownItem key="cataracts" href={`/${currentLocale}/types-of-cataracts`}>
               {t("typesOfCataracts")}
             </DropdownItem>
+            <DropdownItem key="redeyesandurgenteyeconditions" href={`/${currentLocale}/red-eyes-and-urgent-eye-conditions`}>
+              {t("redEyesAndUrgentEyeConditions")}
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>
